@@ -1,0 +1,338 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/adapters/CompressedExplorerAdapter.java</file>
+  <line>97</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.adapters</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/adapters/CompressedExplorerAdapter.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>c.getResources().getDrawable(R.drawable.ic_grid_folder_new)</highlighted_element>
+  <language>JAVA</language>
+  <offset>13</offset>
+  <length>59</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/adapters/RecyclerAdapter.java</file>
+  <line>1214</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.adapters</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/adapters/RecyclerAdapter.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>context.getResources().getDrawable(getDragIconReference(rememberMovePreference))</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>80</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/activities/AboutActivity.java</file>
+  <line>115</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.activities</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/activities/AboutActivity.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.md_nav_back)</highlighted_element>
+  <language>JAVA</language>
+  <offset>47</offset>
+  <length>50</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt</file>
+  <line>45</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.base</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>context?.resources?.getDrawable( R.drawable.shape_dialog_bottomsheet_dark ...</highlighted_element>
+  <language>kotlin</language>
+  <offset>20</offset>
+  <length>119</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt</file>
+  <line>52</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.base</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>context?.resources?.getDrawable( R.drawable.shape_dialog_bottomsheet_black ...</highlighted_element>
+  <language>kotlin</language>
+  <offset>20</offset>
+  <length>120</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt</file>
+  <line>60</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.base</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>context?.resources?.getDrawable( R.drawable.shape_dialog_bottomsheet_whi...</highlighted_element>
+  <language>kotlin</language>
+  <offset>24</offset>
+  <length>128</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/dialogs/share/ShareTask.java</file>
+  <line>106</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.dialogs.share</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/dialogs/share/ShareTask.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>contextc .getResources() .getDrawable( appTheme....</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>263</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt</file>
+  <line>566</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>resources.getDrawable(R.drawable.ic_eye_grey600_24dp)</highlighted_element>
+  <language>kotlin</language>
+  <offset>12</offset>
+  <length>53</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt</file>
+  <line>578</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>resources.getDrawable(R.drawable.ic_eye_off_grey600_24dp)</highlighted_element>
+  <language>kotlin</language>
+  <offset>20</offset>
+  <length>57</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt</file>
+  <line>584</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>resources.getDrawable(R.drawable.ic_eye_grey600_24dp)</highlighted_element>
+  <language>kotlin</language>
+  <offset>20</offset>
+  <length>53</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>283</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_content_copy_white_36dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>65</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>286</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_content_copy_grey600_36dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>67</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>298</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_zip_box_white)</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>55</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>300</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_zip_box_grey)</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>54</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>309</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_zip_box_white)</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>55</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>311</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_zip_box_grey)</highlighted_element>
+  <language>JAVA</language>
+  <offset>42</offset>
+  <length>54</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>321</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_folder_lock_white_36dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>64</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>324</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_folder_lock_grey600_36dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>66</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>334</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_folder_lock_open_white_36dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>69</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java</file>
+  <line>337</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/ProcessViewerFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.ic_folder_lock_open_grey600_36dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>14</offset>
+  <length>71</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/views/CheckableCircleView.java</file>
+  <line>46</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.views</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/views/CheckableCircleView.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>context.getResources().getDrawable(R.drawable.ic_check_white_24dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>66</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/views/appbar/BottomBar.java</file>
+  <line>147</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.views.appbar</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/views/appbar/BottomBar.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>a.getResources().getDrawable(R.drawable.ic_sd_storage_white_24dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>65</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/views/appbar/BottomBar.java</file>
+  <line>151</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.views.appbar</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/views/appbar/BottomBar.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>mainActivity.getResources().getDrawable(R.drawable.ic_keyboard_arrow_right_white_24dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>86</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/views/appbar/BottomBar.java</file>
+  <line>252</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.views.appbar</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/views/appbar/BottomBar.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>mainActivity.getResources().getDrawable(buttonPathInterface.getRootDrawable())</highlighted_element>
+  <language>JAVA</language>
+  <offset>10</offset>
+  <length>78</length>
+</problem>
+</problems>

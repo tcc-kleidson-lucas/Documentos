@@ -1,0 +1,58 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/ListFragment.java</file>
+  <line>219</line>
+  <module>Omni-Notes-6.2.8.omniNotes.main</module>
+  <package>it.feio.android.omninotes</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/ListFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.fragment_list_item_divider)</highlighted_element>
+  <language>JAVA</language>
+  <offset>21</offset>
+  <length>65</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/SketchFragment.java</file>
+  <line>161</line>
+  <module>Omni-Notes-6.2.8.omniNotes.main</module>
+  <package>it.feio.android.omninotes</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/SketchFragment.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>getResources().getDrawable(R.drawable.circle)</highlighted_element>
+  <language>JAVA</language>
+  <offset>36</offset>
+  <length>45</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryBaseAdapter.java</file>
+  <line>105</line>
+  <module>Omni-Notes-6.2.8.omniNotes.main</module>
+  <package>it.feio.android.omninotes.models.adapters</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryBaseAdapter.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>mActivity.getResources().getDrawable(R.drawable.ic_folder_special_black_24dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>77</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryRecyclerViewAdapter.java</file>
+  <line>84</line>
+  <module>Omni-Notes-6.2.8.omniNotes.main</module>
+  <package>it.feio.android.omninotes.models.adapters</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryRecyclerViewAdapter.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>mActivity.getResources().getDrawable(R.drawable.ic_folder_special_black_24dp)</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>77</length>
+</problem>
+</problems>

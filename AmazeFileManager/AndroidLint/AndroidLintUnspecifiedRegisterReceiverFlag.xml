@@ -1,0 +1,114 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/CopyService.java</file>
+  <line>104</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.asynchronous.services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/CopyService.java" />
+  <problem_class id="AndroidLintUnspecifiedRegisterReceiverFlag" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing registerReceiver() exported flag</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;receiver3&lt;/code&gt; is missing &lt;code&gt;RECEIVER_EXPORTED&lt;/code&gt; or &lt;code&gt;RECEIVER_NOT_EXPORTED&lt;/code&gt; flag for unprotected broadcasts registered for copycancel&lt;/html&gt;</description>
+  <highlighted_element>registerReceiver(receiver3, new IntentFilter(TAG_BROADCAST_COPY_CANCEL))</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>72</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/DecryptService.java</file>
+  <line>98</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.asynchronous.services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/DecryptService.java" />
+  <problem_class id="AndroidLintUnspecifiedRegisterReceiverFlag" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing registerReceiver() exported flag</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;cancelReceiver&lt;/code&gt; is missing &lt;code&gt;RECEIVER_EXPORTED&lt;/code&gt; or &lt;code&gt;RECEIVER_NOT_EXPORTED&lt;/code&gt; flag for unprotected broadcasts registered for crypt_cancel&lt;/html&gt;</description>
+  <highlighted_element>registerReceiver(cancelReceiver, new IntentFilter(TAG_BROADCAST_CRYPT_CANCEL))</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>78</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/EncryptService.java</file>
+  <line>101</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.asynchronous.services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/EncryptService.java" />
+  <problem_class id="AndroidLintUnspecifiedRegisterReceiverFlag" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing registerReceiver() exported flag</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;cancelReceiver&lt;/code&gt; is missing &lt;code&gt;RECEIVER_EXPORTED&lt;/code&gt; or &lt;code&gt;RECEIVER_NOT_EXPORTED&lt;/code&gt; flag for unprotected broadcasts registered for crypt_cancel&lt;/html&gt;</description>
+  <highlighted_element>registerReceiver(cancelReceiver, new IntentFilter(TAG_BROADCAST_CRYPT_CANCEL))</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>78</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/ExtractService.java</file>
+  <line>91</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.asynchronous.services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/ExtractService.java" />
+  <problem_class id="AndroidLintUnspecifiedRegisterReceiverFlag" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing registerReceiver() exported flag</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;receiver1&lt;/code&gt; is missing &lt;code&gt;RECEIVER_EXPORTED&lt;/code&gt; or &lt;code&gt;RECEIVER_NOT_EXPORTED&lt;/code&gt; flag for unprotected broadcasts registered for excancel&lt;/html&gt;</description>
+  <highlighted_element>registerReceiver(receiver1, new IntentFilter(TAG_BROADCAST_EXTRACT_CANCEL))</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>75</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/ZipService.kt</file>
+  <line>80</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.asynchronous.services</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/asynchronous/services/ZipService.kt" />
+  <problem_class id="AndroidLintUnspecifiedRegisterReceiverFlag" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing registerReceiver() exported flag</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;receiver1&lt;/code&gt; is missing &lt;code&gt;RECEIVER_EXPORTED&lt;/code&gt; or &lt;code&gt;RECEIVER_NOT_EXPORTED&lt;/code&gt; flag for unprotected broadcasts registered for zip_cancel&lt;/html&gt;</description>
+  <highlighted_element>registerReceiver(receiver1, IntentFilter(KEY_COMPRESS_BROADCAST_CANCEL))</highlighted_element>
+  <language>kotlin</language>
+  <offset>8</offset>
+  <length>72</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/activities/MainActivity.java</file>
+  <line>1328</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.activities</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/activities/MainActivity.java" />
+  <problem_class id="AndroidLintUnspecifiedRegisterReceiverFlag" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing registerReceiver() exported flag</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;receiver2&lt;/code&gt; is missing &lt;code&gt;RECEIVER_EXPORTED&lt;/code&gt; or &lt;code&gt;RECEIVER_NOT_EXPORTED&lt;/code&gt; flag for unprotected broadcasts registered for general_communications&lt;/html&gt;</description>
+  <highlighted_element>registerReceiver(receiver2, new IntentFilter(TAG_INTENT_FILTER_GENERAL))</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>72</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/MainFragment.java</file>
+  <line>900</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/MainFragment.java" />
+  <problem_class id="AndroidLintUnspecifiedRegisterReceiverFlag" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing registerReceiver() exported flag</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;decryptReceiver&lt;/code&gt; is missing &lt;code&gt;RECEIVER_EXPORTED&lt;/code&gt; or &lt;code&gt;RECEIVER_NOT_EXPORTED&lt;/code&gt; flag for unprotected broadcasts registered for decrypt_broadcast&lt;/html&gt;</description>
+  <highlighted_element>(requireMainActivity()) .registerReceiver( decryptReceiver, new IntentFilter...</highlighted_element>
+  <language>JAVA</language>
+  <offset>6</offset>
+  <length>140</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/MainFragment.java</file>
+  <line>1228</line>
+  <module>AmazeFileManager-3.8.4.app.main</module>
+  <package>com.amaze.filemanager.ui.fragments</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/amaze/filemanager/ui/fragments/MainFragment.java" />
+  <problem_class id="AndroidLintUnspecifiedRegisterReceiverFlag" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Missing registerReceiver() exported flag</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;receiver2&lt;/code&gt; is missing &lt;code&gt;RECEIVER_EXPORTED&lt;/code&gt; or &lt;code&gt;RECEIVER_NOT_EXPORTED&lt;/code&gt; flag for unprotected broadcasts registered for loadlist&lt;/html&gt;</description>
+  <highlighted_element>(requireActivity()) .registerReceiver(receiver2, new IntentFilter(MainActivity.KEY_INTENT_LO...</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>109</length>
+</problem>
+</problems>

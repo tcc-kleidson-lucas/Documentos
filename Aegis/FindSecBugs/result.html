@@ -1,0 +1,738 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+		</style>
+   </head>
+   <body>
+      <h1>SpotBugs Report</h1>
+      <p>Produced using <a href="https://spotbugs.github.io">SpotBugs</a>4.4.2.</p>
+      <p>Project: 
+			Aegis-2.2.2[Aegis-2.2.2.app.main]</p>
+      <h2>Metrics</h2>
+      <p>15199 lines of code analyzed,
+	in 430 classes, 
+	in 32 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right">7</td>
+            <td align="right">0.46</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">16</td>
+            <td align="right">1.05</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>23</b>
+            </td>
+            <td align="right">
+               <b>1.51</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Summary</h2>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_SECURITY">Security Warnings</a>
+            </td>
+            <td align="right">23</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>23</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>Warnings</h1>
+      <p>Click on each warning link to see a full description of the issue, and
+	    details of how to resolve it.</p>
+      <h2>
+         <a name="Warnings_SECURITY">Security Warnings</a>
+      </h2>
+      <table class="warningtable"
+             width="100%"
+             cellspacing="2"
+             cellpadding="5">
+         <tr class="tableheader">
+            <th align="left">Warning</th>
+            <th align="left">Priority</th>
+            <th align="left">Details</th>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#CIPHER_INTEGRITY">Cipher with no integrity</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>The cipher does not provide data integrity<br/>
+                  <br/>
+                  <br/>In file AuthenticatorProImporter.java,
+					
+						line 267<br/>In class com.beemdevelopment.aegis.importers.AuthenticatorProImporter$LegacyEncryptedState<br/>In method com.beemdevelopment.aegis.importers.AuthenticatorProImporter$LegacyEncryptedState.parseHeader(DataInputStream)<br/>At AuthenticatorProImporter.java:[line 267]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#CIPHER_INTEGRITY">Cipher with no integrity</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>The cipher does not provide data integrity<br/>
+                  <br/>
+                  <br/>In file AuthyImporter.java,
+					
+						line 176<br/>In class com.beemdevelopment.aegis.importers.AuthyImporter$EncryptedState<br/>In method com.beemdevelopment.aegis.importers.AuthyImporter$EncryptedState.decrypt(char[])<br/>At AuthyImporter.java:[line 176]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#CIPHER_INTEGRITY">Cipher with no integrity</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>The cipher does not provide data integrity<br/>
+                  <br/>
+                  <br/>In file TotpAuthenticatorImporter.java,
+					
+						line 130<br/>In class com.beemdevelopment.aegis.importers.TotpAuthenticatorImporter$EncryptedState<br/>In method com.beemdevelopment.aegis.importers.TotpAuthenticatorImporter$EncryptedState.decrypt(char[])<br/>At TotpAuthenticatorImporter.java:[line 130]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PADDING_ORACLE">Cipher is susceptible to Padding Oracle</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>The cipher is susceptible to padding oracle attacks<br/>
+                  <br/>
+                  <br/>In file AuthenticatorProImporter.java,
+					
+						line 267<br/>In class com.beemdevelopment.aegis.importers.AuthenticatorProImporter$LegacyEncryptedState<br/>In method com.beemdevelopment.aegis.importers.AuthenticatorProImporter$LegacyEncryptedState.parseHeader(DataInputStream)<br/>At AuthenticatorProImporter.java:[line 267]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PADDING_ORACLE">Cipher is susceptible to Padding Oracle</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>The cipher is susceptible to padding oracle attacks<br/>
+                  <br/>
+                  <br/>In file AuthyImporter.java,
+					
+						line 176<br/>In class com.beemdevelopment.aegis.importers.AuthyImporter$EncryptedState<br/>In method com.beemdevelopment.aegis.importers.AuthyImporter$EncryptedState.decrypt(char[])<br/>At AuthyImporter.java:[line 176]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PADDING_ORACLE">Cipher is susceptible to Padding Oracle</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>The cipher is susceptible to padding oracle attacks<br/>
+                  <br/>
+                  <br/>In file TotpAuthenticatorImporter.java,
+					
+						line 130<br/>In class com.beemdevelopment.aegis.importers.TotpAuthenticatorImporter$EncryptedState<br/>In method com.beemdevelopment.aegis.importers.TotpAuthenticatorImporter$EncryptedState.decrypt(char[])<br/>At TotpAuthenticatorImporter.java:[line 130]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#OBJECT_DESERIALIZATION">Object deserialization is used in {1}</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>Object deserialization is used in com.beemdevelopment.aegis.util.Cloner.clone(Serializable)<br/>
+                  <br/>
+                  <br/>In file Cloner.java,
+					
+						line 27<br/>In class com.beemdevelopment.aegis.util.Cloner<br/>In method com.beemdevelopment.aegis.util.Cloner.clone(Serializable)<br/>At Cloner.java:[line 27]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#HARD_CODE_PASSWORD">Hard coded password</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Hard coded password found<br/>
+                  <br/>
+                  <br/>In file TotpAuthenticatorImporter.java,
+					
+						lines 47
+						    to 111<br/>In class com.beemdevelopment.aegis.importers.TotpAuthenticatorImporter<br/>Value is hard coded in field com.beemdevelopment.aegis.importers.TotpAuthenticatorImporter.PASSWORD[C with suspicious name<br/>At TotpAuthenticatorImporter.java:[lines 47-111]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PREDICTABLE_RANDOM">Predictable pseudorandom number generator</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This random generator (java.util.Random) is predictable<br/>
+                  <br/>
+                  <br/>In file ImportExportPreferencesFragment.java,
+					
+						line 357<br/>In class com.beemdevelopment.aegis.ui.fragments.preferences.ImportExportPreferencesFragment<br/>In method com.beemdevelopment.aegis.ui.fragments.preferences.ImportExportPreferencesFragment.startGoogleAuthenticatorStyleExport()<br/>At ImportExportPreferencesFragment.java:[line 357]<br/>Value java.util.Random</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file IconPack.java IconPack.java,
+					
+						line 158 158<br/>In class com.beemdevelopment.aegis.icons.IconPack$Icon<br/>In method com.beemdevelopment.aegis.icons.IconPack$Icon.getName()<br/>At IconPack.java:[line 158]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/beemdevelopment/aegis/icons/IconPack$Icon._relFilename<br/>At IconPack.java:[line 158]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file IconPackManager.java IconPack.java IconPackManager.java,
+					
+						line 174 39 174<br/>In class com.beemdevelopment.aegis.icons.IconPackManager<br/>In method com.beemdevelopment.aegis.icons.IconPackManager.getIconPackDir(IconPack)<br/>At IconPackManager.java:[line 174]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/beemdevelopment/aegis/icons/IconPack._uuid<br/>Unknown source com/beemdevelopment/aegis/icons/IconPack.getUUID()Ljava/util/UUID;<br/>At IconPack.java:[line 39]<br/>At IconPackManager.java:[line 174]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file IconPackManager.java IconPack.java IconPackManager.java,
+					
+						line 93 138 93<br/>In class com.beemdevelopment.aegis.icons.IconPackManager<br/>In method com.beemdevelopment.aegis.icons.IconPackManager.importPack(File)<br/>At IconPackManager.java:[line 93]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/beemdevelopment/aegis/icons/IconPack$Icon.getRelativeFilename()Ljava/lang/String;<br/>Unknown source com/beemdevelopment/aegis/icons/IconPack$Icon._relFilename<br/>At IconPack.java:[line 138]<br/>At IconPackManager.java:[line 93]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file IconPackManager.java IconPack.java IconPackManager.java,
+					
+						line 162 138 162<br/>In class com.beemdevelopment.aegis.icons.IconPackManager<br/>In method com.beemdevelopment.aegis.icons.IconPackManager.rescanIconPacks()<br/>At IconPackManager.java:[line 162]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/beemdevelopment/aegis/icons/IconPack$Icon.getRelativeFilename()Ljava/lang/String;<br/>Unknown source com/beemdevelopment/aegis/icons/IconPack$Icon._relFilename<br/>At IconPack.java:[line 138]<br/>At IconPackManager.java:[line 162]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file AuthenticatorPlusImporter.java,
+					
+						line 52<br/>In class com.beemdevelopment.aegis.importers.AuthenticatorPlusImporter$EncryptedState<br/>In method com.beemdevelopment.aegis.importers.AuthenticatorPlusImporter$EncryptedState.decrypt(char[])<br/>At AuthenticatorPlusImporter.java:[line 52]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source net/lingala/zip4j/model/LocalFileHeader.getFileName()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file SqlImporterHelper.java,
+					
+						line 33<br/>In class com.beemdevelopment.aegis.importers.SqlImporterHelper<br/>In method com.beemdevelopment.aegis.importers.SqlImporterHelper.read(Class, SuFile, String)<br/>At SqlImporterHelper.java:[line 33]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/topjohnwu/superuser/io/SuFile.getName()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file SqlImporterHelper.java,
+					
+						line 40<br/>In class com.beemdevelopment.aegis.importers.SqlImporterHelper<br/>In method com.beemdevelopment.aegis.importers.SqlImporterHelper.read(Class, SuFile, String)<br/>At SqlImporterHelper.java:[line 40]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/topjohnwu/superuser/io/SuFile.getName()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file SqlImporterHelper.java,
+					
+						line 80<br/>In class com.beemdevelopment.aegis.importers.SqlImporterHelper<br/>In method com.beemdevelopment.aegis.importers.SqlImporterHelper.read(Class, InputStream, String)<br/>At SqlImporterHelper.java:[line 80]<br/>Sink method java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;<br/>Sink parameter 0<br/>Unknown source android/content/Context.getCacheDir()Ljava/io/File;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ImportExportPreferencesFragment.java ImportExportPreferencesFragment.java ImportExportPreferencesFragment.java,
+					
+						line 490 409 490<br/>In class com.beemdevelopment.aegis.ui.fragments.preferences.ImportExportPreferencesFragment<br/>In method com.beemdevelopment.aegis.ui.fragments.preferences.ImportExportPreferencesFragment.lambda$onExportResult$21(Uri, ImportExportPreferencesFragment$FinishExportCallback)<br/>At ImportExportPreferencesFragment.java:[line 490]<br/>Sink method java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;<br/>Sink parameter 0<br/>Unknown source com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.getExportCacheDir()Ljava/io/File;<br/>Unknown source java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>At ImportExportPreferencesFragment.java:[line 409]<br/>At ImportExportPreferencesFragment.java:[line 490]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ImportExportPreferencesFragment.java ImportExportPreferencesFragment.java ImportExportPreferencesFragment.java,
+					
+						line 287 287 409<br/>In class com.beemdevelopment.aegis.ui.fragments.preferences.ImportExportPreferencesFragment<br/>In method com.beemdevelopment.aegis.ui.fragments.preferences.ImportExportPreferencesFragment.lambda$startExport$14(AlertDialog, AutoCompleteTextView, CheckBox, CheckBox, CheckBox, DropdownCheckBoxes, View)<br/>At ImportExportPreferencesFragment.java:[line 287]<br/>Sink method java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;<br/>Sink parameter 0<br/>Unknown source com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.getExportCacheDir()Ljava/io/File;<br/>Unknown source java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>At ImportExportPreferencesFragment.java:[line 287]<br/>At ImportExportPreferencesFragment.java:[line 409]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ImportFileTask.java,
+					
+						line 40<br/>In class com.beemdevelopment.aegis.ui.tasks.ImportFileTask<br/>In method com.beemdevelopment.aegis.ui.tasks.ImportFileTask.doInBackground(ImportFileTask$Params[])<br/>At ImportFileTask.java:[line 40]<br/>Sink method java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;<br/>Sink parameter 0<br/>Unknown source android/content/Context.getCacheDir()Ljava/io/File;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ImportIconPackTask.java,
+					
+						line 32<br/>In class com.beemdevelopment.aegis.ui.tasks.ImportIconPackTask<br/>In method com.beemdevelopment.aegis.ui.tasks.ImportIconPackTask.doInBackground(ImportIconPackTask$Params[])<br/>At ImportIconPackTask.java:[line 32]<br/>Sink method java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;<br/>Sink parameter 0<br/>Unknown source android/content/Context.getCacheDir()Ljava/io/File;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file VaultManager.java VaultManager.java,
+					
+						line 222 217<br/>In class com.beemdevelopment.aegis.vault.VaultManager<br/>In method com.beemdevelopment.aegis.vault.VaultManager.scheduleBackup()<br/>At VaultManager.java:[line 222]<br/>Sink method java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;<br/>Sink parameter 0<br/>Unknown source java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>At VaultManager.java:[line 217]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#STATIC_IV">Static IV</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>The initialization vector (IV) is not properly generated<br/>
+                  <br/>
+                  <br/>In file CryptoUtils.java,
+					
+						line 72<br/>In class com.beemdevelopment.aegis.crypto.CryptoUtils<br/>In method com.beemdevelopment.aegis.crypto.CryptoUtils.createCipher(SecretKey, int, byte[])<br/>At CryptoUtils.java:[line 72]</p>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>
+         <a name="Details">Warning Types</a>
+      </h1>
+      <h2>
+         <a name="CIPHER_INTEGRITY">Cipher with no integrity</a>
+      </h2>
+            
+<p>
+    The ciphertext produced is susceptible to alteration by an adversary. This mean that the cipher provides no way to detect that the
+    data has been tampered with. If the ciphertext can be controlled by an attacker, it could be altered without detection.
+</p>
+<p>
+    The solution is to use a cipher that includes a Hash based Message Authentication Code (HMAC) to sign the data. Combining a HMAC function to the
+    existing cipher is prone to error <sup><a href="https://moxie.org/blog/the-cryptographic-doom-principle/">[1]</a></sup>. Specifically,
+    it is always recommended that you be able to verify the HMAC first, and only if the data is unmodified, do you then perform any cryptographic
+    functions on the data.
+</p>
+<p>The following modes are vulnerable because they don't provide a HMAC:<br/>
+    - CBC<br/>
+    - OFB<br/>
+    - CTR<br/>
+    - ECB<br/><br/>
+    The following snippets code are some examples of vulnerable code.<br/><br/>
+    <b>Code at risk:</b><br/>
+    <i>AES in CBC mode</i><br/>
+
+    <pre>Cipher c = Cipher.getInstance("AES/CBC/PKCS5Padding");
+c.init(Cipher.ENCRYPT_MODE, k, iv);
+byte[] cipherText = c.doFinal(plainText);</pre>
+    <br/>
+    <i>Triple DES with ECB mode</i><br/>
+
+<pre>Cipher c = Cipher.getInstance("DESede/ECB/PKCS5Padding");
+c.init(Cipher.ENCRYPT_MODE, k, iv);
+byte[] cipherText = c.doFinal(plainText);</pre>
+</p>
+<p>
+    <b>Solution:</b>
+    <pre>Cipher c = Cipher.getInstance("AES/GCM/NoPadding");
+c.init(Cipher.ENCRYPT_MODE, k, iv);
+byte[] cipherText = c.doFinal(plainText);</pre>
+</p>
+<p>
+In the example solution above, the GCM mode introduces an HMAC into the resulting encrypted data, providing integrity of the result.
+</p>
+<br/>
+<p>
+    <b>References</b><br/>
+    <a href="https://en.wikipedia.org/wiki/Authenticated_encryption">Wikipedia: Authenticated encryption</a><br/>
+    <a href="https://csrc.nist.gov/projects/block-cipher-techniques/bcm/modes-develoment#01">NIST: Authenticated Encryption Modes</a><br/>
+    <a href="https://moxie.org/blog/the-cryptographic-doom-principle/">Moxie Marlinspike's blog: The Cryptographic Doom Principle</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/353.html">CWE-353: Missing Support for Integrity Check</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="PADDING_ORACLE">Cipher is susceptible to Padding Oracle</a>
+      </h2>
+            
+<p>
+    This specific mode of CBC with PKCS5Padding is susceptible to padding oracle attacks. An adversary could potentially decrypt the
+    message if the system exposed the difference between plaintext with invalid padding or valid padding. The distinction between
+    valid and invalid padding is usually revealed through distinct error messages being returned for each condition.
+</p>
+<p>
+    <b>Code at risk:</b>
+    <pre>Cipher c = Cipher.getInstance("AES/CBC/PKCS5Padding");
+c.init(Cipher.ENCRYPT_MODE, k, iv);
+byte[] cipherText = c.doFinal(plainText);</pre>
+</p>
+<p>
+    <b>Solution:</b>
+    <pre>Cipher c = Cipher.getInstance("AES/GCM/NoPadding");
+c.init(Cipher.ENCRYPT_MODE, k, iv);
+byte[] cipherText = c.doFinal(plainText);</pre>
+</p>
+<br/>
+<p>
+    <b>References</b><br/>
+    <a href="http://www.infobytesec.com/down/paddingoracle_openjam.pdf">Padding Oracles for the masses (by Matias Soler)</a><br/>
+    <a href="https://en.wikipedia.org/wiki/Authenticated_encryption">Wikipedia: Authenticated encryption</a><br/>
+    <a href="https://csrc.nist.gov/projects/block-cipher-techniques/bcm/modes-develoment#01">NIST: Authenticated Encryption Modes</a><br/>
+    <a href="https://capec.mitre.org/data/definitions/463.html">CAPEC: Padding Oracle Crypto Attack</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/696.html">CWE-696: Incorrect Behavior Order</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="HARD_CODE_PASSWORD">Hard coded password</a>
+      </h2>
+            
+<p>
+Passwords should not be kept in the source code. The source code can be widely shared in an enterprise environment, and is
+certainly shared in open source. To be managed safely, passwords and secret keys should be stored in separate configuration files or keystores.
+(Hard coded keys are reported separately by <i>Hard Coded Key</i> pattern)
+</p>
+<p>
+<p><b>Vulnerable Code:</b><br/>
+
+<pre>private String SECRET_PASSWORD = "letMeIn!";
+
+Properties props = new Properties();
+props.put(Context.SECURITY_CREDENTIALS, "p@ssw0rd");</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://cwe.mitre.org/data/definitions/259.html">CWE-259: Use of Hard-coded Password</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="OBJECT_DESERIALIZATION">Object deserialization is used in {1}</a>
+      </h2>
+            
+<p>
+    Object deserialization of untrusted data can lead to remote code execution, if there is a class in classpath that allows
+    the trigger of malicious operation.
+</p>
+<p>
+    Libraries developers tend to fix class that provided potential malicious trigger. There are still classes that are
+    known to trigger Denial of Service<sup>[1]</sup>.
+</p>
+<p>
+    Deserialization is a sensible operation that has a great history of vulnerabilities. The web application might
+    become vulnerable as soon as a new vulnerability is found in the Java Virtual Machine<sup>[2] [3]</sup>.
+</p>
+
+<p>
+<b>Code at risk:</b><br/>
+<pre>
+public UserData deserializeObject(InputStream receivedFile) throws IOException, ClassNotFoundException {
+
+    try (ObjectInputStream in = new ObjectInputStream(receivedFile)) {
+        return (UserData) in.readObject();
+    }
+}
+</pre>
+</p>
+
+<p>
+<b>Solutions:</b><br/>
+<p>
+Avoid deserializing object provided by remote users.
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://cwe.mitre.org/data/definitions/502.html">CWE-502: Deserialization of Untrusted Data</a><br/>
+<a href="https://www.owasp.org/index.php/Deserialization_of_untrusted_data">Deserialization of untrusted data</a><br/>
+<a href="https://www.oracle.com/technetwork/java/seccodeguide-139067.html#8">Serialization and Deserialization </a><br/>
+<a href="https://github.com/frohoff/ysoserial">A tool for generating payloads that exploit unsafe Java object deserialization</a><br/>
+[1] <a href="https://gist.github.com/coekie/a27cc406fc9f3dc7a70d">Example of Denial of Service using the class <code>java.util.HashSet</code></a><br/>
+[2] <a href="https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-2590">OpenJDK: Deserialization issue in ObjectInputStream.readSerialData() (CVE-2015-2590)</a><br/>
+[3] <a href="https://www.rapid7.com/db/modules/exploit/multi/browser/java_calendar_deserialize">Rapid7: Sun Java Calendar Deserialization Privilege Escalation (CVE-2008-5353)</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="PREDICTABLE_RANDOM">Predictable pseudorandom number generator</a>
+      </h2>
+            
+<p>The use of a predictable random value can lead to vulnerabilities when used in certain security critical contexts. For example, when the value is used as:</p>
+<ul>
+<li>a CSRF token: a predictable token can lead to a CSRF attack as an attacker will know the value of the token</li>
+<li>a password reset token (sent by email): a predictable password token can lead to an account takeover, since an attacker will guess the URL of the "change password" form</li>
+<li>any other secret value</li>
+</ul>
+<p>
+A quick fix could be to replace the use of <code>java.util.Random</code> with something stronger, such as <code>java.security.SecureRandom</code>.
+</p>
+<p>
+<b>Vulnerable Code:</b><br/>
+<pre>String generateSecretToken() {
+    Random r = new Random();
+    return Long.toHexString(r.nextLong());
+}</pre>
+</p>
+<p>
+<b>Solution:</b>
+<pre>import org.apache.commons.codec.binary.Hex;
+
+String generateSecretToken() {
+    SecureRandom secRandom = new SecureRandom();
+
+    byte[] result = new byte[32];
+    secRandom.nextBytes(result);
+    return Hex.encodeHexString(result);
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://jazzy.id.au/2010/09/20/cracking_random_number_generators_part_1.html">Cracking Random Number Generators - Part 1 (https://jazzy.id.au)</a><br/>
+<a href="https://www.securecoding.cert.org/confluence/display/java/MSC02-J.+Generate+strong+random+numbers">CERT: MSC02-J. Generate strong random numbers</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/330.html">CWE-330: Use of Insufficiently Random Values</a><br/>
+<a href="https://blog.h3xstream.com/2014/12/predicting-struts-csrf-token-cve-2014.html">Predicting Struts CSRF Token (Example of real-life vulnerability and exploitation)</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+      </h2>
+            
+<p>A file is opened to read its content. The filename comes from an <b>input</b> parameter.
+If an unfiltered parameter is passed to this file API, files from an arbitrary filesystem location could be read.</p>
+<p>This rule identifies <b>potential</b> path traversal vulnerabilities. In many cases, the constructed file path cannot be controlled
+by the user. If that is the case, the reported instance is a false positive.</p>
+<br/>
+
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", image); //Weak point
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+
+<p>
+    <b>Solution:</b><br/>
+<pre>import org.apache.commons.io.FilenameUtils;
+
+@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", FilenameUtils.getName(image)); //Fix
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246952/Path%20Traversal">WASC: Path Traversal</a><br/>
+<a href="https://www.owasp.org/index.php/Path_Traversal">OWASP: Path Traversal</a><br/>
+<a href="https://capec.mitre.org/data/definitions/126.html">CAPEC-126: Path Traversal</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/22.html">CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="STATIC_IV">Static IV</a>
+      </h2>
+            
+<p>
+    Initialization vector must be regenerated for each message to be encrypted.
+</p>
+<p><b>Vulnerable Code:</b></p>
+<p>
+<pre>
+private static byte[] IV = new byte[16] {(byte)0,(byte)1,(byte)2,[...]};
+
+public void encrypt(String message) throws Exception {
+
+    IvParameterSpec ivSpec = new IvParameterSpec(IV);
+[...]
+</pre>
+<p><b>Solution:</b></p>
+<p>
+<pre>
+public void encrypt(String message) throws Exception {
+
+    byte[] iv = new byte[16];
+    new SecureRandom().nextBytes(iv);
+
+    IvParameterSpec ivSpec = new IvParameterSpec(iv);
+[...]
+</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://en.wikipedia.org/wiki/Initialization_vector">Wikipedia: Initialization vector</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/329.html">CWE-329: Not Using a Random IV with CBC Mode</a><br/>
+<a href="https://defuse.ca/cbcmodeiv.htm">Encryption - CBC Mode IV: Secret or Not?</a>
+</p>
+            
+        <p>
+         <br/>
+         <br/>
+      </p>
+   </body>
+</html>

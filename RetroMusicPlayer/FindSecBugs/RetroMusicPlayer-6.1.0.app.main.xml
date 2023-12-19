@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.2" sequence="0" timestamp="1694719747551" analysisTimestamp="1694719737623" release="">
+  <Project projectName="RetroMusicPlayer-6.1.0[RetroMusicPlayer-6.1.0.app.main]">
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\activities\saf\SAFGuideActivity.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\adapter\base\MediaEntryViewHolder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\auto\AutoMediaIDHelper.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\BuildConfig.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\AbsPlaylistsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityAlbumTagEditorBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityBugReportBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityDonationBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityDriveModeBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityLicenseBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityLockScreenBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityPermissionBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityProVersionBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityRestoreBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivityShareInstagramBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ActivitySongTagEditorBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\AppWidgetBigBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\AppWidgetCardBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\AppWidgetCircleBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\AppWidgetClassicBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\AppWidgetMd3Binding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\AppWidgetSmallBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\AppWidgetTextBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\BannerImageLayoutBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\BreadCrumbBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\BugReportCardDeviceInfoBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\CardCreditBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\CardOtherBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\CardRetroInfoBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\CardSocialBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\CollapsingAppbarLayoutBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\DialogFileDetailsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\DialogPlaybackSpeedBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\DialogPlaylistBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\DialogSleepTimerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAboutBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAboutContentBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAdaptivePlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAdaptivePlayerPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAlbumCardCoverBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAlbumCarouselCoverBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAlbumCircleCoverBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAlbumContentBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAlbumCoverBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAlbumDetailsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAlbumFlatCoverBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAlbumFullCardCoverBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentAlbumFullCoverBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentArtistContentBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentArtistDetailsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentBackupBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentBlurBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentBlurPlayerPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentCardBlurPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentCardBlurPlayerPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentCardPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentCardPlayerPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentCirclePlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentClassicControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentClassicPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentColorPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentColorPlayerPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentCoverLyricsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentFitBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentFitPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentFlatPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentFlatPlayerPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentFolderBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentFullBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentFullPlayerControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentGradientControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentGradientPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentHomeBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentHomePlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentLibraryBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentLockScreenPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentLyricsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentMainRecyclerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentMainSettingsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentMaterialBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentMaterialPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentMd3PlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentMd3PlayerPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentMiniPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPeekAlbumCoverBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPeekControlPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPeekPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPlainControlsFragmentBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPlainPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPlayerAlbumCoverBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPlayerPlaybackControlsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPlayingQueueBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPlaylistDetailBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentPlaylistDetailNewBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentSearchBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentSettingsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentSimpleControlsFragmentBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentSimplePlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentSimpleSlideLargeImageBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentTinyControlsFragmentBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentTinyPlayerBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentUserInfoBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentVolumeBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\FragmentWhatsNewBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\HomeContentBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ImageBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemAlbumCardBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemArtistBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemArtistCardBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemArtistSquareBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemCardBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemCardColorBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemContributorBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemContributorHeaderBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemDonationOptionBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemFavouriteCardBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemGenreBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemGridBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemGridCircleBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemGridGenreBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemImageBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemImageGradientBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemListBackupBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemListBigBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemListBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemListQuickActionsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemPermissionBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemQueueBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemSimpleTextBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemSongBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemStorageBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ItemSuggestionsBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\LayoutNotificationCollapsedBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\LayoutNotificationExpandedBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ListItemColorViewBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ListItemViewBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ListItemViewNoCardBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ListItemViewNoTitleBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ListItemViewSeekbarBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ListItemViewSwitchBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ListItemViewSwitchNoTitleBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ListSettingItemViewBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\LoadingBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\MediaButtonBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\NumberRollViewBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\PreferenceCategoryTitleBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\PreferenceDialogAudioFadeBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\PreferenceDialogLibraryCategoriesBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\PreferenceDialogLibraryCategoriesListitemBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\PreferenceDialogNowPlayingScreenBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\PreferenceNowPlayingScreenItemBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\SectionRecyclerViewBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\ShadowStatusbarToolbarBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\SimpleAppbarLayoutBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\SlidingMusicPanelLayoutBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\StatusBarBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\SubHeaderBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\databinding\UserImageLayoutBinding.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\HistoryDao_Impl$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\HistoryDao_Impl$2.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\HistoryDao_Impl$3.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\HistoryDao_Impl$4.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\HistoryDao_Impl$5.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\HistoryDao_Impl$6.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\HistoryDao_Impl$7.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\HistoryDao_Impl.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlayCountDao_Impl$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlayCountDao_Impl$2.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlayCountDao_Impl$3.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlayCountDao_Impl$4.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlayCountDao_Impl.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$10.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$11.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$12.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$13.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$14.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$15.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$16.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$17.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$18.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$19.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$2.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$20.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$21.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$22.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$3.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$4.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$5.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$6.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$7.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$8.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl$9.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\PlaylistDao_Impl.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\RetroDatabase_Impl$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\db\RetroDatabase_Impl.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\glide\audiocover\AudioFileCoverUtils.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\glide\palette\BitmapPaletteResource.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\glide\palette\BitmapPaletteTarget.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\glide\palette\BitmapPaletteTranscoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\glide\palette\BitmapPaletteWrapper.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\helper\M3UConstants.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\helper\StackBlur$BlurTask.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\helper\StackBlur.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\lyrics\Lrc.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\lyrics\LrcEntry.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\lyrics\LrcUtils.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\lyrics\LrcView$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\lyrics\LrcView$2.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\lyrics\LrcView$3.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\lyrics\LrcView$4.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\lyrics\LrcView$OnPlayClickListener.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\lyrics\LrcView.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\misc\CustomFragmentStatePagerAdapter.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\misc\UpdateToastMediaScannerCompletionListener.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\model\lyrics\AbsSynchronizedLyrics.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\model\lyrics\Lyrics.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\model\lyrics\SynchronizedLyricsLRC.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmAlbum$Album$Image.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmAlbum$Album$Tag.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmAlbum$Album$Tags.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmAlbum$Album$Wiki.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmAlbum$Album.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmAlbum.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmArtist$Artist$Bio.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmArtist$Artist$Image.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmArtist$Artist$Stats.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmArtist$Artist.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmArtist.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmTrack$Track$Album$Attr.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmTrack$Track$Album$Image.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmTrack$Track$Album.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmTrack$Track$Artist.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmTrack$Track$Toptags$Tag.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmTrack$Track$Toptags.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmTrack$Track$Wiki.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmTrack$Track.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\network\model\LastFmTrack.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\providers\BlacklistStore$BlacklistStoreColumns.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\providers\BlacklistStore.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\providers\HistoryStore$RecentStoreColumns.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\providers\HistoryStore.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\providers\MusicPlaybackQueueStore.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\providers\SongPlayCountStore$SongPlayCountColumns.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\providers\SongPlayCountStore.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\repository\SortedCursor.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\repository\SortedLongCursor.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\color\ImageUtils.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\color\MediaNotificationProcessor$OnPaletteLoadedListener.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\color\MediaNotificationProcessor.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\color\NotificationColorUtil$ColorUtilsFromCompat.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\color\NotificationColorUtil.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\ColorUtil$SwatchComparator.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\ColorUtil.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\FileUtil.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\ImageUtil.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\RetroColorUtil$SwatchComparator.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\RetroColorUtil.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\SAFUtil.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\SwipeAndDragHelper$ActionCompletionContract.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\SwipeAndDragHelper.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\util\TempUtils.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\BaselineGridTextView.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\BreadCrumbLayout$Crumb$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\BreadCrumbLayout$Crumb.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\BreadCrumbLayout$SavedStateWrapper$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\BreadCrumbLayout$SavedStateWrapper.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\BreadCrumbLayout$SelectionCallback.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\BreadCrumbLayout.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\DrawableGradient.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\PopupBackground.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\app\build\intermediates\javac\fdroidDebug\classes\code\name\monkey\retromusic\views\ScrollingViewOnApplyWindowInsetsListener.class</Jar>
+    <AuxClasspathEntry>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/build/intermediates/javac/fdroidDebug/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/appthemehelper/build/intermediates/javac/debug/classes</AuxClasspathEntry>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/build/generated/source/navigation-args/fdroid/debug</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/build/generated/ksp/fdroidDebug/java</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/build/generated/ksp/fdroidDebug/kotlin</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/build/generated/ap_generated_sources/fdroidDebug/out</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/build/generated/source/buildConfig/fdroid/debug</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/build/generated/res/resValues/fdroid/debug</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/src/fdroid/java</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/src/fdroid/res</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/src/main/java</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/src/main/assets</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/src/main/res</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/app/src/debug/res</SrcDir>
+    <Plugin id="com.h3xstream.findsecbugs" enabled="true"/>
+  </Project>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="7" abbrev="SECPTI" category="SECURITY" instanceHash="287f22a60875e542d770935b335399cf" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" sourcefile="AudioFileCoverUtils.java" sourcepath="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\glide\audiocover\AudioFileCoverUtils.java">
+        <Message>In AudioFileCoverUtils.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" name="fallback" signature="(Ljava/lang/String;)Ljava/io/InputStream;" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" start="40" end="60" startBytecode="0" endBytecode="355" sourcefile="AudioFileCoverUtils.java" sourcepath="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\glide\audiocover\AudioFileCoverUtils.java"/>
+      <Message>In method code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils.fallback(String)</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" primary="true" start="53" end="53" startBytecode="55" endBytecode="55" sourcefile="AudioFileCoverUtils.java" sourcepath="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\glide\audiocover\AudioFileCoverUtils.java">
+      <Message>At AudioFileCoverUtils.java:[line 53]</Message>
+    </SourceLine>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.fallback(Ljava/lang/String;)Ljava/io/InputStream; parameter 0" role="Unknown source">
+      <Message>Unknown source code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.fallback(Ljava/lang/String;)Ljava/io/InputStream; parameter 0</Message>
+    </String>
+    <String value="not detected" role="Method usage">
+      <Message>Method usage not detected</Message>
+    </String>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="7" abbrev="SECPTI" category="SECURITY" instanceHash="574dfa09c718f818cb6a405e4f17665e" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" sourcefile="AudioFileCoverUtils.java" sourcepath="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\glide\audiocover\AudioFileCoverUtils.java">
+        <Message>In AudioFileCoverUtils.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" name="fallback" signature="(Ljava/lang/String;)Ljava/io/InputStream;" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" start="40" end="60" startBytecode="0" endBytecode="355" sourcefile="AudioFileCoverUtils.java" sourcepath="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\glide\audiocover\AudioFileCoverUtils.java"/>
+      <Message>In method code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils.fallback(String)</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" primary="true" start="55" end="55" startBytecode="91" endBytecode="91" sourcefile="AudioFileCoverUtils.java" sourcepath="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\glide\audiocover\AudioFileCoverUtils.java">
+      <Message>At AudioFileCoverUtils.java:[line 55]</Message>
+    </SourceLine>
+    <String value="java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.FALLBACKS" role="Unknown source">
+      <Message>Unknown source code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.FALLBACKS</Message>
+    </String>
+    <SourceLine classname="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" start="54" end="54" startBytecode="62" endBytecode="62" sourcefile="AudioFileCoverUtils.java" sourcepath="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\glide\audiocover\AudioFileCoverUtils.java">
+      <Message>At AudioFileCoverUtils.java:[line 54]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="URLCONNECTION_SSRF_FD" priority="2" rank="7" abbrev="SECSSSRFUC" category="SECURITY" instanceHash="ad7af722a351d436deef791696fb99d0" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="918">
+    <ShortMessage>URLConnection Server-Side Request Forgery (SSRF) and File Disclosure</ShortMessage>
+    <LongMessage>This web server request could be used by an attacker to expose internal services and filesystem.</LongMessage>
+    <Class classname="code.name.monkey.retromusic.lyrics.LrcUtils" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.lyrics.LrcUtils" sourcefile="LrcUtils.java" sourcepath="code/name/monkey/retromusic/lyrics/LrcUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\lyrics\LrcUtils.java">
+        <Message>In LrcUtils.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.lyrics.LrcUtils</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.lyrics.LrcUtils" name="getContentFromNetwork" signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.lyrics.LrcUtils" start="142" end="164" startBytecode="0" endBytecode="406" sourcefile="LrcUtils.java" sourcepath="code/name/monkey/retromusic/lyrics/LrcUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\lyrics\LrcUtils.java"/>
+      <Message>In method code.name.monkey.retromusic.lyrics.LrcUtils.getContentFromNetwork(String, String)</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.lyrics.LrcUtils" primary="true" start="145" end="145" startBytecode="12" endBytecode="12" sourcefile="LrcUtils.java" sourcepath="code/name/monkey/retromusic/lyrics/LrcUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\lyrics\LrcUtils.java">
+      <Message>At LrcUtils.java:[line 145]</Message>
+    </SourceLine>
+    <String value="java/net/URL.openConnection()Ljava/net/URLConnection;" role="Sink method">
+      <Message>Sink method java/net/URL.openConnection()Ljava/net/URLConnection;</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="code/name/monkey/retromusic/lyrics/LrcUtils.getContentFromNetwork(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; parameter 1" role="Unknown source">
+      <Message>Unknown source code/name/monkey/retromusic/lyrics/LrcUtils.getContentFromNetwork(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; parameter 1</Message>
+    </String>
+    <String value="java/net/URL.&lt;init&gt;(Ljava/lang/String;)V" role="Unknown source">
+      <Message>Unknown source java/net/URL.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="not detected" role="Method usage">
+      <Message>Method usage not detected</Message>
+    </String>
+    <SourceLine classname="code.name.monkey.retromusic.lyrics.LrcUtils" start="144" end="144" startBytecode="7" endBytecode="7" sourcefile="LrcUtils.java" sourcepath="code/name/monkey/retromusic/lyrics/LrcUtils.java" relSourcepath="src\main\java\code\name\monkey\retromusic\lyrics\LrcUtils.java">
+      <Message>At LrcUtils.java:[line 144]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="ANDROID_BROADCAST" priority="2" rank="7" abbrev="SECBROAD" category="SECURITY" instanceHash="c31e73e708d9fbf6aeb15933851d907e" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="276">
+    <ShortMessage>Broadcast (Android)</ShortMessage>
+    <LongMessage>Broadcast intents could be received by a malicious application</LongMessage>
+    <Class classname="code.name.monkey.retromusic.providers.BlacklistStore" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.providers.BlacklistStore" sourcefile="BlacklistStore.java" sourcepath="code/name/monkey/retromusic/providers/BlacklistStore.java" relSourcepath="src\main\java\code\name\monkey\retromusic\providers\BlacklistStore.java">
+        <Message>In BlacklistStore.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.providers.BlacklistStore</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.providers.BlacklistStore" name="notifyMediaStoreChanged" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.providers.BlacklistStore" start="158" end="159" startBytecode="0" endBytecode="62" sourcefile="BlacklistStore.java" sourcepath="code/name/monkey/retromusic/providers/BlacklistStore.java" relSourcepath="src\main\java\code\name\monkey\retromusic\providers\BlacklistStore.java"/>
+      <Message>In method code.name.monkey.retromusic.providers.BlacklistStore.notifyMediaStoreChanged()</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.providers.BlacklistStore" primary="true" start="158" end="158" startBytecode="13" endBytecode="13" sourcefile="BlacklistStore.java" sourcepath="code/name/monkey/retromusic/providers/BlacklistStore.java" relSourcepath="src\main\java\code\name\monkey\retromusic\providers\BlacklistStore.java">
+      <Message>At BlacklistStore.java:[line 158]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="1" rank="5" abbrev="SECPTI" category="SECURITY" instanceHash="ae89b3bf4b917fd2f52eb9d9323e8cc2" instanceOccurrenceNum="0" instanceOccurrenceMax="2" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="code.name.monkey.retromusic.util.FileUtil" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+        <Message>In FileUtil.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.util.FileUtil</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.util.FileUtil" name="listRoots" signature="()Ljava/util/ArrayList;" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="266" end="333" startBytecode="0" endBytecode="1219" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java"/>
+      <Message>In method code.name.monkey.retromusic.util.FileUtil.listRoots()</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" primary="true" start="296" end="296" startBytecode="267" endBytecode="267" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 296]</Message>
+    </SourceLine>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="java/util/HashSet.contains(Ljava/lang/Object;)Z" role="Tainted source">
+      <Message>Tainted source java/util/HashSet.contains(Ljava/lang/Object;)Z</Message>
+    </String>
+    <String value="java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V</Message>
+    </String>
+    <String value="java/io/BufferedReader.readLine()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/io/BufferedReader.readLine()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/StringTokenizer.nextToken()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.nextToken()Ljava/lang/String;</Message>
+    </String>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="286" end="286" startBytecode="125" endBytecode="125" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 286]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="288" end="288" startBytecode="165" endBytecode="165" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 288]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="290" end="290" startBytecode="178" endBytecode="178" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 290]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="291" end="291" startBytecode="186" endBytecode="186" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 291]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="1" rank="5" abbrev="SECPTI" category="SECURITY" instanceHash="ae89b3bf4b917fd2f52eb9d9323e8cc2" instanceOccurrenceNum="1" instanceOccurrenceMax="2" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="code.name.monkey.retromusic.util.FileUtil" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+        <Message>In FileUtil.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.util.FileUtil</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.util.FileUtil" name="listRoots" signature="()Ljava/util/ArrayList;" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="266" end="333" startBytecode="0" endBytecode="1219" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java"/>
+      <Message>In method code.name.monkey.retromusic.util.FileUtil.listRoots()</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" primary="true" start="300" end="300" startBytecode="327" endBytecode="327" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 300]</Message>
+    </SourceLine>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="java/util/HashSet.contains(Ljava/lang/Object;)Z" role="Tainted source">
+      <Message>Tainted source java/util/HashSet.contains(Ljava/lang/Object;)Z</Message>
+    </String>
+    <String value="java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V</Message>
+    </String>
+    <String value="java/io/BufferedReader.readLine()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/io/BufferedReader.readLine()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/StringTokenizer.nextToken()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.nextToken()Ljava/lang/String;</Message>
+    </String>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="286" end="286" startBytecode="125" endBytecode="125" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 286]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="288" end="288" startBytecode="165" endBytecode="165" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 288]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="290" end="290" startBytecode="178" endBytecode="178" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 290]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="291" end="291" startBytecode="186" endBytecode="186" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 291]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="299" end="299" startBytecode="313" endBytecode="313" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 299]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="1" rank="5" abbrev="SECPTI" category="SECURITY" instanceHash="ae89b3bf4b917fd2f52eb9d9323e8cc2" instanceOccurrenceNum="2" instanceOccurrenceMax="2" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="code.name.monkey.retromusic.util.FileUtil" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+        <Message>In FileUtil.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.util.FileUtil</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.util.FileUtil" name="listRoots" signature="()Ljava/util/ArrayList;" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="266" end="333" startBytecode="0" endBytecode="1219" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java"/>
+      <Message>In method code.name.monkey.retromusic.util.FileUtil.listRoots()</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" primary="true" start="313" end="313" startBytecode="400" endBytecode="400" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 313]</Message>
+    </SourceLine>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="java/util/HashSet.contains(Ljava/lang/Object;)Z" role="Tainted source">
+      <Message>Tainted source java/util/HashSet.contains(Ljava/lang/Object;)Z</Message>
+    </String>
+    <String value="java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V</Message>
+    </String>
+    <String value="java/io/BufferedReader.readLine()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/io/BufferedReader.readLine()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/StringTokenizer.nextToken()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.nextToken()Ljava/lang/String;</Message>
+    </String>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="286" end="286" startBytecode="125" endBytecode="125" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 286]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="288" end="288" startBytecode="165" endBytecode="165" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 288]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="290" end="290" startBytecode="178" endBytecode="178" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 290]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="291" end="291" startBytecode="186" endBytecode="186" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 291]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.FileUtil" start="299" end="299" startBytecode="313" endBytecode="313" sourcefile="FileUtil.java" sourcepath="code/name/monkey/retromusic/util/FileUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\FileUtil.java">
+      <Message>At FileUtil.java:[line 299]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PREDICTABLE_RANDOM" priority="2" rank="7" abbrev="SECPR" category="SECURITY" instanceHash="3cfa9eead9e961caa113549c10e40b79" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="330">
+    <ShortMessage>Predictable pseudorandom number generator</ShortMessage>
+    <LongMessage>This random generator (java.lang.Math.random()) is predictable</LongMessage>
+    <Class classname="code.name.monkey.retromusic.util.RetroColorUtil" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.RetroColorUtil" sourcefile="RetroColorUtil.java" sourcepath="code/name/monkey/retromusic/util/RetroColorUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\RetroColorUtil.java">
+        <Message>In RetroColorUtil.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.util.RetroColorUtil</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.util.RetroColorUtil" name="getMatColor" signature="(Landroid/content/Context;Ljava/lang/String;)I" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.RetroColorUtil" start="85" end="98" startBytecode="0" endBytecode="227" sourcefile="RetroColorUtil.java" sourcepath="code/name/monkey/retromusic/util/RetroColorUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\RetroColorUtil.java"/>
+      <Message>In method code.name.monkey.retromusic.util.RetroColorUtil.getMatColor(Context, String)</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.util.RetroColorUtil" primary="true" start="94" end="94" startBytecode="53" endBytecode="53" sourcefile="RetroColorUtil.java" sourcepath="code/name/monkey/retromusic/util/RetroColorUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\RetroColorUtil.java">
+      <Message>At RetroColorUtil.java:[line 94]</Message>
+    </SourceLine>
+    <String value="java.lang.Math.random()">
+      <Message>Value java.lang.Math.random()</Message>
+    </String>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="7" abbrev="SECPTI" category="SECURITY" instanceHash="72289c6460ab567199bc18e692fcd8dc" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="code.name.monkey.retromusic.util.SAFUtil" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+        <Message>In SAFUtil.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.util.SAFUtil</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.util.SAFUtil" name="deleteFile" signature="(Ljava/lang/String;)V" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" start="258" end="259" startBytecode="0" endBytecode="58" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java"/>
+      <Message>In method code.name.monkey.retromusic.util.SAFUtil.deleteFile(String)</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" primary="true" start="258" end="258" startBytecode="5" endBytecode="5" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+      <Message>At SAFUtil.java:[line 258]</Message>
+    </SourceLine>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="code/name/monkey/retromusic/util/SAFUtil.deleteFile(Ljava/lang/String;)V parameter 0" role="Unknown source">
+      <Message>Unknown source code/name/monkey/retromusic/util/SAFUtil.deleteFile(Ljava/lang/String;)V parameter 0</Message>
+    </String>
+    <String value="not detected" role="Method usage">
+      <Message>Method usage not detected</Message>
+    </String>
+    <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" start="248" end="248" startBytecode="17" endBytecode="17" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+      <Message>At SAFUtil.java:[line 248]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="7" abbrev="SECPTI" category="SECURITY" instanceHash="5c8d700b4f8d9b33622fe3f5b804db32" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="code.name.monkey.retromusic.util.SAFUtil" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+        <Message>In SAFUtil.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.util.SAFUtil</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.util.SAFUtil" name="isSAFRequired" signature="(Ljava/lang/String;)Z" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" start="59" end="59" startBytecode="0" endBytecode="53" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java"/>
+      <Message>In method code.name.monkey.retromusic.util.SAFUtil.isSAFRequired(String)</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" primary="true" start="59" end="59" startBytecode="5" endBytecode="5" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+      <Message>At SAFUtil.java:[line 59]</Message>
+    </SourceLine>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="code/name/monkey/retromusic/util/SAFUtil.isSAFRequired(Ljava/lang/String;)Z parameter 0" role="Unknown source">
+      <Message>Unknown source code/name/monkey/retromusic/util/SAFUtil.isSAFRequired(Ljava/lang/String;)Z parameter 0</Message>
+    </String>
+    <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" start="67" end="67" startBytecode="4" endBytecode="4" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+      <Message>At SAFUtil.java:[line 67]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" start="71" end="71" startBytecode="1" endBytecode="1" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+      <Message>At SAFUtil.java:[line 71]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" start="72" end="72" startBytecode="27" endBytecode="27" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+      <Message>At SAFUtil.java:[line 72]</Message>
+    </SourceLine>
+    <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" start="244" end="244" startBytecode="1" endBytecode="1" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+      <Message>At SAFUtil.java:[line 244]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="7" abbrev="SECPTI" category="SECURITY" instanceHash="7cd105f577fd0e611f6b998de0fa9c8d" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="code.name.monkey.retromusic.util.SAFUtil" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+        <Message>In SAFUtil.java</Message>
+      </SourceLine>
+      <Message>In class code.name.monkey.retromusic.util.SAFUtil</Message>
+    </Class>
+    <Method classname="code.name.monkey.retromusic.util.SAFUtil" name="writeSAF" signature="(Landroid/content/Context;Lorg/jaudiotagger/audio/AudioFile;Landroid/net/Uri;)V" isStatic="true" primary="true">
+      <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" start="187" end="241" startBytecode="0" endBytecode="694" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java"/>
+      <Message>In method code.name.monkey.retromusic.util.SAFUtil.writeSAF(Context, AudioFile, Uri)</Message>
+    </Method>
+    <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" primary="true" start="214" end="214" startBytecode="131" endBytecode="131" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+      <Message>At SAFUtil.java:[line 214]</Message>
+    </SourceLine>
+    <String value="java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;" role="Sink method">
+      <Message>Sink method java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="org/jaudiotagger/audio/generic/Utils.getExtension(Ljava/io/File;)Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source org/jaudiotagger/audio/generic/Utils.getExtension(Ljava/io/File;)Ljava/lang/String;</Message>
+    </String>
+    <SourceLine classname="code.name.monkey.retromusic.util.SAFUtil" start="214" end="214" startBytecode="128" endBytecode="128" sourcefile="SAFUtil.java" sourcepath="code/name/monkey/retromusic/util/SAFUtil.java" relSourcepath="src\main\java\code\name\monkey\retromusic\util\SAFUtil.java">
+      <Message>At SAFUtil.java:[line 214]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugPattern type="PATH_TRAVERSAL_IN" abbrev="SECPTI" category="SECURITY" cweid="22">
+    <ShortDescription>Potential Path Traversal (file read)</ShortDescription>
+    <Details><![CDATA[
+            
+<p>A file is opened to read its content. The filename comes from an <b>input</b> parameter.
+If an unfiltered parameter is passed to this file API, files from an arbitrary filesystem location could be read.</p>
+<p>This rule identifies <b>potential</b> path traversal vulnerabilities. In many cases, the constructed file path cannot be controlled
+by the user. If that is the case, the reported instance is a false positive.</p>
+<br/>
+
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", image); //Weak point
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+
+<p>
+    <b>Solution:</b><br/>
+<pre>import org.apache.commons.io.FilenameUtils;
+
+@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", FilenameUtils.getName(image)); //Fix
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246952/Path%20Traversal">WASC: Path Traversal</a><br/>
+<a href="https://www.owasp.org/index.php/Path_Traversal">OWASP: Path Traversal</a><br/>
+<a href="https://capec.mitre.org/data/definitions/126.html">CAPEC-126: Path Traversal</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/22.html">CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="ANDROID_BROADCAST" abbrev="SECBROAD" category="SECURITY" cweid="276">
+    <ShortDescription>Broadcast (Android)</ShortDescription>
+    <Details><![CDATA[
+            
+<p>
+    Broadcast intents can be listened by any application with the appropriate permission. It is suggested to avoid transmitting
+    sensitive information when possible.
+</p>
+<p>
+    <b>Code at risk:</b><br/>
+<pre>
+Intent i = new Intent();
+i.setAction("com.insecure.action.UserConnected");
+i.putExtra("username", user);
+i.putExtra("email", email);
+i.putExtra("session", newSessionId);
+
+this.sendBroadcast(v1);
+</pre>
+</p>
+<br/>
+<p>
+    <b>Solution (if possible):</b><br/>
+<pre>
+Intent i = new Intent();
+i.setAction("com.secure.action.UserConnected");
+
+sendBroadcast(v1);
+</pre>
+</p>
+<br/>
+<p>
+    <b>Configuration (receiver)<sup>[1] Source: StackOverflow</sup>:</b><br/>
+<pre>
+&lt;manifest ...&gt;
+
+    &lt;!-- Permission declaration --&gt;
+    &lt;permission android:name="my.app.PERMISSION" /&gt;
+
+    &lt;receiver
+        android:name="my.app.BroadcastReceiver"
+        android:permission="my.app.PERMISSION"&gt; &lt;!-- Permission enforcement --&gt;
+        &lt;intent-filter>
+            &lt;action android:name="com.secure.action.UserConnected" /&gt;
+        &lt;/intent-filter&gt;
+    &lt;/receiver&gt;
+
+    ...
+&lt;/manifest>
+</pre>
+</p>
+<p>
+    <b>Configuration (sender)<sup>[1] Source: StackOverflow</sup>:</b><br/>
+<pre>
+&lt;manifest&gt;
+    &lt;!-- We declare we own the permission to send broadcast to the above receiver --&gt;
+    &lt;uses-permission android:name="my.app.PERMISSION"/&gt;
+
+    &lt;!-- With the following configuration, both the sender and the receiver apps need to be signed by the same developer certificate. --&gt;
+    &lt;permission android:name="my.app.PERMISSION" android:protectionLevel="signature"/&gt;
+&lt;/manifest&gt;
+</pre>
+</p>
+<br/>
+<p>
+    <b>References</b><br/>
+    <a href="https://www.securecoding.cert.org/confluence/display/java/DRD03-J.+Do+not+broadcast+sensitive+information+using+an+implicit+intent">CERT: DRD03-J. Do not broadcast sensitive information using an implicit intent</a><br/>
+    <a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html#Security">Android Official Doc: BroadcastReceiver (Security)</a><br/>
+    <a href="https://developer.android.com/guide/topics/manifest/receiver-element.html">Android Official Doc: Receiver configuration (see <code>android:permission</code>)</a><br/>
+    <sup>[1]</sup> <a href="https://stackoverflow.com/a/21513368/89769">StackOverflow: How to set permissions in broadcast sender and receiver in android</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/925.html">CWE-925: Improper Verification of Intent by Broadcast Receiver</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/927.html">CWE-927: Use of Implicit Intent for Sensitive Communication</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="URLCONNECTION_SSRF_FD" abbrev="SECSSSRFUC" category="SECURITY" cweid="918">
+    <ShortDescription>URLConnection Server-Side Request Forgery (SSRF) and File Disclosure</ShortDescription>
+    <Details><![CDATA[
+            
+<p>
+    Server-Side Request Forgery occur when a web server executes a request to a user supplied destination
+    parameter that is not validated. Such vulnerabilities could allow an attacker to access internal services
+    or to launch attacks from your web server.
+</p>
+<p>
+    URLConnection can be used with file:// protocol or other protocols to access local filesystem and potentially other services.
+<p>
+    <b>Vulnerable Code:</b>
+<pre>
+new URL(String url).openConnection()
+</pre>
+
+<pre>
+new URL(String url).openStream()
+</pre>
+
+<pre>
+new URL(String url).getContent()
+</pre>
+</p>
+<p>
+    <b>Solution/Countermeasures:</b><br/>
+    <ul>
+        <li>Don't accept URL destinations from users</li>
+        <li>Accept a destination key, and use it to look up the target destination associate with the key</li>
+        <li>White list URLs (if possible)</li>
+        <li>Validate that the beginning of the URL is part of a white list</li>
+    </ul>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://cwe.mitre.org/data/definitions/918.html">CWE-918: Server-Side Request Forgery (SSRF)</a><br/>
+<a href="https://www.bishopfox.com/blog/2015/04/vulnerable-by-design-understanding-server-side-request-forgery/">Understanding Server-Side Request Forgery</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/73.html">CWE-73: External Control of File Name or Path</a><br/>
+<a href="https://www.pwntester.com/blog/2013/11/28/abusing-jar-downloads/">Abusing jar:// downloads</a><br />
+</p>
+            ]]></Details>
+  </BugPattern>
+  <BugPattern type="PREDICTABLE_RANDOM" abbrev="SECPR" category="SECURITY" cweid="330">
+    <ShortDescription>Predictable pseudorandom number generator</ShortDescription>
+    <Details><![CDATA[
+            
+<p>The use of a predictable random value can lead to vulnerabilities when used in certain security critical contexts. For example, when the value is used as:</p>
+<ul>
+<li>a CSRF token: a predictable token can lead to a CSRF attack as an attacker will know the value of the token</li>
+<li>a password reset token (sent by email): a predictable password token can lead to an account takeover, since an attacker will guess the URL of the "change password" form</li>
+<li>any other secret value</li>
+</ul>
+<p>
+A quick fix could be to replace the use of <code>java.util.Random</code> with something stronger, such as <code>java.security.SecureRandom</code>.
+</p>
+<p>
+<b>Vulnerable Code:</b><br/>
+<pre>String generateSecretToken() {
+    Random r = new Random();
+    return Long.toHexString(r.nextLong());
+}</pre>
+</p>
+<p>
+<b>Solution:</b>
+<pre>import org.apache.commons.codec.binary.Hex;
+
+String generateSecretToken() {
+    SecureRandom secRandom = new SecureRandom();
+
+    byte[] result = new byte[32];
+    secRandom.nextBytes(result);
+    return Hex.encodeHexString(result);
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://jazzy.id.au/2010/09/20/cracking_random_number_generators_part_1.html">Cracking Random Number Generators - Part 1 (https://jazzy.id.au)</a><br/>
+<a href="https://www.securecoding.cert.org/confluence/display/java/MSC02-J.+Generate+strong+random+numbers">CERT: MSC02-J. Generate strong random numbers</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/330.html">CWE-330: Use of Insufficiently Random Values</a><br/>
+<a href="https://blog.h3xstream.com/2014/12/predicting-struts-csrf-token-cve-2014.html">Predicting Struts CSRF Token (Example of real-life vulnerability and exploitation)</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SECPR">
+    <Description>Predictable Pseudo Random Generator</Description>
+  </BugCode>
+  <BugCode abbrev="SECPTI">
+    <Description>Potential Path Traversal (file read)</Description>
+  </BugCode>
+  <BugCode abbrev="SECSSSRFUC">
+    <Description>URLConnection Server-Side Request Forgery</Description>
+  </BugCode>
+  <BugCode abbrev="SECBROAD">
+    <Description>Broadcast (Android)</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 14 Sep 2023 16:28:12 -0300" total_classes="273" referenced_classes="362" total_bugs="11" total_size="14220" num_packages="18" java_version="17.0.6" vm_version="17.0.6+0-b2043.56-10027231" cpu_seconds="22.58" clock_seconds="68.98" peak_mbytes="1657.77" alloc_mbytes="3072.00" gc_seconds="0.11" priority_2="8" priority_1="3">
+    <FileStats path="code/name/monkey/retromusic/BuildConfig.java" bugCount="0" size="12"/>
+    <FileStats path="code/name/monkey/retromusic/activities/saf/SAFGuideActivity.java" bugCount="0" size="40"/>
+    <FileStats path="code/name/monkey/retromusic/adapter/base/MediaEntryViewHolder.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/auto/AutoMediaIDHelper.java" bugCount="0" size="46"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/AbsPlaylistsBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityAlbumTagEditorBinding.java" bugCount="0" size="107"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityBugReportBinding.java" bugCount="0" size="40"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityDonationBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityDriveModeBinding.java" bugCount="0" size="111"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityLicenseBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityLockScreenBinding.java" bugCount="0" size="51"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityPermissionBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityProVersionBinding.java" bugCount="0" size="61"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityRestoreBinding.java" bugCount="0" size="75"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivityShareInstagramBinding.java" bugCount="0" size="78"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ActivitySongTagEditorBinding.java" bugCount="0" size="179"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/AppWidgetBigBinding.java" bugCount="0" size="75"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/AppWidgetCardBinding.java" bugCount="0" size="69"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/AppWidgetCircleBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/AppWidgetClassicBinding.java" bugCount="0" size="72"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/AppWidgetMd3Binding.java" bugCount="0" size="72"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/AppWidgetSmallBinding.java" bugCount="0" size="75"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/AppWidgetTextBinding.java" bugCount="0" size="63"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/BannerImageLayoutBinding.java" bugCount="0" size="51"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/BreadCrumbBinding.java" bugCount="0" size="21"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/BugReportCardDeviceInfoBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/CardCreditBinding.java" bugCount="0" size="33"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/CardOtherBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/CardRetroInfoBinding.java" bugCount="0" size="69"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/CardSocialBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/CollapsingAppbarLayoutBinding.java" bugCount="0" size="30"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/DialogFileDetailsBinding.java" bugCount="0" size="69"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/DialogPlaybackSpeedBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/DialogPlaylistBinding.java" bugCount="0" size="33"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/DialogSleepTimerBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAboutBinding.java" bugCount="0" size="31"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAboutContentBinding.java" bugCount="0" size="47"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAdaptivePlayerBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAdaptivePlayerPlaybackControlsBinding.java" bugCount="0" size="81"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAlbumCardCoverBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAlbumCarouselCoverBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAlbumCircleCoverBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAlbumContentBinding.java" bugCount="0" size="93"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAlbumCoverBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAlbumDetailsBinding.java" bugCount="0" size="74"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAlbumFlatCoverBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAlbumFullCardCoverBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentAlbumFullCoverBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentArtistContentBinding.java" bugCount="0" size="99"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentArtistDetailsBinding.java" bugCount="0" size="68"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentBackupBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentBlurBinding.java" bugCount="0" size="47"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentBlurPlayerPlaybackControlsBinding.java" bugCount="0" size="93"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentCardBlurPlayerBinding.java" bugCount="0" size="75"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentCardBlurPlayerPlaybackControlsBinding.java" bugCount="0" size="58"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentCardPlayerBinding.java" bugCount="0" size="43"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentCardPlayerPlaybackControlsBinding.java" bugCount="0" size="76"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentCirclePlayerBinding.java" bugCount="0" size="115"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentClassicControlsBinding.java" bugCount="0" size="87"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentClassicPlayerBinding.java" bugCount="0" size="88"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentColorPlayerBinding.java" bugCount="0" size="43"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentColorPlayerPlaybackControlsBinding.java" bugCount="0" size="99"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentCoverLyricsBinding.java" bugCount="0" size="36"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentFitBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentFitPlaybackControlsBinding.java" bugCount="0" size="105"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentFlatPlayerBinding.java" bugCount="0" size="43"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentFlatPlayerPlaybackControlsBinding.java" bugCount="0" size="93"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentFolderBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentFullBinding.java" bugCount="0" size="69"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentFullPlayerControlsBinding.java" bugCount="0" size="111"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentGradientControlsBinding.java" bugCount="0" size="99"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentGradientPlayerBinding.java" bugCount="0" size="101"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentHomeBinding.java" bugCount="0" size="52"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentHomePlayerBinding.java" bugCount="0" size="63"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentLibraryBinding.java" bugCount="0" size="54"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentLockScreenPlaybackControlsBinding.java" bugCount="0" size="93"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentLyricsBinding.java" bugCount="0" size="60"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentMainRecyclerBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentMainSettingsBinding.java" bugCount="0" size="120"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentMaterialBinding.java" bugCount="0" size="43"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentMaterialPlaybackControlsBinding.java" bugCount="0" size="93"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentMd3PlayerBinding.java" bugCount="0" size="41"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentMd3PlayerPlaybackControlsBinding.java" bugCount="0" size="105"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentMiniPlayerBinding.java" bugCount="0" size="63"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPeekAlbumCoverBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPeekControlPlayerBinding.java" bugCount="0" size="75"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPeekPlayerBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPlainControlsFragmentBinding.java" bugCount="0" size="81"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPlainPlayerBinding.java" bugCount="0" size="53"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPlayerAlbumCoverBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPlayerBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPlayerPlaybackControlsBinding.java" bugCount="0" size="93"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPlayingQueueBinding.java" bugCount="0" size="43"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPlaylistDetailBinding.java" bugCount="0" size="66"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentPlaylistDetailNewBinding.java" bugCount="0" size="102"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentSearchBinding.java" bugCount="0" size="111"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentSettingsBinding.java" bugCount="0" size="33"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentSimpleControlsFragmentBinding.java" bugCount="0" size="81"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentSimplePlayerBinding.java" bugCount="0" size="37"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentSimpleSlideLargeImageBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentTinyControlsFragmentBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentTinyPlayerBinding.java" bugCount="0" size="75"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentUserInfoBinding.java" bugCount="0" size="63"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentVolumeBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/FragmentWhatsNewBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/HomeContentBinding.java" bugCount="0" size="41"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ImageBinding.java" bugCount="0" size="36"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemAlbumCardBinding.java" bugCount="0" size="36"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemArtistBinding.java" bugCount="0" size="33"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemArtistCardBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemArtistSquareBinding.java" bugCount="0" size="42"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemCardBinding.java" bugCount="0" size="51"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemCardColorBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemContributorBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemContributorHeaderBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemDonationOptionBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemFavouriteCardBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemGenreBinding.java" bugCount="0" size="51"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemGridBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemGridCircleBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemGridGenreBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemImageBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemImageGradientBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemListBackupBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemListBigBinding.java" bugCount="0" size="65"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemListBinding.java" bugCount="0" size="67"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemListQuickActionsBinding.java" bugCount="0" size="33"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemPermissionBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemQueueBinding.java" bugCount="0" size="73"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemSimpleTextBinding.java" bugCount="0" size="24"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemSongBinding.java" bugCount="0" size="51"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemStorageBinding.java" bugCount="0" size="33"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ItemSuggestionsBinding.java" bugCount="0" size="135"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/LayoutNotificationCollapsedBinding.java" bugCount="0" size="91"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/LayoutNotificationExpandedBinding.java" bugCount="0" size="83"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ListItemColorViewBinding.java" bugCount="0" size="51"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ListItemViewBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ListItemViewNoCardBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ListItemViewNoTitleBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ListItemViewSeekbarBinding.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ListItemViewSwitchBinding.java" bugCount="0" size="51"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ListItemViewSwitchNoTitleBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ListSettingItemViewBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/LoadingBinding.java" bugCount="0" size="21"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/MediaButtonBinding.java" bugCount="0" size="51"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/NumberRollViewBinding.java" bugCount="0" size="36"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/PreferenceCategoryTitleBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/PreferenceDialogAudioFadeBinding.java" bugCount="0" size="33"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/PreferenceDialogLibraryCategoriesBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/PreferenceDialogLibraryCategoriesListitemBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/PreferenceDialogNowPlayingScreenBinding.java" bugCount="0" size="27"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/PreferenceNowPlayingScreenItemBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/SectionRecyclerViewBinding.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/ShadowStatusbarToolbarBinding.java" bugCount="0" size="30"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/SimpleAppbarLayoutBinding.java" bugCount="0" size="24"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/SlidingMusicPanelLayoutBinding.java" bugCount="0" size="48"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/StatusBarBinding.java" bugCount="0" size="24"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/SubHeaderBinding.java" bugCount="0" size="24"/>
+    <FileStats path="code/name/monkey/retromusic/databinding/UserImageLayoutBinding.java" bugCount="0" size="39"/>
+    <FileStats path="code/name/monkey/retromusic/db/HistoryDao_Impl.java" bugCount="0" size="263"/>
+    <FileStats path="code/name/monkey/retromusic/db/PlayCountDao_Impl.java" bugCount="0" size="245"/>
+    <FileStats path="code/name/monkey/retromusic/db/PlaylistDao_Impl.java" bugCount="0" size="787"/>
+    <FileStats path="code/name/monkey/retromusic/db/RetroDatabase_Impl.java" bugCount="0" size="195"/>
+    <FileStats path="code/name/monkey/retromusic/glide/audiocover/AudioFileCoverUtils.java" bugCount="2" size="21" bugHash="92f34218b068876ae682cd4004d8745d"/>
+    <FileStats path="code/name/monkey/retromusic/glide/palette/BitmapPaletteResource.java" bugCount="0" size="17"/>
+    <FileStats path="code/name/monkey/retromusic/glide/palette/BitmapPaletteTarget.java" bugCount="0" size="10"/>
+    <FileStats path="code/name/monkey/retromusic/glide/palette/BitmapPaletteTranscoder.java" bugCount="0" size="8"/>
+    <FileStats path="code/name/monkey/retromusic/glide/palette/BitmapPaletteWrapper.java" bugCount="0" size="12"/>
+    <FileStats path="code/name/monkey/retromusic/helper/M3UConstants.java" bugCount="0" size="5"/>
+    <FileStats path="code/name/monkey/retromusic/helper/StackBlur.java" bugCount="0" size="187"/>
+    <FileStats path="code/name/monkey/retromusic/lyrics/Lrc.java" bugCount="0" size="15"/>
+    <FileStats path="code/name/monkey/retromusic/lyrics/LrcEntry.java" bugCount="0" size="59"/>
+    <FileStats path="code/name/monkey/retromusic/lyrics/LrcUtils.java" bugCount="1" size="117" bugHash="254e13d115e2dae09ba0d2d17e3771da"/>
+    <FileStats path="code/name/monkey/retromusic/lyrics/LrcView.java" bugCount="0" size="466"/>
+    <FileStats path="code/name/monkey/retromusic/misc/CustomFragmentStatePagerAdapter.java" bugCount="0" size="110"/>
+    <FileStats path="code/name/monkey/retromusic/misc/UpdateToastMediaScannerCompletionListener.java" bugCount="0" size="33"/>
+    <FileStats path="code/name/monkey/retromusic/model/lyrics/AbsSynchronizedLyrics.java" bugCount="0" size="30"/>
+    <FileStats path="code/name/monkey/retromusic/model/lyrics/Lyrics.java" bugCount="0" size="49"/>
+    <FileStats path="code/name/monkey/retromusic/model/lyrics/SynchronizedLyricsLRC.java" bugCount="0" size="52"/>
+    <FileStats path="code/name/monkey/retromusic/network/model/LastFmAlbum.java" bugCount="0" size="95"/>
+    <FileStats path="code/name/monkey/retromusic/network/model/LastFmArtist.java" bugCount="0" size="66"/>
+    <FileStats path="code/name/monkey/retromusic/network/model/LastFmTrack.java" bugCount="0" size="103"/>
+    <FileStats path="code/name/monkey/retromusic/providers/BlacklistStore.java" bugCount="1" size="89" bugHash="a4d11751095bfa2399fb26945607a97d"/>
+    <FileStats path="code/name/monkey/retromusic/providers/HistoryStore.java" bugCount="0" size="80"/>
+    <FileStats path="code/name/monkey/retromusic/providers/MusicPlaybackQueueStore.java" bugCount="0" size="105"/>
+    <FileStats path="code/name/monkey/retromusic/providers/SongPlayCountStore.java" bugCount="0" size="161"/>
+    <FileStats path="code/name/monkey/retromusic/repository/SortedCursor.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/repository/SortedLongCursor.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/retromusic/util/ColorUtil.java" bugCount="0" size="34"/>
+    <FileStats path="code/name/monkey/retromusic/util/FileUtil.java" bugCount="3" size="178" bugHash="95a29b99c027297258b698f308a21f0d"/>
+    <FileStats path="code/name/monkey/retromusic/util/ImageUtil.java" bugCount="0" size="30"/>
+    <FileStats path="code/name/monkey/retromusic/util/RetroColorUtil.java" bugCount="1" size="137" bugHash="2e0e6bedbc91e17456edc6416ad9dcda"/>
+    <FileStats path="code/name/monkey/retromusic/util/SAFUtil.java" bugCount="3" size="169" bugHash="db919c44f31c7c2a5e9faacbb7bcff29"/>
+    <FileStats path="code/name/monkey/retromusic/util/SwipeAndDragHelper.java" bugCount="0" size="24"/>
+    <FileStats path="code/name/monkey/retromusic/util/TempUtils.java" bugCount="0" size="28"/>
+    <FileStats path="code/name/monkey/retromusic/util/color/ImageUtils.java" bugCount="0" size="68"/>
+    <FileStats path="code/name/monkey/retromusic/util/color/MediaNotificationProcessor.java" bugCount="0" size="281"/>
+    <FileStats path="code/name/monkey/retromusic/util/color/NotificationColorUtil.java" bugCount="0" size="367"/>
+    <FileStats path="code/name/monkey/retromusic/views/BaselineGridTextView.java" bugCount="0" size="108"/>
+    <FileStats path="code/name/monkey/retromusic/views/BreadCrumbLayout.java" bugCount="0" size="283"/>
+    <FileStats path="code/name/monkey/retromusic/views/DrawableGradient.java" bugCount="0" size="13"/>
+    <FileStats path="code/name/monkey/retromusic/views/PopupBackground.java" bugCount="0" size="73"/>
+    <FileStats path="code/name/monkey/retromusic/views/ScrollingViewOnApplyWindowInsetsListener.java" bugCount="0" size="28"/>
+    <PackageStats package="code.name.monkey.retromusic" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="code.name.monkey.retromusic.BuildConfig" sourceFile="BuildConfig.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.activities.saf" total_bugs="0" total_types="1" total_size="40">
+      <ClassStats class="code.name.monkey.retromusic.activities.saf.SAFGuideActivity" sourceFile="SAFGuideActivity.java" interface="false" size="40" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.adapter.base" total_bugs="0" total_types="1" total_size="45">
+      <ClassStats class="code.name.monkey.retromusic.adapter.base.MediaEntryViewHolder" sourceFile="MediaEntryViewHolder.java" interface="false" size="45" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.auto" total_bugs="0" total_types="1" total_size="46">
+      <ClassStats class="code.name.monkey.retromusic.auto.AutoMediaIDHelper" sourceFile="AutoMediaIDHelper.java" interface="false" size="46" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.databinding" total_bugs="0" total_types="155" total_size="8762">
+      <ClassStats class="code.name.monkey.retromusic.databinding.AbsPlaylistsBinding" sourceFile="AbsPlaylistsBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityAlbumTagEditorBinding" sourceFile="ActivityAlbumTagEditorBinding.java" interface="false" size="107" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityBugReportBinding" sourceFile="ActivityBugReportBinding.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityDonationBinding" sourceFile="ActivityDonationBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityDriveModeBinding" sourceFile="ActivityDriveModeBinding.java" interface="false" size="111" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityLicenseBinding" sourceFile="ActivityLicenseBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityLockScreenBinding" sourceFile="ActivityLockScreenBinding.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityPermissionBinding" sourceFile="ActivityPermissionBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityProVersionBinding" sourceFile="ActivityProVersionBinding.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityRestoreBinding" sourceFile="ActivityRestoreBinding.java" interface="false" size="75" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivityShareInstagramBinding" sourceFile="ActivityShareInstagramBinding.java" interface="false" size="78" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ActivitySongTagEditorBinding" sourceFile="ActivitySongTagEditorBinding.java" interface="false" size="179" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.AppWidgetBigBinding" sourceFile="AppWidgetBigBinding.java" interface="false" size="75" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.AppWidgetCardBinding" sourceFile="AppWidgetCardBinding.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.AppWidgetCircleBinding" sourceFile="AppWidgetCircleBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.AppWidgetClassicBinding" sourceFile="AppWidgetClassicBinding.java" interface="false" size="72" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.AppWidgetMd3Binding" sourceFile="AppWidgetMd3Binding.java" interface="false" size="72" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.AppWidgetSmallBinding" sourceFile="AppWidgetSmallBinding.java" interface="false" size="75" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.AppWidgetTextBinding" sourceFile="AppWidgetTextBinding.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.BannerImageLayoutBinding" sourceFile="BannerImageLayoutBinding.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.BreadCrumbBinding" sourceFile="BreadCrumbBinding.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.BugReportCardDeviceInfoBinding" sourceFile="BugReportCardDeviceInfoBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.CardCreditBinding" sourceFile="CardCreditBinding.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.CardOtherBinding" sourceFile="CardOtherBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.CardRetroInfoBinding" sourceFile="CardRetroInfoBinding.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.CardSocialBinding" sourceFile="CardSocialBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.CollapsingAppbarLayoutBinding" sourceFile="CollapsingAppbarLayoutBinding.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.DialogFileDetailsBinding" sourceFile="DialogFileDetailsBinding.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.DialogPlaybackSpeedBinding" sourceFile="DialogPlaybackSpeedBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.DialogPlaylistBinding" sourceFile="DialogPlaylistBinding.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.DialogSleepTimerBinding" sourceFile="DialogSleepTimerBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAboutBinding" sourceFile="FragmentAboutBinding.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAboutContentBinding" sourceFile="FragmentAboutContentBinding.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAdaptivePlayerBinding" sourceFile="FragmentAdaptivePlayerBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAdaptivePlayerPlaybackControlsBinding" sourceFile="FragmentAdaptivePlayerPlaybackControlsBinding.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAlbumCardCoverBinding" sourceFile="FragmentAlbumCardCoverBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAlbumCarouselCoverBinding" sourceFile="FragmentAlbumCarouselCoverBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAlbumCircleCoverBinding" sourceFile="FragmentAlbumCircleCoverBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAlbumContentBinding" sourceFile="FragmentAlbumContentBinding.java" interface="false" size="93" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAlbumCoverBinding" sourceFile="FragmentAlbumCoverBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAlbumDetailsBinding" sourceFile="FragmentAlbumDetailsBinding.java" interface="false" size="74" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAlbumFlatCoverBinding" sourceFile="FragmentAlbumFlatCoverBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAlbumFullCardCoverBinding" sourceFile="FragmentAlbumFullCardCoverBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentAlbumFullCoverBinding" sourceFile="FragmentAlbumFullCoverBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentArtistContentBinding" sourceFile="FragmentArtistContentBinding.java" interface="false" size="99" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentArtistDetailsBinding" sourceFile="FragmentArtistDetailsBinding.java" interface="false" size="68" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentBackupBinding" sourceFile="FragmentBackupBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentBlurBinding" sourceFile="FragmentBlurBinding.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentBlurPlayerPlaybackControlsBinding" sourceFile="FragmentBlurPlayerPlaybackControlsBinding.java" interface="false" size="93" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentCardBlurPlayerBinding" sourceFile="FragmentCardBlurPlayerBinding.java" interface="false" size="75" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentCardBlurPlayerPlaybackControlsBinding" sourceFile="FragmentCardBlurPlayerPlaybackControlsBinding.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentCardPlayerBinding" sourceFile="FragmentCardPlayerBinding.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentCardPlayerPlaybackControlsBinding" sourceFile="FragmentCardPlayerPlaybackControlsBinding.java" interface="false" size="76" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentCirclePlayerBinding" sourceFile="FragmentCirclePlayerBinding.java" interface="false" size="115" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentClassicControlsBinding" sourceFile="FragmentClassicControlsBinding.java" interface="false" size="87" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentClassicPlayerBinding" sourceFile="FragmentClassicPlayerBinding.java" interface="false" size="88" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentColorPlayerBinding" sourceFile="FragmentColorPlayerBinding.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentColorPlayerPlaybackControlsBinding" sourceFile="FragmentColorPlayerPlaybackControlsBinding.java" interface="false" size="99" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentCoverLyricsBinding" sourceFile="FragmentCoverLyricsBinding.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentFitBinding" sourceFile="FragmentFitBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentFitPlaybackControlsBinding" sourceFile="FragmentFitPlaybackControlsBinding.java" interface="false" size="105" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentFlatPlayerBinding" sourceFile="FragmentFlatPlayerBinding.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentFlatPlayerPlaybackControlsBinding" sourceFile="FragmentFlatPlayerPlaybackControlsBinding.java" interface="false" size="93" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentFolderBinding" sourceFile="FragmentFolderBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentFullBinding" sourceFile="FragmentFullBinding.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentFullPlayerControlsBinding" sourceFile="FragmentFullPlayerControlsBinding.java" interface="false" size="111" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentGradientControlsBinding" sourceFile="FragmentGradientControlsBinding.java" interface="false" size="99" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentGradientPlayerBinding" sourceFile="FragmentGradientPlayerBinding.java" interface="false" size="101" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentHomeBinding" sourceFile="FragmentHomeBinding.java" interface="false" size="52" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentHomePlayerBinding" sourceFile="FragmentHomePlayerBinding.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentLibraryBinding" sourceFile="FragmentLibraryBinding.java" interface="false" size="54" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentLockScreenPlaybackControlsBinding" sourceFile="FragmentLockScreenPlaybackControlsBinding.java" interface="false" size="93" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentLyricsBinding" sourceFile="FragmentLyricsBinding.java" interface="false" size="60" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentMainRecyclerBinding" sourceFile="FragmentMainRecyclerBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentMainSettingsBinding" sourceFile="FragmentMainSettingsBinding.java" interface="false" size="120" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentMaterialBinding" sourceFile="FragmentMaterialBinding.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentMaterialPlaybackControlsBinding" sourceFile="FragmentMaterialPlaybackControlsBinding.java" interface="false" size="93" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentMd3PlayerBinding" sourceFile="FragmentMd3PlayerBinding.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentMd3PlayerPlaybackControlsBinding" sourceFile="FragmentMd3PlayerPlaybackControlsBinding.java" interface="false" size="105" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentMiniPlayerBinding" sourceFile="FragmentMiniPlayerBinding.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPeekAlbumCoverBinding" sourceFile="FragmentPeekAlbumCoverBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPeekControlPlayerBinding" sourceFile="FragmentPeekControlPlayerBinding.java" interface="false" size="75" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPeekPlayerBinding" sourceFile="FragmentPeekPlayerBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPlainControlsFragmentBinding" sourceFile="FragmentPlainControlsFragmentBinding.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPlainPlayerBinding" sourceFile="FragmentPlainPlayerBinding.java" interface="false" size="53" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPlayerAlbumCoverBinding" sourceFile="FragmentPlayerAlbumCoverBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPlayerBinding" sourceFile="FragmentPlayerBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPlayerPlaybackControlsBinding" sourceFile="FragmentPlayerPlaybackControlsBinding.java" interface="false" size="93" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPlayingQueueBinding" sourceFile="FragmentPlayingQueueBinding.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPlaylistDetailBinding" sourceFile="FragmentPlaylistDetailBinding.java" interface="false" size="66" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentPlaylistDetailNewBinding" sourceFile="FragmentPlaylistDetailNewBinding.java" interface="false" size="102" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentSearchBinding" sourceFile="FragmentSearchBinding.java" interface="false" size="111" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentSettingsBinding" sourceFile="FragmentSettingsBinding.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentSimpleControlsFragmentBinding" sourceFile="FragmentSimpleControlsFragmentBinding.java" interface="false" size="81" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentSimplePlayerBinding" sourceFile="FragmentSimplePlayerBinding.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentSimpleSlideLargeImageBinding" sourceFile="FragmentSimpleSlideLargeImageBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentTinyControlsFragmentBinding" sourceFile="FragmentTinyControlsFragmentBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentTinyPlayerBinding" sourceFile="FragmentTinyPlayerBinding.java" interface="false" size="75" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentUserInfoBinding" sourceFile="FragmentUserInfoBinding.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentVolumeBinding" sourceFile="FragmentVolumeBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.FragmentWhatsNewBinding" sourceFile="FragmentWhatsNewBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.HomeContentBinding" sourceFile="HomeContentBinding.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ImageBinding" sourceFile="ImageBinding.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemAlbumCardBinding" sourceFile="ItemAlbumCardBinding.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemArtistBinding" sourceFile="ItemArtistBinding.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemArtistCardBinding" sourceFile="ItemArtistCardBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemArtistSquareBinding" sourceFile="ItemArtistSquareBinding.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemCardBinding" sourceFile="ItemCardBinding.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemCardColorBinding" sourceFile="ItemCardColorBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemContributorBinding" sourceFile="ItemContributorBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemContributorHeaderBinding" sourceFile="ItemContributorHeaderBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemDonationOptionBinding" sourceFile="ItemDonationOptionBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemFavouriteCardBinding" sourceFile="ItemFavouriteCardBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemGenreBinding" sourceFile="ItemGenreBinding.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemGridBinding" sourceFile="ItemGridBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemGridCircleBinding" sourceFile="ItemGridCircleBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemGridGenreBinding" sourceFile="ItemGridGenreBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemImageBinding" sourceFile="ItemImageBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemImageGradientBinding" sourceFile="ItemImageGradientBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemListBackupBinding" sourceFile="ItemListBackupBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemListBigBinding" sourceFile="ItemListBigBinding.java" interface="false" size="65" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemListBinding" sourceFile="ItemListBinding.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemListQuickActionsBinding" sourceFile="ItemListQuickActionsBinding.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemPermissionBinding" sourceFile="ItemPermissionBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemQueueBinding" sourceFile="ItemQueueBinding.java" interface="false" size="73" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemSimpleTextBinding" sourceFile="ItemSimpleTextBinding.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemSongBinding" sourceFile="ItemSongBinding.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemStorageBinding" sourceFile="ItemStorageBinding.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ItemSuggestionsBinding" sourceFile="ItemSuggestionsBinding.java" interface="false" size="135" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.LayoutNotificationCollapsedBinding" sourceFile="LayoutNotificationCollapsedBinding.java" interface="false" size="91" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.LayoutNotificationExpandedBinding" sourceFile="LayoutNotificationExpandedBinding.java" interface="false" size="83" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ListItemColorViewBinding" sourceFile="ListItemColorViewBinding.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ListItemViewBinding" sourceFile="ListItemViewBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ListItemViewNoCardBinding" sourceFile="ListItemViewNoCardBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ListItemViewNoTitleBinding" sourceFile="ListItemViewNoTitleBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ListItemViewSeekbarBinding" sourceFile="ListItemViewSeekbarBinding.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ListItemViewSwitchBinding" sourceFile="ListItemViewSwitchBinding.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ListItemViewSwitchNoTitleBinding" sourceFile="ListItemViewSwitchNoTitleBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ListSettingItemViewBinding" sourceFile="ListSettingItemViewBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.LoadingBinding" sourceFile="LoadingBinding.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.MediaButtonBinding" sourceFile="MediaButtonBinding.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.NumberRollViewBinding" sourceFile="NumberRollViewBinding.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.PreferenceCategoryTitleBinding" sourceFile="PreferenceCategoryTitleBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.PreferenceDialogAudioFadeBinding" sourceFile="PreferenceDialogAudioFadeBinding.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.PreferenceDialogLibraryCategoriesBinding" sourceFile="PreferenceDialogLibraryCategoriesBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.PreferenceDialogLibraryCategoriesListitemBinding" sourceFile="PreferenceDialogLibraryCategoriesListitemBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.PreferenceDialogNowPlayingScreenBinding" sourceFile="PreferenceDialogNowPlayingScreenBinding.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.PreferenceNowPlayingScreenItemBinding" sourceFile="PreferenceNowPlayingScreenItemBinding.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.SectionRecyclerViewBinding" sourceFile="SectionRecyclerViewBinding.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.ShadowStatusbarToolbarBinding" sourceFile="ShadowStatusbarToolbarBinding.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.SimpleAppbarLayoutBinding" sourceFile="SimpleAppbarLayoutBinding.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.SlidingMusicPanelLayoutBinding" sourceFile="SlidingMusicPanelLayoutBinding.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.StatusBarBinding" sourceFile="StatusBarBinding.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.SubHeaderBinding" sourceFile="SubHeaderBinding.java" interface="false" size="24" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.databinding.UserImageLayoutBinding" sourceFile="UserImageLayoutBinding.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.db" total_bugs="0" total_types="38" total_size="1490">
+      <ClassStats class="code.name.monkey.retromusic.db.HistoryDao_Impl" sourceFile="HistoryDao_Impl.java" interface="false" size="92" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.HistoryDao_Impl$1" sourceFile="HistoryDao_Impl.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.HistoryDao_Impl$2" sourceFile="HistoryDao_Impl.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.HistoryDao_Impl$3" sourceFile="HistoryDao_Impl.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.HistoryDao_Impl$4" sourceFile="HistoryDao_Impl.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.HistoryDao_Impl$5" sourceFile="HistoryDao_Impl.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.HistoryDao_Impl$6" sourceFile="HistoryDao_Impl.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.HistoryDao_Impl$7" sourceFile="HistoryDao_Impl.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlayCountDao_Impl" sourceFile="PlayCountDao_Impl.java" interface="false" size="155" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlayCountDao_Impl$1" sourceFile="PlayCountDao_Impl.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlayCountDao_Impl$2" sourceFile="PlayCountDao_Impl.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlayCountDao_Impl$3" sourceFile="PlayCountDao_Impl.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlayCountDao_Impl$4" sourceFile="PlayCountDao_Impl.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl" sourceFile="PlaylistDao_Impl.java" interface="false" size="263" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$1" sourceFile="PlaylistDao_Impl.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$10" sourceFile="PlaylistDao_Impl.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$11" sourceFile="PlaylistDao_Impl.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$12" sourceFile="PlaylistDao_Impl.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$13" sourceFile="PlaylistDao_Impl.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$14" sourceFile="PlaylistDao_Impl.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$15" sourceFile="PlaylistDao_Impl.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$16" sourceFile="PlaylistDao_Impl.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$17" sourceFile="PlaylistDao_Impl.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$18" sourceFile="PlaylistDao_Impl.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$19" sourceFile="PlaylistDao_Impl.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$2" sourceFile="PlaylistDao_Impl.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$20" sourceFile="PlaylistDao_Impl.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$21" sourceFile="PlaylistDao_Impl.java" interface="false" size="61" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$22" sourceFile="PlaylistDao_Impl.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$3" sourceFile="PlaylistDao_Impl.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$4" sourceFile="PlaylistDao_Impl.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$5" sourceFile="PlaylistDao_Impl.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$6" sourceFile="PlaylistDao_Impl.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$7" sourceFile="PlaylistDao_Impl.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$8" sourceFile="PlaylistDao_Impl.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.PlaylistDao_Impl$9" sourceFile="PlaylistDao_Impl.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.RetroDatabase_Impl" sourceFile="RetroDatabase_Impl.java" interface="false" size="79" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.db.RetroDatabase_Impl$1" sourceFile="RetroDatabase_Impl.java" interface="false" size="116" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.glide.audiocover" total_bugs="2" total_types="1" total_size="21" priority_2="2">
+      <ClassStats class="code.name.monkey.retromusic.glide.audiocover.AudioFileCoverUtils" sourceFile="AudioFileCoverUtils.java" interface="false" size="21" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.glide.palette" total_bugs="0" total_types="4" total_size="47">
+      <ClassStats class="code.name.monkey.retromusic.glide.palette.BitmapPaletteResource" sourceFile="BitmapPaletteResource.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.glide.palette.BitmapPaletteTarget" sourceFile="BitmapPaletteTarget.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.glide.palette.BitmapPaletteTranscoder" sourceFile="BitmapPaletteTranscoder.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.glide.palette.BitmapPaletteWrapper" sourceFile="BitmapPaletteWrapper.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.helper" total_bugs="0" total_types="3" total_size="192">
+      <ClassStats class="code.name.monkey.retromusic.helper.M3UConstants" sourceFile="M3UConstants.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.helper.StackBlur" sourceFile="StackBlur.java" interface="false" size="164" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.helper.StackBlur$BlurTask" sourceFile="StackBlur.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.lyrics" total_bugs="1" total_types="9" total_size="657" priority_2="1">
+      <ClassStats class="code.name.monkey.retromusic.lyrics.Lrc" sourceFile="Lrc.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.lyrics.LrcEntry" sourceFile="LrcEntry.java" interface="false" size="59" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.lyrics.LrcUtils" sourceFile="LrcUtils.java" interface="false" size="117" bugs="1" priority_2="1"/>
+      <ClassStats class="code.name.monkey.retromusic.lyrics.LrcView" sourceFile="LrcView.java" interface="false" size="383" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.lyrics.LrcView$1" sourceFile="LrcView.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.lyrics.LrcView$2" sourceFile="LrcView.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.lyrics.LrcView$3" sourceFile="LrcView.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.lyrics.LrcView$4" sourceFile="LrcView.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.lyrics.LrcView$OnPlayClickListener" sourceFile="LrcView.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.misc" total_bugs="0" total_types="2" total_size="143">
+      <ClassStats class="code.name.monkey.retromusic.misc.CustomFragmentStatePagerAdapter" sourceFile="CustomFragmentStatePagerAdapter.java" interface="false" size="110" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.misc.UpdateToastMediaScannerCompletionListener" sourceFile="UpdateToastMediaScannerCompletionListener.java" interface="false" size="33" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.model.lyrics" total_bugs="0" total_types="3" total_size="131">
+      <ClassStats class="code.name.monkey.retromusic.model.lyrics.AbsSynchronizedLyrics" sourceFile="AbsSynchronizedLyrics.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.model.lyrics.Lyrics" sourceFile="Lyrics.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.model.lyrics.SynchronizedLyricsLRC" sourceFile="SynchronizedLyricsLRC.java" interface="false" size="52" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.network.model" total_bugs="0" total_types="20" total_size="264">
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmAlbum" sourceFile="LastFmAlbum.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmAlbum$Album" sourceFile="LastFmAlbum.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmAlbum$Album$Image" sourceFile="LastFmAlbum.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmAlbum$Album$Tag" sourceFile="LastFmAlbum.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmAlbum$Album$Tags" sourceFile="LastFmAlbum.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmAlbum$Album$Wiki" sourceFile="LastFmAlbum.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmArtist" sourceFile="LastFmArtist.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmArtist$Artist" sourceFile="LastFmArtist.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmArtist$Artist$Bio" sourceFile="LastFmArtist.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmArtist$Artist$Image" sourceFile="LastFmArtist.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmArtist$Artist$Stats" sourceFile="LastFmArtist.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmTrack" sourceFile="LastFmTrack.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmTrack$Track" sourceFile="LastFmTrack.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmTrack$Track$Album" sourceFile="LastFmTrack.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmTrack$Track$Album$Attr" sourceFile="LastFmTrack.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmTrack$Track$Album$Image" sourceFile="LastFmTrack.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmTrack$Track$Artist" sourceFile="LastFmTrack.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmTrack$Track$Toptags" sourceFile="LastFmTrack.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmTrack$Track$Toptags$Tag" sourceFile="LastFmTrack.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.network.model.LastFmTrack$Track$Wiki" sourceFile="LastFmTrack.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.providers" total_bugs="1" total_types="7" total_size="435" priority_2="1">
+      <ClassStats class="code.name.monkey.retromusic.providers.BlacklistStore" sourceFile="BlacklistStore.java" interface="false" size="86" bugs="1" priority_2="1"/>
+      <ClassStats class="code.name.monkey.retromusic.providers.BlacklistStore$BlacklistStoreColumns" sourceFile="BlacklistStore.java" interface="true" size="3" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.providers.HistoryStore" sourceFile="HistoryStore.java" interface="false" size="76" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.providers.HistoryStore$RecentStoreColumns" sourceFile="HistoryStore.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.providers.MusicPlaybackQueueStore" sourceFile="MusicPlaybackQueueStore.java" interface="false" size="105" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.providers.SongPlayCountStore" sourceFile="SongPlayCountStore.java" interface="false" size="155" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.providers.SongPlayCountStore$SongPlayCountColumns" sourceFile="SongPlayCountStore.java" interface="true" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.repository" total_bugs="0" total_types="2" total_size="114">
+      <ClassStats class="code.name.monkey.retromusic.repository.SortedCursor" sourceFile="SortedCursor.java" interface="false" size="57" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.repository.SortedLongCursor" sourceFile="SortedLongCursor.java" interface="false" size="57" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.util" total_bugs="7" total_types="10" total_size="600" priority_2="4" priority_1="3">
+      <ClassStats class="code.name.monkey.retromusic.util.ColorUtil" sourceFile="ColorUtil.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.ColorUtil$SwatchComparator" sourceFile="ColorUtil.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.FileUtil" sourceFile="FileUtil.java" interface="false" size="178" bugs="3" priority_1="3"/>
+      <ClassStats class="code.name.monkey.retromusic.util.ImageUtil" sourceFile="ImageUtil.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.RetroColorUtil" sourceFile="RetroColorUtil.java" interface="false" size="126" bugs="1" priority_2="1"/>
+      <ClassStats class="code.name.monkey.retromusic.util.RetroColorUtil$SwatchComparator" sourceFile="RetroColorUtil.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.SAFUtil" sourceFile="SAFUtil.java" interface="false" size="169" bugs="3" priority_2="3"/>
+      <ClassStats class="code.name.monkey.retromusic.util.SwipeAndDragHelper" sourceFile="SwipeAndDragHelper.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.SwipeAndDragHelper$ActionCompletionContract" sourceFile="SwipeAndDragHelper.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.TempUtils" sourceFile="TempUtils.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.util.color" total_bugs="0" total_types="5" total_size="716">
+      <ClassStats class="code.name.monkey.retromusic.util.color.ImageUtils" sourceFile="ImageUtils.java" interface="false" size="68" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.color.MediaNotificationProcessor" sourceFile="MediaNotificationProcessor.java" interface="false" size="279" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.color.MediaNotificationProcessor$OnPaletteLoadedListener" sourceFile="MediaNotificationProcessor.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.color.NotificationColorUtil" sourceFile="NotificationColorUtil.java" interface="false" size="189" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.util.color.NotificationColorUtil$ColorUtilsFromCompat" sourceFile="NotificationColorUtil.java" interface="false" size="178" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.retromusic.views" total_bugs="0" total_types="10" total_size="505">
+      <ClassStats class="code.name.monkey.retromusic.views.BaselineGridTextView" sourceFile="BaselineGridTextView.java" interface="false" size="108" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.views.BreadCrumbLayout" sourceFile="BreadCrumbLayout.java" interface="false" size="201" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.views.BreadCrumbLayout$Crumb" sourceFile="BreadCrumbLayout.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.views.BreadCrumbLayout$Crumb$1" sourceFile="BreadCrumbLayout.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.views.BreadCrumbLayout$SavedStateWrapper" sourceFile="BreadCrumbLayout.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.views.BreadCrumbLayout$SavedStateWrapper$1" sourceFile="BreadCrumbLayout.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.views.BreadCrumbLayout$SelectionCallback" sourceFile="BreadCrumbLayout.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.views.DrawableGradient" sourceFile="DrawableGradient.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.views.PopupBackground" sourceFile="PopupBackground.java" interface="false" size="73" bugs="0"/>
+      <ClassStats class="code.name.monkey.retromusic.views.ScrollingViewOnApplyWindowInsetsListener" sourceFile="ScrollingViewOnApplyWindowInsetsListener.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="1007" invocations="2" avgMicrosecondsPerInvocation="503746" maxMicrosecondsPerInvocation="721296" standardDeviationMicrosecondsPerInvocation="217549"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="644" invocations="1528" avgMicrosecondsPerInvocation="421" maxMicrosecondsPerInvocation="88331" standardDeviationMicrosecondsPerInvocation="2530"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="338" invocations="1713" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="16260" standardDeviationMicrosecondsPerInvocation="703"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="312" invocations="1425" avgMicrosecondsPerInvocation="219" maxMicrosecondsPerInvocation="19315" standardDeviationMicrosecondsPerInvocation="682"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="250" invocations="1713" avgMicrosecondsPerInvocation="146" maxMicrosecondsPerInvocation="15928" standardDeviationMicrosecondsPerInvocation="496"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="216" invocations="1547" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="5179" standardDeviationMicrosecondsPerInvocation="295"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="202" invocations="1442" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="1923" standardDeviationMicrosecondsPerInvocation="84"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="169" invocations="1716" avgMicrosecondsPerInvocation="98" maxMicrosecondsPerInvocation="5332" standardDeviationMicrosecondsPerInvocation="234"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="165" invocations="1721" avgMicrosecondsPerInvocation="96" maxMicrosecondsPerInvocation="6722" standardDeviationMicrosecondsPerInvocation="305"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="152" invocations="362" avgMicrosecondsPerInvocation="421" maxMicrosecondsPerInvocation="6171" standardDeviationMicrosecondsPerInvocation="884"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="135" invocations="1719" avgMicrosecondsPerInvocation="78" maxMicrosecondsPerInvocation="9150" standardDeviationMicrosecondsPerInvocation="239"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="129" invocations="362" avgMicrosecondsPerInvocation="356" maxMicrosecondsPerInvocation="5539" standardDeviationMicrosecondsPerInvocation="598"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="125" invocations="2146" avgMicrosecondsPerInvocation="58" maxMicrosecondsPerInvocation="2137" standardDeviationMicrosecondsPerInvocation="120"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="124" invocations="1377" avgMicrosecondsPerInvocation="90" maxMicrosecondsPerInvocation="1848" standardDeviationMicrosecondsPerInvocation="169"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.extra.JstlExpressionWhiteLister" totalMilliseconds="96" invocations="273" avgMicrosecondsPerInvocation="353" maxMicrosecondsPerInvocation="45920" standardDeviationMicrosecondsPerInvocation="2772"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="93" invocations="273" avgMicrosecondsPerInvocation="342" maxMicrosecondsPerInvocation="2924" standardDeviationMicrosecondsPerInvocation="460"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="75" invocations="362" avgMicrosecondsPerInvocation="209" maxMicrosecondsPerInvocation="3159" standardDeviationMicrosecondsPerInvocation="306"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="75" invocations="362" avgMicrosecondsPerInvocation="209" maxMicrosecondsPerInvocation="17913" standardDeviationMicrosecondsPerInvocation="1261"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="73" invocations="273" avgMicrosecondsPerInvocation="269" maxMicrosecondsPerInvocation="3535" standardDeviationMicrosecondsPerInvocation="319"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="69" invocations="1719" avgMicrosecondsPerInvocation="40" maxMicrosecondsPerInvocation="17318" standardDeviationMicrosecondsPerInvocation="433"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.PathTraversalDetector" totalMilliseconds="69" invocations="273" avgMicrosecondsPerInvocation="252" maxMicrosecondsPerInvocation="2125" standardDeviationMicrosecondsPerInvocation="283"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="64" invocations="1528" avgMicrosecondsPerInvocation="42" maxMicrosecondsPerInvocation="1511" standardDeviationMicrosecondsPerInvocation="77"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="64" invocations="362" avgMicrosecondsPerInvocation="177" maxMicrosecondsPerInvocation="2735" standardDeviationMicrosecondsPerInvocation="292"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="62" invocations="1713" avgMicrosecondsPerInvocation="36" maxMicrosecondsPerInvocation="1922" standardDeviationMicrosecondsPerInvocation="82"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetector" totalMilliseconds="61" invocations="273" avgMicrosecondsPerInvocation="226" maxMicrosecondsPerInvocation="1857" standardDeviationMicrosecondsPerInvocation="242"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.serial.ObjectDeserializationDetector" totalMilliseconds="59" invocations="273" avgMicrosecondsPerInvocation="218" maxMicrosecondsPerInvocation="2209" standardDeviationMicrosecondsPerInvocation="234"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="59" invocations="273" avgMicrosecondsPerInvocation="217" maxMicrosecondsPerInvocation="1284" standardDeviationMicrosecondsPerInvocation="187"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xpath.XPathInjectionDetector" totalMilliseconds="58" invocations="273" avgMicrosecondsPerInvocation="214" maxMicrosecondsPerInvocation="1877" standardDeviationMicrosecondsPerInvocation="250"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetector" totalMilliseconds="56" invocations="273" avgMicrosecondsPerInvocation="206" maxMicrosecondsPerInvocation="1937" standardDeviationMicrosecondsPerInvocation="252"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="55" invocations="273" avgMicrosecondsPerInvocation="203" maxMicrosecondsPerInvocation="1275" standardDeviationMicrosecondsPerInvocation="204"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.ScriptInjectionDetector" totalMilliseconds="55" invocations="273" avgMicrosecondsPerInvocation="203" maxMicrosecondsPerInvocation="1857" standardDeviationMicrosecondsPerInvocation="250"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.redirect.UnvalidatedRedirectDetector" totalMilliseconds="55" invocations="273" avgMicrosecondsPerInvocation="203" maxMicrosecondsPerInvocation="1871" standardDeviationMicrosecondsPerInvocation="258"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationAttributeDetector" totalMilliseconds="54" invocations="273" avgMicrosecondsPerInvocation="199" maxMicrosecondsPerInvocation="1902" standardDeviationMicrosecondsPerInvocation="243"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.HttpResponseSplittingDetector" totalMilliseconds="54" invocations="273" avgMicrosecondsPerInvocation="199" maxMicrosecondsPerInvocation="1810" standardDeviationMicrosecondsPerInvocation="248"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.ldap.LdapInjectionDetector" totalMilliseconds="54" invocations="273" avgMicrosecondsPerInvocation="199" maxMicrosecondsPerInvocation="1742" standardDeviationMicrosecondsPerInvocation="241"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetector" totalMilliseconds="54" invocations="273" avgMicrosecondsPerInvocation="199" maxMicrosecondsPerInvocation="1837" standardDeviationMicrosecondsPerInvocation="244"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.extra.PotentialValueTracker" totalMilliseconds="54" invocations="273" avgMicrosecondsPerInvocation="198" maxMicrosecondsPerInvocation="1823" standardDeviationMicrosecondsPerInvocation="242"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetector" totalMilliseconds="53" invocations="273" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="1992" standardDeviationMicrosecondsPerInvocation="267"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.aws.AwsQueryInjectionDetector" totalMilliseconds="53" invocations="273" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="1796" standardDeviationMicrosecondsPerInvocation="245"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xml.StdXmlTransformDetector" totalMilliseconds="53" invocations="273" avgMicrosecondsPerInvocation="197" maxMicrosecondsPerInvocation="1845" standardDeviationMicrosecondsPerInvocation="242"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.custom.CustomInjectionDetector" totalMilliseconds="53" invocations="273" avgMicrosecondsPerInvocation="195" maxMicrosecondsPerInvocation="1808" standardDeviationMicrosecondsPerInvocation="237"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.http.HttpParameterPollutionDetector" totalMilliseconds="52" invocations="273" avgMicrosecondsPerInvocation="193" maxMicrosecondsPerInvocation="1869" standardDeviationMicrosecondsPerInvocation="253"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.sql.AndroidSqlInjectionDetector" totalMilliseconds="52" invocations="273" avgMicrosecondsPerInvocation="192" maxMicrosecondsPerInvocation="1792" standardDeviationMicrosecondsPerInvocation="241"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.crlf.CrlfLogInjectionDetector" totalMilliseconds="52" invocations="273" avgMicrosecondsPerInvocation="190" maxMicrosecondsPerInvocation="1793" standardDeviationMicrosecondsPerInvocation="242"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.sql.SqlInjectionDetector" totalMilliseconds="51" invocations="273" avgMicrosecondsPerInvocation="190" maxMicrosecondsPerInvocation="1789" standardDeviationMicrosecondsPerInvocation="232"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.smtp.SmtpHeaderInjectionDetector" totalMilliseconds="51" invocations="273" avgMicrosecondsPerInvocation="189" maxMicrosecondsPerInvocation="1686" standardDeviationMicrosecondsPerInvocation="242"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.ssrf.SSRFDetector" totalMilliseconds="51" invocations="273" avgMicrosecondsPerInvocation="189" maxMicrosecondsPerInvocation="1785" standardDeviationMicrosecondsPerInvocation="235"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationValueDetector" totalMilliseconds="51" invocations="273" avgMicrosecondsPerInvocation="188" maxMicrosecondsPerInvocation="1800" standardDeviationMicrosecondsPerInvocation="235"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.ExternalConfigurationControlDetector" totalMilliseconds="51" invocations="273" avgMicrosecondsPerInvocation="188" maxMicrosecondsPerInvocation="1771" standardDeviationMicrosecondsPerInvocation="240"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.fileDisclosure.FileDisclosureDetector" totalMilliseconds="51" invocations="273" avgMicrosecondsPerInvocation="187" maxMicrosecondsPerInvocation="1708" standardDeviationMicrosecondsPerInvocation="232"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetector" totalMilliseconds="50" invocations="273" avgMicrosecondsPerInvocation="186" maxMicrosecondsPerInvocation="1714" standardDeviationMicrosecondsPerInvocation="231"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.scala.XssMvcApiDetector" totalMilliseconds="50" invocations="273" avgMicrosecondsPerInvocation="186" maxMicrosecondsPerInvocation="1745" standardDeviationMicrosecondsPerInvocation="232"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.scala.XssTwirlDetector" totalMilliseconds="50" invocations="273" avgMicrosecondsPerInvocation="184" maxMicrosecondsPerInvocation="1729" standardDeviationMicrosecondsPerInvocation="232"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="50" invocations="38802" avgMicrosecondsPerInvocation="1" maxMicrosecondsPerInvocation="781" standardDeviationMicrosecondsPerInvocation="6"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="49" invocations="273" avgMicrosecondsPerInvocation="182" maxMicrosecondsPerInvocation="1359" standardDeviationMicrosecondsPerInvocation="201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="49" invocations="671" avgMicrosecondsPerInvocation="74" maxMicrosecondsPerInvocation="8749" standardDeviationMicrosecondsPerInvocation="355"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="49" invocations="273" avgMicrosecondsPerInvocation="181" maxMicrosecondsPerInvocation="9592" standardDeviationMicrosecondsPerInvocation="884"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="47" invocations="362" avgMicrosecondsPerInvocation="131" maxMicrosecondsPerInvocation="4224" standardDeviationMicrosecondsPerInvocation="282"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="44" invocations="273" avgMicrosecondsPerInvocation="161" maxMicrosecondsPerInvocation="1269" standardDeviationMicrosecondsPerInvocation="163"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="43" invocations="273" avgMicrosecondsPerInvocation="160" maxMicrosecondsPerInvocation="11107" standardDeviationMicrosecondsPerInvocation="673"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="43" invocations="273" avgMicrosecondsPerInvocation="157" maxMicrosecondsPerInvocation="9200" standardDeviationMicrosecondsPerInvocation="571"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="42" invocations="64695" avgMicrosecondsPerInvocation="0" maxMicrosecondsPerInvocation="27" standardDeviationMicrosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="39" invocations="273" avgMicrosecondsPerInvocation="145" maxMicrosecondsPerInvocation="11152" standardDeviationMicrosecondsPerInvocation="673"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.ConstantPasswordDetector" totalMilliseconds="39" invocations="273" avgMicrosecondsPerInvocation="145" maxMicrosecondsPerInvocation="1510" standardDeviationMicrosecondsPerInvocation="169"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.crypto.cipher.DesUsageDetector" totalMilliseconds="37" invocations="273" avgMicrosecondsPerInvocation="136" maxMicrosecondsPerInvocation="1111" standardDeviationMicrosecondsPerInvocation="153"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="35" invocations="273" avgMicrosecondsPerInvocation="131" maxMicrosecondsPerInvocation="1226" standardDeviationMicrosecondsPerInvocation="173"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.HardcodePasswordInMapDetector" totalMilliseconds="35" invocations="273" avgMicrosecondsPerInvocation="129" maxMicrosecondsPerInvocation="1165" standardDeviationMicrosecondsPerInvocation="149"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="34" invocations="273" avgMicrosecondsPerInvocation="127" maxMicrosecondsPerInvocation="2646" standardDeviationMicrosecondsPerInvocation="207"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.PermissiveCORSDetector" totalMilliseconds="34" invocations="273" avgMicrosecondsPerInvocation="125" maxMicrosecondsPerInvocation="1087" standardDeviationMicrosecondsPerInvocation="143"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.SuspiciousCommandDetector" totalMilliseconds="34" invocations="273" avgMicrosecondsPerInvocation="125" maxMicrosecondsPerInvocation="1015" standardDeviationMicrosecondsPerInvocation="140"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.kotlin.KotlinHardcodePasswordInMapDetector" totalMilliseconds="33" invocations="273" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="1044" standardDeviationMicrosecondsPerInvocation="140"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.crypto.cipher.TDesUsageDetector" totalMilliseconds="33" invocations="273" avgMicrosecondsPerInvocation="122" maxMicrosecondsPerInvocation="1108" standardDeviationMicrosecondsPerInvocation="144"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="33" invocations="273" avgMicrosecondsPerInvocation="122" maxMicrosecondsPerInvocation="4651" standardDeviationMicrosecondsPerInvocation="306"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.crypto.cipher.RsaNoPaddingDetector" totalMilliseconds="33" invocations="273" avgMicrosecondsPerInvocation="121" maxMicrosecondsPerInvocation="1085" standardDeviationMicrosecondsPerInvocation="144"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.WeakFilenameUtilsMethodDetector" totalMilliseconds="32" invocations="273" avgMicrosecondsPerInvocation="120" maxMicrosecondsPerInvocation="768" standardDeviationMicrosecondsPerInvocation="113"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.PredictableRandomDetector" totalMilliseconds="32" invocations="273" avgMicrosecondsPerInvocation="119" maxMicrosecondsPerInvocation="1249" standardDeviationMicrosecondsPerInvocation="131"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.HashUnsafeEqualsDetector" totalMilliseconds="32" invocations="273" avgMicrosecondsPerInvocation="119" maxMicrosecondsPerInvocation="1048" standardDeviationMicrosecondsPerInvocation="141"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="32" invocations="362" avgMicrosecondsPerInvocation="89" maxMicrosecondsPerInvocation="3309" standardDeviationMicrosecondsPerInvocation="241"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="32" invocations="1469" avgMicrosecondsPerInvocation="22" maxMicrosecondsPerInvocation="708" standardDeviationMicrosecondsPerInvocation="42"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.kotlin.KotlinHardcodedPasswordEqualsDetector" totalMilliseconds="32" invocations="273" avgMicrosecondsPerInvocation="117" maxMicrosecondsPerInvocation="1027" standardDeviationMicrosecondsPerInvocation="143"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.JschPasswordDetector" totalMilliseconds="31" invocations="273" avgMicrosecondsPerInvocation="117" maxMicrosecondsPerInvocation="945" standardDeviationMicrosecondsPerInvocation="137"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.HardcodedPasswordEqualsDetector" totalMilliseconds="31" invocations="273" avgMicrosecondsPerInvocation="116" maxMicrosecondsPerInvocation="1050" standardDeviationMicrosecondsPerInvocation="136"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetector" totalMilliseconds="31" invocations="273" avgMicrosecondsPerInvocation="116" maxMicrosecondsPerInvocation="1054" standardDeviationMicrosecondsPerInvocation="135"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="30" invocations="273" avgMicrosecondsPerInvocation="112" maxMicrosecondsPerInvocation="1283" standardDeviationMicrosecondsPerInvocation="127"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

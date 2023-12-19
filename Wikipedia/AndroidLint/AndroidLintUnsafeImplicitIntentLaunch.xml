@@ -1,0 +1,114 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/alphaupdater/AlphaUpdateChecker.kt</file>
+  <line>47</line>
+  <module>apps-android-wikipedia-r-2.7.50452-r-2023-09-06.app.main</module>
+  <package>org.wikipedia.alphaupdater</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/alphaupdater/AlphaUpdateChecker.kt" />
+  <problem_class id="AndroidLintUnsafeImplicitIntentLaunch" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Implicit intent matches an internal non-exported component</problem_class>
+  <hints />
+  <description>&lt;html&gt;This intent matches an internal non-exported component.&lt;br/&gt;
+If you are trying to invoke the component matching the action &lt;code&gt;android.intent.action.VIEW&lt;/code&gt;,&lt;br/&gt;
+then you should use an explicit intent.&lt;/html&gt;</description>
+  <highlighted_element>Intent(Intent.ACTION_VIEW, Uri.parse(ALPHA_BUILD_APK_URL))</highlighted_element>
+  <language>kotlin</language>
+  <offset>21</offset>
+  <length>58</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/main/MainActivity.kt</file>
+  <line>135</line>
+  <module>apps-android-wikipedia-r-2.7.50452-r-2023-09-06.app.main</module>
+  <package>org.wikipedia.main</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/main/MainActivity.kt" />
+  <problem_class id="AndroidLintUnsafeImplicitIntentLaunch" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Implicit intent matches an internal non-exported component</problem_class>
+  <hints />
+  <description>&lt;html&gt;This intent matches an internal non-exported component.&lt;br/&gt;
+If you are trying to invoke the component matching the action &lt;code&gt;android.intent.action.VIEW&lt;/code&gt;,&lt;br/&gt;
+then you should use an explicit intent.&lt;/html&gt;</description>
+  <highlighted_element>Intent(this, PageActivity::class.java) .setAction(Intent.ACTION_VIEW)</highlighted_element>
+  <language>kotlin</language>
+  <offset>34</offset>
+  <length>97</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/notifications/NotificationPresenter.kt</file>
+  <line>115</line>
+  <module>apps-android-wikipedia-r-2.7.50452-r-2023-09-06.app.main</module>
+  <package>org.wikipedia.notifications</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/notifications/NotificationPresenter.kt" />
+  <problem_class id="AndroidLintUnsafeImplicitIntentLaunch" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Implicit intent matches an internal non-exported component</problem_class>
+  <hints />
+  <description>&lt;html&gt;This intent matches an internal non-exported component.&lt;br/&gt;
+If you are trying to invoke the component matching the action &lt;code&gt;android.intent.action.VIEW&lt;/code&gt;,&lt;br/&gt;
+then you should use an explicit intent.&lt;/html&gt;</description>
+  <highlighted_element>Intent(Intent.ACTION_VIEW, Uri.parse(link.url))</highlighted_element>
+  <language>kotlin</language>
+  <offset>28</offset>
+  <length>47</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/util/GeoUtil.kt</file>
+  <line>22</line>
+  <module>apps-android-wikipedia-r-2.7.50452-r-2023-09-06.app.main</module>
+  <package>org.wikipedia.util</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/util/GeoUtil.kt" />
+  <problem_class id="AndroidLintUnsafeImplicitIntentLaunch" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Implicit intent matches an internal non-exported component</problem_class>
+  <hints />
+  <description>&lt;html&gt;This intent matches an internal non-exported component.&lt;br/&gt;
+If you are trying to invoke the component matching the action &lt;code&gt;android.intent.action.VIEW&lt;/code&gt;,&lt;br/&gt;
+then you should use an explicit intent.&lt;/html&gt;</description>
+  <highlighted_element>Intent(Intent.ACTION_VIEW, Uri.parse(geoStr))</highlighted_element>
+  <language>kotlin</language>
+  <offset>35</offset>
+  <length>45</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/util/ShareUtil.kt</file>
+  <line>192</line>
+  <module>apps-android-wikipedia-r-2.7.50452-r-2023-09-06.app.main</module>
+  <package>org.wikipedia.util</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/util/ShareUtil.kt" />
+  <problem_class id="AndroidLintUnsafeImplicitIntentLaunch" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Implicit intent matches an internal non-exported component</problem_class>
+  <hints />
+  <description>&lt;html&gt;This intent matches an internal non-exported component.&lt;br/&gt;
+If you are trying to invoke the component matching the action &lt;code&gt;android.intent.action.VIEW&lt;/code&gt;,&lt;br/&gt;
+then you should use an explicit intent.&lt;/html&gt;</description>
+  <highlighted_element>Intent(Intent.ACTION_VIEW, Uri.parse(url))</highlighted_element>
+  <language>kotlin</language>
+  <offset>21</offset>
+  <length>42</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/util/UriUtil.kt</file>
+  <line>55</line>
+  <module>apps-android-wikipedia-r-2.7.50452-r-2023-09-06.app.main</module>
+  <package>org.wikipedia.util</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/util/UriUtil.kt" />
+  <problem_class id="AndroidLintUnsafeImplicitIntentLaunch" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Implicit intent matches an internal non-exported component</problem_class>
+  <hints />
+  <description>&lt;html&gt;This intent matches an internal non-exported component.&lt;br/&gt;
+If you are trying to invoke the component matching the action &lt;code&gt;android.intent.action.VIEW&lt;/code&gt;,&lt;br/&gt;
+then you should use an explicit intent.&lt;/html&gt;</description>
+  <highlighted_element>Intent(Intent.ACTION_VIEW, uri)</highlighted_element>
+  <language>kotlin</language>
+  <offset>68</offset>
+  <length>31</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/util/UriUtil.kt</file>
+  <line>72</line>
+  <module>apps-android-wikipedia-r-2.7.50452-r-2023-09-06.app.main</module>
+  <package>org.wikipedia.util</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/org/wikipedia/util/UriUtil.kt" />
+  <problem_class id="AndroidLintUnsafeImplicitIntentLaunch" severity="ERROR" attribute_key="ERRORS_ATTRIBUTES">Implicit intent matches an internal non-exported component</problem_class>
+  <hints />
+  <description>&lt;html&gt;This intent matches an internal non-exported component.&lt;br/&gt;
+If you are trying to invoke the component matching the action &lt;code&gt;android.intent.action.VIEW&lt;/code&gt;,&lt;br/&gt;
+then you should use an explicit intent.&lt;/html&gt;</description>
+  <highlighted_element>Intent(Intent.ACTION_VIEW, Uri.parse(&quot;https://www.example.com&quot;))</highlighted_element>
+  <language>kotlin</language>
+  <offset>53</offset>
+  <length>64</length>
+</problem>
+</problems>

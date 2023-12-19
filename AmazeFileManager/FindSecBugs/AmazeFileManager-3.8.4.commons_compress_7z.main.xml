@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.2" sequence="0" timestamp="1696601080207" analysisTimestamp="1696601078172" release="">
+  <Project projectName="AmazeFileManager-3.8.4[AmazeFileManager-3.8.4.commons_compress_7z.main]">
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\AES256SHA256Decoder$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\AES256SHA256Decoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Archive.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\BindPair.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\BoundedFileChannelInputStream.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\BuildConfig.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\CoderBase.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coders$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coders$BCJDecoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coders$BZIP2Decoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coders$CopyDecoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coders$Deflate64Decoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coders$DeflateDecoder$DeflateDecoderInputStream.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coders$DeflateDecoder$DeflateDecoderOutputStream.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coders$DeflateDecoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Coders.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\DeltaDecoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\Folder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\LZMA2Decoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\LZMADecoder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\NID.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZArchiveEntry.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZFile$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZFile$2.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZFile.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZMethod.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZMethodConfiguration.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZOutputFile$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZOutputFile$OutputStreamWrapper.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZOutputFile.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\StartHeader.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\StreamMap.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\commons_compress_7z\build\intermediates\javac\debug\classes\com\amaze\filemanager\filesystem\compressed\sevenz\SubStreamsInfo.class</Jar>
+    <AuxClasspathEntry>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/commons_compress_7z/build/intermediates/javac/debug/classes</AuxClasspathEntry>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/commons_compress_7z/build/generated/ap_generated_sources/debug/out</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/commons_compress_7z/build/generated/source/buildConfig/debug</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/commons_compress_7z/build/generated/res/resValues/debug</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/commons_compress_7z/src/main/java</SrcDir>
+    <Plugin id="com.h3xstream.findsecbugs" enabled="true"/>
+  </Project>
+  <BugInstance type="CIPHER_INTEGRITY" priority="1" rank="5" abbrev="CIPINT" category="SECURITY" instanceHash="ca1fbd6a22612613f871970a518f4e62" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="353">
+    <ShortMessage>Cipher with no integrity</ShortMessage>
+    <LongMessage>The cipher does not provide data integrity</LongMessage>
+    <Class classname="com.amaze.filemanager.filesystem.compressed.sevenz.AES256SHA256Decoder$1" primary="true">
+      <SourceLine classname="com.amaze.filemanager.filesystem.compressed.sevenz.AES256SHA256Decoder$1" sourcefile="AES256SHA256Decoder.java" sourcepath="com/amaze/filemanager/filesystem/compressed/sevenz/AES256SHA256Decoder.java" relSourcepath="src\main\java\com\amaze\filemanager\filesystem\compressed\sevenz\AES256SHA256Decoder.java">
+        <Message>In AES256SHA256Decoder.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.filesystem.compressed.sevenz.AES256SHA256Decoder$1</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.filesystem.compressed.sevenz.AES256SHA256Decoder$1" name="init" signature="()Ljavax/crypto/CipherInputStream;" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.filesystem.compressed.sevenz.AES256SHA256Decoder$1" start="51" end="111" startBytecode="0" endBytecode="963" sourcefile="AES256SHA256Decoder.java" sourcepath="com/amaze/filemanager/filesystem/compressed/sevenz/AES256SHA256Decoder.java" relSourcepath="src\main\java\com\amaze\filemanager\filesystem\compressed\sevenz\AES256SHA256Decoder.java"/>
+      <Message>In method com.amaze.filemanager.filesystem.compressed.sevenz.AES256SHA256Decoder$1.init()</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.filesystem.compressed.sevenz.AES256SHA256Decoder$1" primary="true" start="105" end="105" startBytecode="370" endBytecode="370" sourcefile="AES256SHA256Decoder.java" sourcepath="com/amaze/filemanager/filesystem/compressed/sevenz/AES256SHA256Decoder.java" relSourcepath="src\main\java\com\amaze\filemanager\filesystem\compressed\sevenz\AES256SHA256Decoder.java">
+      <Message>At AES256SHA256Decoder.java:[line 105]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="HARD_CODE_KEY" priority="2" rank="7" abbrev="SECHCK" category="SECURITY" instanceHash="6a2a236b38057d3250258a82a19b8cf7" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="321">
+    <ShortMessage>Hard coded key</ShortMessage>
+    <LongMessage>Hard coded cryptographic key found</LongMessage>
+    <Class classname="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZFile" primary="true">
+      <SourceLine classname="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZFile" start="68" end="1218" sourcefile="SevenZFile.java" sourcepath="com/amaze/filemanager/filesystem/compressed/sevenz/SevenZFile.java" relSourcepath="src\main\java\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZFile.java">
+        <Message>At SevenZFile.java:[lines 68-1218]</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.filesystem.compressed.sevenz.SevenZFile</Message>
+    </Class>
+    <String value="is hard coded in field com.amaze.filemanager.filesystem.compressed.sevenz.SevenZFile.sevenZSignature[B with suspicious name">
+      <Message>Value is hard coded in field com.amaze.filemanager.filesystem.compressed.sevenz.SevenZFile.sevenZSignature[B with suspicious name</Message>
+    </String>
+    <SourceLine classname="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZFile" start="68" end="1218" sourcefile="SevenZFile.java" sourcepath="com/amaze/filemanager/filesystem/compressed/sevenz/SevenZFile.java" relSourcepath="src\main\java\com\amaze\filemanager\filesystem\compressed\sevenz\SevenZFile.java" synthetic="true">
+      <Message>At SevenZFile.java:[lines 68-1218]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugPattern type="CIPHER_INTEGRITY" abbrev="CIPINT" category="SECURITY" cweid="353">
+    <ShortDescription>Cipher with no integrity</ShortDescription>
+    <Details><![CDATA[
+            
+<p>
+    The ciphertext produced is susceptible to alteration by an adversary. This mean that the cipher provides no way to detect that the
+    data has been tampered with. If the ciphertext can be controlled by an attacker, it could be altered without detection.
+</p>
+<p>
+    The solution is to use a cipher that includes a Hash based Message Authentication Code (HMAC) to sign the data. Combining a HMAC function to the
+    existing cipher is prone to error <sup><a href="https://moxie.org/blog/the-cryptographic-doom-principle/">[1]</a></sup>. Specifically,
+    it is always recommended that you be able to verify the HMAC first, and only if the data is unmodified, do you then perform any cryptographic
+    functions on the data.
+</p>
+<p>The following modes are vulnerable because they don't provide a HMAC:<br/>
+    - CBC<br/>
+    - OFB<br/>
+    - CTR<br/>
+    - ECB<br/><br/>
+    The following snippets code are some examples of vulnerable code.<br/><br/>
+    <b>Code at risk:</b><br/>
+    <i>AES in CBC mode</i><br/>
+
+    <pre>Cipher c = Cipher.getInstance("AES/CBC/PKCS5Padding");
+c.init(Cipher.ENCRYPT_MODE, k, iv);
+byte[] cipherText = c.doFinal(plainText);</pre>
+    <br/>
+    <i>Triple DES with ECB mode</i><br/>
+
+<pre>Cipher c = Cipher.getInstance("DESede/ECB/PKCS5Padding");
+c.init(Cipher.ENCRYPT_MODE, k, iv);
+byte[] cipherText = c.doFinal(plainText);</pre>
+</p>
+<p>
+    <b>Solution:</b>
+    <pre>Cipher c = Cipher.getInstance("AES/GCM/NoPadding");
+c.init(Cipher.ENCRYPT_MODE, k, iv);
+byte[] cipherText = c.doFinal(plainText);</pre>
+</p>
+<p>
+In the example solution above, the GCM mode introduces an HMAC into the resulting encrypted data, providing integrity of the result.
+</p>
+<br/>
+<p>
+    <b>References</b><br/>
+    <a href="https://en.wikipedia.org/wiki/Authenticated_encryption">Wikipedia: Authenticated encryption</a><br/>
+    <a href="https://csrc.nist.gov/projects/block-cipher-techniques/bcm/modes-develoment#01">NIST: Authenticated Encryption Modes</a><br/>
+    <a href="https://moxie.org/blog/the-cryptographic-doom-principle/">Moxie Marlinspike's blog: The Cryptographic Doom Principle</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/353.html">CWE-353: Missing Support for Integrity Check</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="HARD_CODE_KEY" abbrev="SECHCK" category="SECURITY" cweid="321">
+    <ShortDescription>Hard coded key</ShortDescription>
+    <Details><![CDATA[
+            
+<p>
+Cryptographic keys should not be kept in the source code. The source code can be widely shared in an enterprise environment, and is
+certainly shared in open source. To be managed safely, passwords and secret keys should be stored in separate configuration files or keystores.
+(Hard coded passwords are reported separately by the <i>Hard coded password</i> pattern)
+</p>
+<p>
+<p><b>Vulnerable Code:</b><br/>
+
+<pre>byte[] key = {1, 2, 3, 4, 5, 6, 7, 8};
+SecretKeySpec spec = new SecretKeySpec(key, "AES");
+Cipher aes = Cipher.getInstance("AES");
+aes.init(Cipher.ENCRYPT_MODE, spec);
+return aesCipher.doFinal(secretData);</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://cwe.mitre.org/data/definitions/321.html">CWE-321: Use of Hard-coded Cryptographic Key</a><br/>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SECHCK">
+    <Description>Hard coded key</Description>
+  </BugCode>
+  <BugCode abbrev="CIPINT">
+    <Description>Cipher with no integrity</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 6 Oct 2023 11:02:00 -0300" total_classes="34" referenced_classes="172" total_bugs="2" total_size="1903" num_packages="1" java_version="17.0.6" vm_version="17.0.6+0-b2043.56-10027231" cpu_seconds="261.94" clock_seconds="445.34" peak_mbytes="3304.99" alloc_mbytes="3072.00" gc_seconds="1.79" priority_2="1" priority_1="1">
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/AES256SHA256Decoder.java" bugCount="1" size="66" bugHash="120e1af7370d137be35b85a0536dfa07"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/Archive.java" bugCount="0" size="21"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/BindPair.java" bugCount="0" size="7"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/BoundedFileChannelInputStream.java" bugCount="0" size="44"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/BuildConfig.java" bugCount="0" size="8"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/Coder.java" bugCount="0" size="8"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/CoderBase.java" bugCount="0" size="23"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/Coders.java" bugCount="0" size="131"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/DeltaDecoder.java" bugCount="0" size="19"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/Folder.java" bugCount="0" size="47"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/LZMA2Decoder.java" bugCount="0" size="41"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/LZMADecoder.java" bugCount="0" size="42"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/NID.java" bugCount="0" size="29"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/SevenZArchiveEntry.java" bugCount="0" size="162"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/SevenZFile.java" bugCount="1" size="649" bugHash="6dc5563db053e55f052f6a43785f8826"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/SevenZMethod.java" bugCount="0" size="49"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/SevenZMethodConfiguration.java" bugCount="0" size="18"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/SevenZOutputFile.java" bugCount="0" size="518"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/StartHeader.java" bugCount="0" size="6"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/StreamMap.java" bugCount="0" size="9"/>
+    <FileStats path="com/amaze/filemanager/filesystem/compressed/sevenz/SubStreamsInfo.java" bugCount="0" size="6"/>
+    <PackageStats package="com.amaze.filemanager.filesystem.compressed.sevenz" total_bugs="2" total_types="34" total_size="1903" priority_2="1" priority_1="1">
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.AES256SHA256Decoder" sourceFile="AES256SHA256Decoder.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.AES256SHA256Decoder$1" sourceFile="AES256SHA256Decoder.java" interface="false" size="61" bugs="1" priority_1="1"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Archive" sourceFile="Archive.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.BindPair" sourceFile="BindPair.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.BoundedFileChannelInputStream" sourceFile="BoundedFileChannelInputStream.java" interface="false" size="44" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.BuildConfig" sourceFile="BuildConfig.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coder" sourceFile="Coder.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.CoderBase" sourceFile="CoderBase.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coders" sourceFile="Coders.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coders$1" sourceFile="Coders.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coders$BCJDecoder" sourceFile="Coders.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coders$BZIP2Decoder" sourceFile="Coders.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coders$CopyDecoder" sourceFile="Coders.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coders$Deflate64Decoder" sourceFile="Coders.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coders$DeflateDecoder" sourceFile="Coders.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coders$DeflateDecoder$DeflateDecoderInputStream" sourceFile="Coders.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Coders$DeflateDecoder$DeflateDecoderOutputStream" sourceFile="Coders.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.DeltaDecoder" sourceFile="DeltaDecoder.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.Folder" sourceFile="Folder.java" interface="false" size="47" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.LZMA2Decoder" sourceFile="LZMA2Decoder.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.LZMADecoder" sourceFile="LZMADecoder.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.NID" sourceFile="NID.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZArchiveEntry" sourceFile="SevenZArchiveEntry.java" interface="false" size="162" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZFile" sourceFile="SevenZFile.java" interface="false" size="622" bugs="1" priority_2="1"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZFile$1" sourceFile="SevenZFile.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZFile$2" sourceFile="SevenZFile.java" interface="false" size="8" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZMethod" sourceFile="SevenZMethod.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZMethodConfiguration" sourceFile="SevenZMethodConfiguration.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZOutputFile" sourceFile="SevenZOutputFile.java" interface="false" size="471" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZOutputFile$1" sourceFile="SevenZOutputFile.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SevenZOutputFile$OutputStreamWrapper" sourceFile="SevenZOutputFile.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.StartHeader" sourceFile="StartHeader.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.StreamMap" sourceFile="StreamMap.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.filesystem.compressed.sevenz.SubStreamsInfo" sourceFile="SubStreamsInfo.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="263" invocations="904" avgMicrosecondsPerInvocation="291" maxMicrosecondsPerInvocation="5900" standardDeviationMicrosecondsPerInvocation="603"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="138" invocations="2" avgMicrosecondsPerInvocation="69486" maxMicrosecondsPerInvocation="106909" standardDeviationMicrosecondsPerInvocation="37423"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="93" invocations="910" avgMicrosecondsPerInvocation="102" maxMicrosecondsPerInvocation="732" standardDeviationMicrosecondsPerInvocation="69"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="72" invocations="254" avgMicrosecondsPerInvocation="285" maxMicrosecondsPerInvocation="14098" standardDeviationMicrosecondsPerInvocation="1016"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="71" invocations="254" avgMicrosecondsPerInvocation="282" maxMicrosecondsPerInvocation="20478" standardDeviationMicrosecondsPerInvocation="1319"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="65" invocations="172" avgMicrosecondsPerInvocation="383" maxMicrosecondsPerInvocation="4374" standardDeviationMicrosecondsPerInvocation="733"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="59" invocations="254" avgMicrosecondsPerInvocation="234" maxMicrosecondsPerInvocation="7831" standardDeviationMicrosecondsPerInvocation="620"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="59" invocations="667" avgMicrosecondsPerInvocation="88" maxMicrosecondsPerInvocation="1066" standardDeviationMicrosecondsPerInvocation="123"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="58" invocations="254" avgMicrosecondsPerInvocation="228" maxMicrosecondsPerInvocation="7173" standardDeviationMicrosecondsPerInvocation="620"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="57" invocations="172" avgMicrosecondsPerInvocation="334" maxMicrosecondsPerInvocation="3507" standardDeviationMicrosecondsPerInvocation="597"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="50" invocations="255" avgMicrosecondsPerInvocation="198" maxMicrosecondsPerInvocation="4267" standardDeviationMicrosecondsPerInvocation="500"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="39" invocations="254" avgMicrosecondsPerInvocation="153" maxMicrosecondsPerInvocation="3671" standardDeviationMicrosecondsPerInvocation="336"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="34" invocations="193" avgMicrosecondsPerInvocation="179" maxMicrosecondsPerInvocation="3491" standardDeviationMicrosecondsPerInvocation="387"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="22" invocations="274" avgMicrosecondsPerInvocation="82" maxMicrosecondsPerInvocation="995" standardDeviationMicrosecondsPerInvocation="135"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="22" invocations="255" avgMicrosecondsPerInvocation="87" maxMicrosecondsPerInvocation="969" standardDeviationMicrosecondsPerInvocation="106"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="19" invocations="172" avgMicrosecondsPerInvocation="110" maxMicrosecondsPerInvocation="1160" standardDeviationMicrosecondsPerInvocation="177"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="18" invocations="254" avgMicrosecondsPerInvocation="71" maxMicrosecondsPerInvocation="2252" standardDeviationMicrosecondsPerInvocation="192"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="17" invocations="833" avgMicrosecondsPerInvocation="20" maxMicrosecondsPerInvocation="494" standardDeviationMicrosecondsPerInvocation="37"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="14" invocations="34" avgMicrosecondsPerInvocation="439" maxMicrosecondsPerInvocation="5211" standardDeviationMicrosecondsPerInvocation="1142"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="14" invocations="172" avgMicrosecondsPerInvocation="84" maxMicrosecondsPerInvocation="902" standardDeviationMicrosecondsPerInvocation="138"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="14" invocations="172" avgMicrosecondsPerInvocation="84" maxMicrosecondsPerInvocation="1326" standardDeviationMicrosecondsPerInvocation="160"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="13" invocations="172" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="745" standardDeviationMicrosecondsPerInvocation="134"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

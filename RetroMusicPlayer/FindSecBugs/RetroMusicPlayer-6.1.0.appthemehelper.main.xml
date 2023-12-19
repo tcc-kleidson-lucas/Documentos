@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.2" sequence="0" timestamp="1694719748434" analysisTimestamp="1694719747551" release="">
+  <Project projectName="RetroMusicPlayer-6.1.0[RetroMusicPlayer-6.1.0.appthemehelper.main]">
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\BuildConfig.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\common\ATHToolbarActivity.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\common\prefs\supportv7\ATEPreferenceFragmentCompat.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\common\prefs\supportv7\dialogs\ATEListPreferenceDialogFragmentCompat.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\common\prefs\supportv7\dialogs\ATEPreferenceDialogFragment.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\TintHelper.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\ToolbarContentTintHelper$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\ToolbarContentTintHelper$2.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\ToolbarContentTintHelper$ATHMenuPresenterCallback.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\ToolbarContentTintHelper$ATHOnMenuItemClickListener.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\ToolbarContentTintHelper$InternalToolbarContentTintUtil$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\ToolbarContentTintHelper$InternalToolbarContentTintUtil$2.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\ToolbarContentTintHelper$InternalToolbarContentTintUtil$SearchViewTintUtil.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\ToolbarContentTintHelper$InternalToolbarContentTintUtil.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\RetroMusicPlayer-6.1.0\appthemehelper\build\intermediates\javac\debug\classes\code\name\monkey\appthemehelper\util\ToolbarContentTintHelper.class</Jar>
+    <AuxClasspathEntry>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/appthemehelper/build/intermediates/javac/debug/classes</AuxClasspathEntry>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/appthemehelper/build/generated/ap_generated_sources/debug/out</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/appthemehelper/build/generated/source/buildConfig/debug</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/appthemehelper/build/generated/res/resValues/debug</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/appthemehelper/src/main/java</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/RetroMusicPlayer-6.1.0/appthemehelper/src/main/res</SrcDir>
+    <Plugin id="com.h3xstream.findsecbugs" enabled="true"/>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 14 Sep 2023 16:28:06 -0300" total_classes="15" referenced_classes="41" total_bugs="0" total_size="763" num_packages="5" java_version="17.0.6" vm_version="17.0.6+0-b2043.56-10027231" cpu_seconds="8.44" clock_seconds="59.63" peak_mbytes="1664.12" alloc_mbytes="3072.00" gc_seconds="0.01">
+    <FileStats path="code/name/monkey/appthemehelper/BuildConfig.java" bugCount="0" size="8"/>
+    <FileStats path="code/name/monkey/appthemehelper/common/ATHToolbarActivity.java" bugCount="0" size="21"/>
+    <FileStats path="code/name/monkey/appthemehelper/common/prefs/supportv7/ATEPreferenceFragmentCompat.java" bugCount="0" size="24"/>
+    <FileStats path="code/name/monkey/appthemehelper/common/prefs/supportv7/dialogs/ATEListPreferenceDialogFragmentCompat.java" bugCount="0" size="45"/>
+    <FileStats path="code/name/monkey/appthemehelper/common/prefs/supportv7/dialogs/ATEPreferenceDialogFragment.java" bugCount="0" size="57"/>
+    <FileStats path="code/name/monkey/appthemehelper/util/TintHelper.java" bugCount="0" size="230"/>
+    <FileStats path="code/name/monkey/appthemehelper/util/ToolbarContentTintHelper.java" bugCount="0" size="378"/>
+    <PackageStats package="code.name.monkey.appthemehelper" total_bugs="0" total_types="1" total_size="8">
+      <ClassStats class="code.name.monkey.appthemehelper.BuildConfig" sourceFile="BuildConfig.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.appthemehelper.common" total_bugs="0" total_types="1" total_size="21">
+      <ClassStats class="code.name.monkey.appthemehelper.common.ATHToolbarActivity" sourceFile="ATHToolbarActivity.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.appthemehelper.common.prefs.supportv7" total_bugs="0" total_types="1" total_size="24">
+      <ClassStats class="code.name.monkey.appthemehelper.common.prefs.supportv7.ATEPreferenceFragmentCompat" sourceFile="ATEPreferenceFragmentCompat.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.appthemehelper.common.prefs.supportv7.dialogs" total_bugs="0" total_types="2" total_size="102">
+      <ClassStats class="code.name.monkey.appthemehelper.common.prefs.supportv7.dialogs.ATEListPreferenceDialogFragmentCompat" sourceFile="ATEListPreferenceDialogFragmentCompat.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.common.prefs.supportv7.dialogs.ATEPreferenceDialogFragment" sourceFile="ATEPreferenceDialogFragment.java" interface="false" size="57" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="code.name.monkey.appthemehelper.util" total_bugs="0" total_types="10" total_size="608">
+      <ClassStats class="code.name.monkey.appthemehelper.util.TintHelper" sourceFile="TintHelper.java" interface="false" size="230" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.util.ToolbarContentTintHelper" sourceFile="ToolbarContentTintHelper.java" interface="false" size="173" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.util.ToolbarContentTintHelper$1" sourceFile="ToolbarContentTintHelper.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.util.ToolbarContentTintHelper$2" sourceFile="ToolbarContentTintHelper.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.util.ToolbarContentTintHelper$ATHMenuPresenterCallback" sourceFile="ToolbarContentTintHelper.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.util.ToolbarContentTintHelper$ATHOnMenuItemClickListener" sourceFile="ToolbarContentTintHelper.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.util.ToolbarContentTintHelper$InternalToolbarContentTintUtil" sourceFile="ToolbarContentTintHelper.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.util.ToolbarContentTintHelper$InternalToolbarContentTintUtil$1" sourceFile="ToolbarContentTintHelper.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.util.ToolbarContentTintHelper$InternalToolbarContentTintUtil$2" sourceFile="ToolbarContentTintHelper.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="code.name.monkey.appthemehelper.util.ToolbarContentTintHelper$InternalToolbarContentTintUtil$SearchViewTintUtil" sourceFile="ToolbarContentTintHelper.java" interface="false" size="34" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="164" invocations="578" avgMicrosecondsPerInvocation="284" maxMicrosecondsPerInvocation="5780" standardDeviationMicrosecondsPerInvocation="618"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="87" invocations="2" avgMicrosecondsPerInvocation="43980" maxMicrosecondsPerInvocation="68234" standardDeviationMicrosecondsPerInvocation="24253"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="56" invocations="587" avgMicrosecondsPerInvocation="96" maxMicrosecondsPerInvocation="514" standardDeviationMicrosecondsPerInvocation="65"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="25" invocations="41" avgMicrosecondsPerInvocation="633" maxMicrosecondsPerInvocation="6680" standardDeviationMicrosecondsPerInvocation="1181"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="18" invocations="99" avgMicrosecondsPerInvocation="190" maxMicrosecondsPerInvocation="1581" standardDeviationMicrosecondsPerInvocation="281"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="16" invocations="213" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="969" standardDeviationMicrosecondsPerInvocation="104"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="16" invocations="41" avgMicrosecondsPerInvocation="401" maxMicrosecondsPerInvocation="2726" standardDeviationMicrosecondsPerInvocation="619"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="16" invocations="99" avgMicrosecondsPerInvocation="163" maxMicrosecondsPerInvocation="1135" standardDeviationMicrosecondsPerInvocation="199"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="15" invocations="99" avgMicrosecondsPerInvocation="160" maxMicrosecondsPerInvocation="1045" standardDeviationMicrosecondsPerInvocation="199"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="13" invocations="99" avgMicrosecondsPerInvocation="139" maxMicrosecondsPerInvocation="1291" standardDeviationMicrosecondsPerInvocation="215"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="12" invocations="99" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="713" standardDeviationMicrosecondsPerInvocation="132"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="11" invocations="99" avgMicrosecondsPerInvocation="116" maxMicrosecondsPerInvocation="791" standardDeviationMicrosecondsPerInvocation="160"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

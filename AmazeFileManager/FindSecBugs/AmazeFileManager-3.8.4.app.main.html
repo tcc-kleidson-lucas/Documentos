@@ -1,0 +1,2014 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+		</style>
+   </head>
+   <body>
+      <h1>SpotBugs Report</h1>
+      <p>Produced using <a href="https://spotbugs.github.io">SpotBugs</a>4.4.2.</p>
+      <p>Project: 
+			AmazeFileManager-3.8.4[AmazeFileManager-3.8.4.app.main]</p>
+      <h2>Metrics</h2>
+      <p>26914 lines of code analyzed,
+	in 547 classes, 
+	in 55 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right">2</td>
+            <td align="right">0.07</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">108</td>
+            <td align="right">4.01</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>110</b>
+            </td>
+            <td align="right">
+               <b>4.09</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Summary</h2>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_SECURITY">Security Warnings</a>
+            </td>
+            <td align="right">110</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>110</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>Warnings</h1>
+      <p>Click on each warning link to see a full description of the issue, and
+	    details of how to resolve it.</p>
+      <h2>
+         <a name="Warnings_SECURITY">Security Warnings</a>
+      </h2>
+      <table class="warningtable"
+             width="100%"
+             cellspacing="2"
+             cellpadding="5">
+         <tr class="tableheader">
+            <th align="left">Warning</th>
+            <th align="left">Priority</th>
+            <th align="left">Details</th>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#WEAK_MESSAGE_DIGEST_MD5">MD2, MD4 and MD5 are weak hash functions</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>This API MD5 (MDX) is not a recommended cryptographic hash function<br/>
+                  <br/>
+                  <br/>In file CalculateHashCallback.java,
+					
+						line 113<br/>In class com.amaze.filemanager.asynchronous.asynctasks.hashcalculator.CalculateHashCallback<br/>In method com.amaze.filemanager.asynchronous.asynctasks.hashcalculator.CalculateHashCallback.createChecksum()<br/>At CalculateHashCallback.java:[line 113]<br/>Value MD5</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#WEAK_MESSAGE_DIGEST_MD5">MD2, MD4 and MD5 are weak hash functions</a>
+            </td>
+            <td width="10%" valign="top">High</td>
+            <td width="70%">
+               <p>This API MD5 (MDX) is not a recommended cryptographic hash function<br/>
+                  <br/>
+                  <br/>In file HybridFile.java,
+					
+						line 1753<br/>In class com.amaze.filemanager.filesystem.HybridFile<br/>In method com.amaze.filemanager.filesystem.HybridFile.createChecksum(Context)<br/>At HybridFile.java:[line 1753]<br/>Value MD5</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE">Information Exposure Through An Error Message</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Possible information exposure through an error message<br/>
+                  <br/>
+                  <br/>In file ErrorActivity.java,
+					
+						line 171<br/>In class com.amaze.filemanager.crashreport.ErrorActivity<br/>In method com.amaze.filemanager.crashreport.ErrorActivity.getStackTrace(Throwable)<br/>At ErrorActivity.java:[line 171]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#BAD_HEXA_CONVERSION">Bad hexadecimal concatenation</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Leading zeros are omitted in the concatenation increasing collision potential<br/>
+                  <br/>
+                  <br/>In file CalculateHashCallback.java,
+					
+						lines 87
+						    to 106<br/>In class com.amaze.filemanager.asynchronous.asynctasks.hashcalculator.CalculateHashCallback<br/>In method com.amaze.filemanager.asynchronous.asynctasks.hashcalculator.CalculateHashCallback.getSHA256Checksum()<br/>At CalculateHashCallback.java:[lines 87-106]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#BAD_HEXA_CONVERSION">Bad hexadecimal concatenation</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Leading zeros are omitted in the concatenation increasing collision potential<br/>
+                  <br/>
+                  <br/>In file HybridFile.java,
+					
+						lines 1680
+						    to 1708<br/>In class com.amaze.filemanager.filesystem.HybridFile<br/>In method com.amaze.filemanager.filesystem.HybridFile.lambda$getSha256Checksum$12(Context)<br/>At HybridFile.java:[lines 1680-1708]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file DeleteTask.java,
+					
+						line 140<br/>In class com.amaze.filemanager.asynchronous.asynctasks.DeleteTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.DeleteTask.onPostExecute(AsyncTaskResult)<br/>At DeleteTask.java:[line 140]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file DeleteTask.java,
+					
+						line 144<br/>In class com.amaze.filemanager.asynchronous.asynctasks.DeleteTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.DeleteTask.onPostExecute(AsyncTaskResult)<br/>At DeleteTask.java:[line 144]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file AbstractProgressiveService.java,
+					
+						line 360<br/>In class com.amaze.filemanager.asynchronous.services.AbstractProgressiveService<br/>In method com.amaze.filemanager.asynchronous.services.AbstractProgressiveService.finalizeNotification(ArrayList, boolean)<br/>At AbstractProgressiveService.java:[line 360]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file CopyService.java,
+					
+						line 299<br/>In class com.amaze.filemanager.asynchronous.services.CopyService$DoInBackground<br/>In method com.amaze.filemanager.asynchronous.services.CopyService$DoInBackground.onPostExecute(Void)<br/>At CopyService.java:[line 299]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file DecryptService.java,
+					
+						line 235<br/>In class com.amaze.filemanager.asynchronous.services.DecryptService$BackgroundTask<br/>In method com.amaze.filemanager.asynchronous.services.DecryptService$BackgroundTask.onFinish(Long)<br/>At DecryptService.java:[line 235]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file EncryptService.java,
+					
+						line 240<br/>In class com.amaze.filemanager.asynchronous.services.EncryptService$BackgroundTask<br/>In method com.amaze.filemanager.asynchronous.services.EncryptService$BackgroundTask.onFinish(Long)<br/>At EncryptService.java:[line 240]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file ExtractService.java,
+					
+						line 424<br/>In class com.amaze.filemanager.asynchronous.services.ExtractService$DoWork<br/>In method com.amaze.filemanager.asynchronous.services.ExtractService$DoWork.onPostExecute(Boolean)<br/>At ExtractService.java:[line 424]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file FtpTileService.java,
+					
+						line 64<br/>In class com.amaze.filemanager.asynchronous.services.ftp.FtpTileService<br/>In method com.amaze.filemanager.asynchronous.services.ftp.FtpTileService.lambda$onClick$0()<br/>At FtpTileService.java:[line 64]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file FtpTileService.java,
+					
+						line 71<br/>In class com.amaze.filemanager.asynchronous.services.ftp.FtpTileService<br/>In method com.amaze.filemanager.asynchronous.services.ftp.FtpTileService.lambda$onClick$0()<br/>At FtpTileService.java:[line 71]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file Operations.java,
+					
+						line 571<br/>In class com.amaze.filemanager.filesystem.Operations$3<br/>In method com.amaze.filemanager.filesystem.Operations$3.doInBackground(Void[])<br/>At Operations.java:[line 571]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file Operations.java,
+					
+						line 608<br/>In class com.amaze.filemanager.filesystem.Operations$3$1<br/>In method com.amaze.filemanager.filesystem.Operations$3$1.execute(SFTPClient)<br/>At Operations.java:[line 608]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file FileUtils.java,
+					
+						line 287<br/>In class com.amaze.filemanager.filesystem.files.FileUtils<br/>In method com.amaze.filemanager.filesystem.files.FileUtils.scanFile(Uri, Context)<br/>At FileUtils.java:[line 287]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file ProcessViewerFragment.java,
+					
+						line 353<br/>In class com.amaze.filemanager.ui.fragments.ProcessViewerFragment<br/>In method com.amaze.filemanager.ui.fragments.ProcessViewerFragment.lambda$cancelBroadcast$0(Intent, View)<br/>At ProcessViewerFragment.java:[line 353]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file MainActivityHelper.java,
+					
+						line 404<br/>In class com.amaze.filemanager.utils.MainActivityHelper$2<br/>In method com.amaze.filemanager.utils.MainActivityHelper$2.lambda$done$2(boolean, HybridFile, Activity, HybridFile, String, String)<br/>At MainActivityHelper.java:[line 404]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#COMMAND_INJECTION">Potential Command Injection</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This usage of java/lang/ProcessBuilder.&lt;init&gt;([Ljava/lang/String;)V can be vulnerable to Command Injection<br/>
+                  <br/>
+                  <br/>In file Operations.java Operations.java,
+					
+						line 824 817<br/>In class com.amaze.filemanager.filesystem.Operations<br/>In method com.amaze.filemanager.filesystem.Operations.isFileSystemFAT(String)<br/>At Operations.java:[line 824]<br/>Sink method java/lang/ProcessBuilder.&lt;init&gt;([Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/Operations.isFileSystemFAT(Ljava/lang/String;)Z parameter 0<br/>Method usage not detected<br/>At Operations.java:[line 817]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file CompressedExplorerAdapter.java,
+					
+						line 320<br/>In class com.amaze.filemanager.adapters.CompressedExplorerAdapter<br/>In method com.amaze.filemanager.adapters.CompressedExplorerAdapter.lambda$onBindViewHolder$2(CompressedObjectParcelable, int, CompressedItemViewHolder, View)<br/>At CompressedExplorerAdapter.java:[line 320]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file CompressedExplorerAdapter.java,
+					
+						line 341<br/>In class com.amaze.filemanager.adapters.CompressedExplorerAdapter<br/>In method com.amaze.filemanager.adapters.CompressedExplorerAdapter.lambda$onBindViewHolder$2(CompressedObjectParcelable, int, CompressedItemViewHolder, View)<br/>At CompressedExplorerAdapter.java:[line 341]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file CopyService.java,
+					
+						line 382<br/>In class com.amaze.filemanager.asynchronous.services.CopyService$DoInBackground$Copy<br/>In method com.amaze.filemanager.asynchronous.services.CopyService$DoInBackground$Copy.execute(ArrayList, String, boolean, OpenMode)<br/>At CopyService.java:[line 382]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file MediaStoreHack.java,
+					
+						line 92<br/>In class com.amaze.filemanager.filesystem.MediaStoreHack<br/>In method com.amaze.filemanager.filesystem.MediaStoreHack.getExternalFilesDir(Context)<br/>At MediaStoreHack.java:[line 92]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file CryptUtil.java,
+					
+						line 163<br/>In class com.amaze.filemanager.filesystem.files.CryptUtil<br/>In method new com.amaze.filemanager.filesystem.files.CryptUtil(Context, HybridFileParcelable, String, ProgressHandler, ArrayList, String)<br/>At CryptUtil.java:[line 163]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file DatabaseViewerActivity.java,
+					
+						line 115<br/>In class com.amaze.filemanager.ui.activities.DatabaseViewerActivity<br/>In method com.amaze.filemanager.ui.activities.DatabaseViewerActivity.lambda$load$2(File)<br/>At DatabaseViewerActivity.java:[line 115]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file MainActivity.java,
+					
+						line 799<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.getStorageDirectoriesLegacy()<br/>At MainActivity.java:[line 799]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file MainActivity.java,
+					
+						line 811<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.getStorageDirectoriesLegacy()<br/>At MainActivity.java:[line 811]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file MainFragment.java,
+					
+						line 485<br/>In class com.amaze.filemanager.ui.fragments.MainFragment<br/>In method com.amaze.filemanager.ui.fragments.MainFragment.onListItemClicked(boolean, int, LayoutElementParcelable, ImageView)<br/>At MainFragment.java:[line 485]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file MainFragment.java,
+					
+						line 499<br/>In class com.amaze.filemanager.ui.fragments.MainFragment<br/>In method com.amaze.filemanager.ui.fragments.MainFragment.onListItemClicked(boolean, int, LayoutElementParcelable, ImageView)<br/>At MainFragment.java:[line 499]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PREDICTABLE_RANDOM">Predictable pseudorandom number generator</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This random generator (java.util.Random) is predictable<br/>
+                  <br/>
+                  <br/>In file ColorPreferenceHelper.java,
+					
+						line 67<br/>In class com.amaze.filemanager.ui.colors.ColorPreferenceHelper<br/>In method com.amaze.filemanager.ui.colors.ColorPreferenceHelper.randomize(Context)<br/>At ColorPreferenceHelper.java:[line 67]<br/>Value java.util.Random</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file LayoutElementParcelable.java LoadFilesListTask.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java MainFragment.java MainFragment.java MainFragment.java MainFragment.java,
+					
+						line 89 570 423 426 1534 1543 1557 1328 1337 1353 1362<br/>In class com.amaze.filemanager.adapters.data.LayoutElementParcelable<br/>In method new com.amaze.filemanager.adapters.data.LayoutElementParcelable(Context, String, String, String, String, long, boolean, String, boolean, boolean, OpenMode)<br/>At LayoutElementParcelable.java:[line 89]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/adapters/data/LayoutElementParcelable.&lt;init&gt;(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JZLjava/lang/String;ZZLcom/amaze/filemanager/fileoperations/filesystem/OpenMode;)V parameter 10<br/>At LoadFilesListTask.java:[line 570]<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At HybridFile.java:[line 1534]<br/>At HybridFile.java:[line 1543]<br/>At HybridFile.java:[line 1557]<br/>At MainFragment.java:[line 1328]<br/>At MainFragment.java:[line 1337]<br/>At MainFragment.java:[line 1353]<br/>At MainFragment.java:[line 1362]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file LoadFilesListTask.java,
+					
+						line 446<br/>In class com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.listApks()<br/>At LoadFilesListTask.java:[line 446]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/database/Cursor.getString(I)Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file LoadFilesListTask.java LoadFilesListTask.java,
+					
+						line 559 559<br/>In class com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.listAppDataDirectories(String)<br/>At LoadFilesListTask.java:[line 559]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/content/pm/ActivityInfo.packageName<br/>At LoadFilesListTask.java:[line 559]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file LoadFilesListTask.java LoadFilesListTask.java,
+					
+						line 559 183<br/>In class com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.listAppDataDirectories(String)<br/>At LoadFilesListTask.java:[line 559]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/asynchronous/asynctasks/LoadFilesListTask.listAppDataDirectories(Ljava/lang/String;)Ljava/util/List; parameter 0<br/>At LoadFilesListTask.java:[line 183]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file LoadFilesListTask.java,
+					
+						line 412<br/>In class com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.listDocs()<br/>At LoadFilesListTask.java:[line 412]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/database/Cursor.getString(I)Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file LoadFilesListTask.java,
+					
+						line 359<br/>In class com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.listMediaCommon(Uri, String[], String)<br/>At LoadFilesListTask.java:[line 359]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/database/Cursor.getString(I)Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file LoadFilesListTask.java LoadFilesListTask.java,
+					
+						line 471 469<br/>In class com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.listRecent()<br/>At LoadFilesListTask.java:[line 471]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source java/util/Iterator.next()Ljava/lang/Object;<br/>Unknown source com/amaze/filemanager/database/UtilsHandler.getHistoryLinkedList()Ljava/util/LinkedList;<br/>At LoadFilesListTask.java:[line 469]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file LoadFilesListTask.java,
+					
+						line 531<br/>In class com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.listRecentFiles()<br/>At LoadFilesListTask.java:[line 531]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/database/Cursor.getString(I)Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file LoadFilesListTask.java,
+					
+						line 533<br/>In class com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask<br/>In method com.amaze.filemanager.asynchronous.asynctasks.LoadFilesListTask.listRecentFiles()<br/>At LoadFilesListTask.java:[line 533]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/database/Cursor.getString(I)Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MoveFiles.java MoveFiles.java MoveFiles.java MoveFiles.java HybridFile.java HybridFile.java HybridFileParcelable.java,
+					
+						line 113 91 103 105 423 426 109<br/>In class com.amaze.filemanager.asynchronous.asynctasks.movecopy.MoveFiles<br/>In method com.amaze.filemanager.asynchronous.asynctasks.movecopy.MoveFiles.processFile(HybridFileParcelable, String, long)<br/>At MoveFiles.java:[line 113]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.getName(Landroid/content/Context;)Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/asynchronous/asynctasks/movecopy/MoveFiles.processFile(Lcom/amaze/filemanager/filesystem/HybridFileParcelable;Ljava/lang/String;J)Lcom/amaze/filemanager/asynchronous/asynctasks/movecopy/MoveFilesReturn; parameter 2<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getName(Landroid/content/Context;)Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.name<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>At MoveFiles.java:[line 91]<br/>At MoveFiles.java:[line 103]<br/>At MoveFiles.java:[line 105]<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At HybridFileParcelable.java:[line 109]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MoveFiles.java MoveFiles.java HybridFile.java HybridFile.java,
+					
+						line 114 114 423 426<br/>In class com.amaze.filemanager.asynchronous.asynctasks.movecopy.MoveFiles<br/>In method com.amaze.filemanager.asynchronous.asynctasks.movecopy.MoveFiles.processFile(HybridFileParcelable, String, long)<br/>At MoveFiles.java:[line 114]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>At MoveFiles.java:[line 114]<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file PrepareCopyTask.java PrepareCopyTask.java HybridFile.java HybridFile.java,
+					
+						line 381 381 423 426<br/>In class com.amaze.filemanager.asynchronous.asynctasks.movecopy.PrepareCopyTask$CopyNode<br/>In method new com.amaze.filemanager.asynchronous.asynctasks.movecopy.PrepareCopyTask$CopyNode(PrepareCopyTask, String, ArrayList)<br/>At PrepareCopyTask.java:[line 381]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>At PrepareCopyTask.java:[line 381]<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ReadTextFileCallable.java,
+					
+						line 132<br/>In class com.amaze.filemanager.asynchronous.asynctasks.texteditor.read.ReadTextFileCallable<br/>In method com.amaze.filemanager.asynchronous.asynctasks.texteditor.read.ReadTextFileCallable.loadFile(File)<br/>At ReadTextFileCallable.java:[line 132]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source java/io/File.getName()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ReadTextFileCallable.java,
+					
+						line 146<br/>In class com.amaze.filemanager.asynchronous.asynctasks.texteditor.read.ReadTextFileCallable<br/>In method com.amaze.filemanager.asynchronous.asynctasks.texteditor.read.ReadTextFileCallable.loadFile(File)<br/>At ReadTextFileCallable.java:[line 146]<br/>Sink method java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source java/io/File.getAbsolutePath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file AppListLoader.java AppListLoader.java,
+					
+						line 94 94<br/>In class com.amaze.filemanager.asynchronous.loaders.AppListLoader<br/>In method com.amaze.filemanager.asynchronous.loaders.AppListLoader.loadInBackground()<br/>At AppListLoader.java:[line 94]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/content/pm/ApplicationInfo.sourceDir<br/>At AppListLoader.java:[line 94]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ExtractService.java ExtractService.java,
+					
+						line 227 148<br/>In class com.amaze.filemanager.asynchronous.services.ExtractService<br/>In method com.amaze.filemanager.asynchronous.services.ExtractService.getTotalSize(String)<br/>At ExtractService.java:[line 227]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/asynchronous/services/ExtractService.getTotalSize(Ljava/lang/String;)J parameter 0<br/>At ExtractService.java:[line 148]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ExtractService.java ExtractService.java,
+					
+						line 260 260<br/>In class com.amaze.filemanager.asynchronous.services.ExtractService$DoWork<br/>In method com.amaze.filemanager.asynchronous.services.ExtractService$DoWork.doInBackground(Void[])<br/>At ExtractService.java:[line 260]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/asynchronous/services/ExtractService$DoWork.compressedPath<br/>At ExtractService.java:[line 260]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file CustomFileObserver.java CustomFileObserver.java CustomFileObserver.java,
+					
+						line 200 181 194<br/>In class com.amaze.filemanager.filesystem.CustomFileObserver$FileTimerTask<br/>In method new com.amaze.filemanager.filesystem.CustomFileObserver$FileTimerTask(String, FileObserver)<br/>At CustomFileObserver.java:[line 200]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/CustomFileObserver$FileTimerTask.&lt;init&gt;(Ljava/lang/String;Landroid/os/FileObserver;)V parameter 1<br/>At CustomFileObserver.java:[line 181]<br/>At CustomFileObserver.java:[line 194]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileUtil.java FileUtil.java FileUtil.java,
+					
+						line 151 139 142<br/>In class com.amaze.filemanager.filesystem.FileUtil<br/>In method com.amaze.filemanager.filesystem.FileUtil.lambda$writeUriToStorage$0(ArrayList, ContentResolver, MainActivity, String, MaybeEmitter)<br/>At FileUtil.java:[line 151]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source androidx/documentfile/provider/DocumentFile.getName()Ljava/lang/String;<br/>Unknown source android/net/Uri.getLastPathSegment()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/FileUtil.lambda$writeUriToStorage$0(Ljava/util/ArrayList;Landroid/content/ContentResolver;Lcom/amaze/filemanager/ui/activities/MainActivity;Ljava/lang/String;Lio/reactivex/MaybeEmitter;)V parameter 1<br/>Method usage not detected<br/>At FileUtil.java:[line 139]<br/>At FileUtil.java:[line 142]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file HybridFile.java HybridFile.java,
+					
+						line 277 277<br/>In class com.amaze.filemanager.filesystem.HybridFile<br/>In method com.amaze.filemanager.filesystem.HybridFile.getFile()<br/>At HybridFile.java:[line 277]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>At HybridFile.java:[line 277]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file HybridFile.java HybridFile.java,
+					
+						line 1177 1177<br/>In class com.amaze.filemanager.filesystem.HybridFile<br/>In method com.amaze.filemanager.filesystem.HybridFile.getInputStream(Context)<br/>At HybridFile.java:[line 1177]<br/>Sink method java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>At HybridFile.java:[line 1177]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file HybridFile.java HybridFile.java,
+					
+						line 1804 1804<br/>In class com.amaze.filemanager.filesystem.HybridFile<br/>In method com.amaze.filemanager.filesystem.HybridFile.openFileInternal(MainActivity)<br/>At HybridFile.java:[line 1804]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>At HybridFile.java:[line 1804]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Operations.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java Operations.java,
+					
+						line 238 423 426 549 552 558 572 238<br/>In class com.amaze.filemanager.filesystem.Operations$1<br/>In method com.amaze.filemanager.filesystem.Operations$1.doInBackground(Void[])<br/>At Operations.java:[line 238]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/FileProperties.unmapPathForApi30OrAbove(Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getParent(Landroid/content/Context;)Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source jcifs/smb/SmbFile.getParent()Ljava/lang/String;<br/>Unknown source java/io/File.getParent()Ljava/lang/String;<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At HybridFile.java:[line 549]<br/>At HybridFile.java:[line 552]<br/>At HybridFile.java:[line 558]<br/>At HybridFile.java:[line 572]<br/>At Operations.java:[line 238]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Operations.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java Operations.java,
+					
+						line 419 423 426 549 552 558 572 419<br/>In class com.amaze.filemanager.filesystem.Operations$2<br/>In method com.amaze.filemanager.filesystem.Operations$2.doInBackground(Void[])<br/>At Operations.java:[line 419]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/FileProperties.unmapPathForApi30OrAbove(Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getParent(Landroid/content/Context;)Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source jcifs/smb/SmbFile.getParent()Ljava/lang/String;<br/>Unknown source java/io/File.getParent()Ljava/lang/String;<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At HybridFile.java:[line 549]<br/>At HybridFile.java:[line 552]<br/>At HybridFile.java:[line 558]<br/>At HybridFile.java:[line 572]<br/>At Operations.java:[line 419]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Operations.java HybridFile.java HybridFile.java Operations.java,
+					
+						line 694 423 426 694<br/>In class com.amaze.filemanager.filesystem.Operations$3<br/>In method com.amaze.filemanager.filesystem.Operations$3.doInBackground(Void[])<br/>At Operations.java:[line 694]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At Operations.java:[line 694]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Operations.java HybridFile.java HybridFile.java Operations.java,
+					
+						line 472 423 426 472<br/>In class com.amaze.filemanager.filesystem.Operations$3<br/>In method com.amaze.filemanager.filesystem.Operations$3.localRename(HybridFile, HybridFile)<br/>At Operations.java:[line 472]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At Operations.java:[line 472]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Operations.java HybridFile.java HybridFile.java Operations.java,
+					
+						line 473 423 426 473<br/>In class com.amaze.filemanager.filesystem.Operations$3<br/>In method com.amaze.filemanager.filesystem.Operations$3.localRename(HybridFile, HybridFile)<br/>At Operations.java:[line 473]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At Operations.java:[line 473]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file RootHelper.java HybridFile.java,
+					
+						line 93 1326<br/>In class com.amaze.filemanager.filesystem.RootHelper<br/>In method com.amaze.filemanager.filesystem.RootHelper.fileExists(String)<br/>At RootHelper.java:[line 93]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/RootHelper.fileExists(Ljava/lang/String;)Z parameter 0<br/>At HybridFile.java:[line 1326]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file CloudUtil.java,
+					
+						line 301<br/>In class com.amaze.filemanager.filesystem.cloud.CloudUtil<br/>In method com.amaze.filemanager.filesystem.cloud.CloudUtil.getThumbnailInputStreamForCloud(Context, String)<br/>At CloudUtil.java:[line 301]<br/>Sink method java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file CloudUtil.java,
+					
+						line 159<br/>In class com.amaze.filemanager.filesystem.cloud.CloudUtil<br/>In method com.amaze.filemanager.filesystem.cloud.CloudUtil.lambda$launchCloud$0(OpenMode, HybridFile, Activity)<br/>At CloudUtil.java:[line 159]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileUtils.java Drawer.java,
+					
+						line 1038 827<br/>In class com.amaze.filemanager.filesystem.files.FileUtils<br/>In method com.amaze.filemanager.filesystem.files.FileUtils.checkForPath(Context, String, boolean)<br/>At FileUtils.java:[line 1038]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/files/FileUtils.checkForPath(Landroid/content/Context;Ljava/lang/String;Z)V parameter 1<br/>At Drawer.java:[line 827]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileUtils.java Drawer.java,
+					
+						line 1040 827<br/>In class com.amaze.filemanager.filesystem.files.FileUtils<br/>In method com.amaze.filemanager.filesystem.files.FileUtils.checkForPath(Context, String, boolean)<br/>At FileUtils.java:[line 1040]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/files/FileUtils.checkForPath(Landroid/content/Context;Ljava/lang/String;Z)V parameter 1<br/>At Drawer.java:[line 827]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileUtils.java,
+					
+						line 135<br/>In class com.amaze.filemanager.filesystem.files.FileUtils<br/>In method com.amaze.filemanager.filesystem.files.FileUtils.folderSize(HybridFile, OnProgressUpdate)<br/>At FileUtils.java:[line 135]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileUtils.java FileUtils.java,
+					
+						line 1069 1069<br/>In class com.amaze.filemanager.filesystem.files.FileUtils<br/>In method com.amaze.filemanager.filesystem.files.FileUtils.fromContentUri(Uri)<br/>At FileUtils.java:[line 1069]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;<br/>At FileUtils.java:[line 1069]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileUtils.java,
+					
+						line 1072<br/>In class com.amaze.filemanager.filesystem.files.FileUtils<br/>In method com.amaze.filemanager.filesystem.files.FileUtils.fromContentUri(Uri)<br/>At FileUtils.java:[line 1072]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileUtils.java,
+					
+						line 1030<br/>In class com.amaze.filemanager.filesystem.files.FileUtils<br/>In method com.amaze.filemanager.filesystem.files.FileUtils.hybridListToFileArrayList(ArrayList)<br/>At FileUtils.java:[line 1030]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileUtils.java Tab.java GeneralDialogCreation.java,
+					
+						line 1000 53 1094<br/>In class com.amaze.filemanager.filesystem.files.FileUtils<br/>In method com.amaze.filemanager.filesystem.files.FileUtils.isPathAccessible(String, SharedPreferences)<br/>At FileUtils.java:[line 1000]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/files/FileUtils.isPathAccessible(Ljava/lang/String;Landroid/content/SharedPreferences;)Z parameter 1<br/>At Tab.java:[line 53]<br/>At GeneralDialogCreation.java:[line 1094]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileUtils.java,
+					
+						line 833<br/>In class com.amaze.filemanager.filesystem.files.FileUtils$5<br/>In method com.amaze.filemanager.filesystem.files.FileUtils$5.lambda$run$0(HybridFile, Activity)<br/>At FileUtils.java:[line 833]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file GenericCopyUtil.java HybridFile.java HybridFile.java GenericCopyUtil.java,
+					
+						line 144 423 426 144<br/>In class com.amaze.filemanager.filesystem.files.GenericCopyUtil<br/>In method com.amaze.filemanager.filesystem.files.GenericCopyUtil.startCopy(boolean, OnLowMemory, UpdatePosition)<br/>At GenericCopyUtil.java:[line 144]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At GenericCopyUtil.java:[line 144]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file GenericCopyUtil.java HybridFile.java HybridFile.java GenericCopyUtil.java,
+					
+						line 205 423 426 205<br/>In class com.amaze.filemanager.filesystem.files.GenericCopyUtil<br/>In method com.amaze.filemanager.filesystem.files.GenericCopyUtil.startCopy(boolean, OnLowMemory, UpdatePosition)<br/>At GenericCopyUtil.java:[line 205]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At GenericCopyUtil.java:[line 205]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file SshClientUtils.java,
+					
+						line 186<br/>In class com.amaze.filemanager.filesystem.ssh.SshClientUtils<br/>In method com.amaze.filemanager.filesystem.ssh.SshClientUtils.lambda$launchFtp$0(HybridFile, boolean, MainActivity)<br/>At SshClientUtils.java:[line 186]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/ftp/NetCopyClientUtils.extractRemotePathFrom(Ljava/lang/String;)Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ItemPopupMenu.java ItemPopupMenu.java,
+					
+						line 117 117<br/>In class com.amaze.filemanager.ui.ItemPopupMenu<br/>In method com.amaze.filemanager.ui.ItemPopupMenu.onMenuItemClick(MenuItem)<br/>At ItemPopupMenu.java:[line 117]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/adapters/data/LayoutElementParcelable.desc<br/>At ItemPopupMenu.java:[line 117]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ItemPopupMenu.java ItemPopupMenu.java,
+					
+						line 138 138<br/>In class com.amaze.filemanager.ui.ItemPopupMenu<br/>In method com.amaze.filemanager.ui.ItemPopupMenu.onMenuItemClick(MenuItem)<br/>At ItemPopupMenu.java:[line 138]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/adapters/data/LayoutElementParcelable.desc<br/>At ItemPopupMenu.java:[line 138]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ItemPopupMenu.java ItemPopupMenu.java,
+					
+						line 172 172<br/>In class com.amaze.filemanager.ui.ItemPopupMenu<br/>In method com.amaze.filemanager.ui.ItemPopupMenu.onMenuItemClick(MenuItem)<br/>At ItemPopupMenu.java:[line 172]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/adapters/data/LayoutElementParcelable.desc<br/>At ItemPopupMenu.java:[line 172]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file ItemPopupMenu.java ItemPopupMenu.java,
+					
+						line 175 175<br/>In class com.amaze.filemanager.ui.ItemPopupMenu<br/>In method com.amaze.filemanager.ui.ItemPopupMenu.onMenuItemClick(MenuItem)<br/>At ItemPopupMenu.java:[line 175]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/adapters/data/LayoutElementParcelable.desc<br/>At ItemPopupMenu.java:[line 175]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file AboutActivity.java AboutActivity.java,
+					
+						line 221 221<br/>In class com.amaze.filemanager.ui.activities.AboutActivity<br/>In method com.amaze.filemanager.ui.activities.AboutActivity.onClick(View)<br/>At AboutActivity.java:[line 221]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/activities/AboutActivity.getPackageName()Ljava/lang/String;<br/>At AboutActivity.java:[line 221]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file DatabaseViewerActivity.java,
+					
+						line 123<br/>In class com.amaze.filemanager.ui.activities.DatabaseViewerActivity<br/>In method com.amaze.filemanager.ui.activities.DatabaseViewerActivity.lambda$load$2(File)<br/>At DatabaseViewerActivity.java:[line 123]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source java/io/File.getName()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file DatabaseViewerActivity.java,
+					
+						line 124<br/>In class com.amaze.filemanager.ui.activities.DatabaseViewerActivity<br/>In method com.amaze.filemanager.ui.activities.DatabaseViewerActivity.lambda$load$2(File)<br/>At DatabaseViewerActivity.java:[line 124]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source java/io/File.getName()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file DatabaseViewerActivity.java DatabaseViewerActivity.java,
+					
+						line 84 84<br/>In class com.amaze.filemanager.ui.activities.DatabaseViewerActivity<br/>In method com.amaze.filemanager.ui.activities.DatabaseViewerActivity.onCreate(Bundle)<br/>At DatabaseViewerActivity.java:[line 84]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/activities/DatabaseViewerActivity.path<br/>At DatabaseViewerActivity.java:[line 84]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java,
+					
+						line 839<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.getStorageDirectoriesLegacy()<br/>At MainActivity.java:[line 839]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/ExternalSdCardOperation.getExtSdCardPathsForActivity(Landroid/content/Context;)[Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java MainActivity.java,
+					
+						line 855 790 792 799 802 823 824 826 830 832 833 840 844 848 854<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.getStorageDirectoriesLegacy()<br/>At MainActivity.java:[line 855]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source java/io/File.getPath()Ljava/lang/String;<br/>Unknown source java/util/Iterator.next()Ljava/lang/Object;<br/>Unknown source java/io/File.getAbsolutePath()Ljava/lang/String;<br/>Unknown source java/util/regex/Pattern.split(Ljava/lang/CharSequence;)[Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/ExternalSdCardOperation.getExtSdCardPathsForActivity(Landroid/content/Context;)[Ljava/lang/String;<br/>Unknown source java/util/Collections.addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z<br/>At MainActivity.java:[line 790]<br/>At MainActivity.java:[line 792]<br/>At MainActivity.java:[line 799]<br/>At MainActivity.java:[line 802]<br/>At MainActivity.java:[line 823]<br/>At MainActivity.java:[line 824]<br/>At MainActivity.java:[line 826]<br/>At MainActivity.java:[line 830]<br/>At MainActivity.java:[line 832]<br/>At MainActivity.java:[line 833]<br/>At MainActivity.java:[line 840]<br/>At MainActivity.java:[line 844]<br/>At MainActivity.java:[line 848]<br/>At MainActivity.java:[line 854]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java MainActivity.java,
+					
+						line 1599 1599<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.lambda$onActivityResult$14(MainFragment)<br/>At MainActivity.java:[line 1599]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/activities/MainActivity.oppathe<br/>At MainActivity.java:[line 1599]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java MainActivity.java,
+					
+						line 1622 1622<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.lambda$onActivityResult$14(MainFragment)<br/>At MainActivity.java:[line 1622]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/activities/MainActivity.oppathe<br/>At MainActivity.java:[line 1622]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java MainActivity.java,
+					
+						line 1625 1625<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.lambda$onActivityResult$14(MainFragment)<br/>At MainActivity.java:[line 1625]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/activities/MainActivity.oppathe<br/>At MainActivity.java:[line 1625]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java,
+					
+						line 650<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.lambda$saveExternalIntent$3(ArrayList, MainFragment)<br/>At MainActivity.java:[line 650]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/fragments/MainFragment.getCurrentPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java MainActivity.java,
+					
+						line 929 929<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.onBackPressed()<br/>At MainActivity.java:[line 929]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/activities/MainActivity.path<br/>At MainActivity.java:[line 929]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java,
+					
+						line 2447<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.onFolderSelection(FolderChooserDialog, File)<br/>At MainActivity.java:[line 2447]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source java/io/File.getParent()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java MainActivity.java,
+					
+						line 1895 1895<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.onNewIntent(Intent)<br/>At MainActivity.java:[line 1895]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/activities/MainActivity.path<br/>At MainActivity.java:[line 1895]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivity.java MainActivity.java,
+					
+						line 1902 1902<br/>In class com.amaze.filemanager.ui.activities.MainActivity<br/>In method com.amaze.filemanager.ui.activities.MainActivity.onNewIntent(Intent)<br/>At MainActivity.java:[line 1902]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/activities/MainActivity.path<br/>At MainActivity.java:[line 1902]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file GeneralDialogCreation.java GeneralDialogCreation.java,
+					
+						line 900 899<br/>In class com.amaze.filemanager.ui.dialogs.GeneralDialogCreation<br/>In method com.amaze.filemanager.ui.dialogs.GeneralDialogCreation.lambda$showCompressDialog$22(String, EditText, MainActivity, ArrayList, MaterialDialog, DialogAction)<br/>At GeneralDialogCreation.java:[line 900]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source java/lang/Object.toString()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/ui/dialogs/GeneralDialogCreation.lambda$showCompressDialog$22(Ljava/lang/String;Landroid/widget/EditText;Lcom/amaze/filemanager/ui/activities/MainActivity;Ljava/util/ArrayList;Lcom/afollestad/materialdialogs/MaterialDialog;Lcom/afollestad/materialdialogs/DialogAction;)V parameter 5<br/>Unknown source android/widget/EditText.getText()Landroid/text/Editable;<br/>Method usage not detected<br/>At GeneralDialogCreation.java:[line 899]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file GeneralDialogCreation.java HybridFile.java HybridFile.java GeneralDialogCreation.java,
+					
+						line 442 423 426 442<br/>In class com.amaze.filemanager.ui.dialogs.GeneralDialogCreation<br/>In method com.amaze.filemanager.ui.dialogs.GeneralDialogCreation.showPropertiesDialog(HybridFileParcelable, ThemedActivity, MainFragment, String, boolean, AppTheme, boolean)<br/>At GeneralDialogCreation.java:[line 442]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.getPath()Ljava/lang/String;<br/>Unknown source com/amaze/filemanager/filesystem/HybridFile.path<br/>Unknown source java/net/URLDecoder.decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At GeneralDialogCreation.java:[line 442]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainFragment.java MainFragment.java,
+					
+						line 1424 1424<br/>In class com.amaze.filemanager.ui.fragments.MainFragment<br/>In method com.amaze.filemanager.ui.fragments.MainFragment.addShortcut(LayoutElementParcelable)<br/>At MainFragment.java:[line 1424]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/adapters/data/LayoutElementParcelable.desc<br/>At MainFragment.java:[line 1424]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainFragment.java,
+					
+						line 1142<br/>In class com.amaze.filemanager.ui.fragments.MainFragment<br/>In method com.amaze.filemanager.ui.fragments.MainFragment.goBack()<br/>At MainFragment.java:[line 1142]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/fragments/data/MainFragmentViewModel.getCurrentPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainFragment.java,
+					
+						line 1379<br/>In class com.amaze.filemanager.ui.fragments.MainFragment<br/>In method com.amaze.filemanager.ui.fragments.MainFragment.hide(String)<br/>At MainFragment.java:[line 1379]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/fragments/MainFragment.hide(Ljava/lang/String;)V parameter 0<br/>Method usage not detected</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainFragment.java MainFragment.java,
+					
+						line 1381 1381<br/>In class com.amaze.filemanager.ui.fragments.MainFragment<br/>In method com.amaze.filemanager.ui.fragments.MainFragment.hide(String)<br/>At MainFragment.java:[line 1381]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/fragments/MainFragment.hide(Ljava/lang/String;)V parameter 0<br/>Method usage not detected<br/>At MainFragment.java:[line 1381]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainFragment.java,
+					
+						line 924<br/>In class com.amaze.filemanager.ui.fragments.MainFragment<br/>In method com.amaze.filemanager.ui.fragments.MainFragment.startFileObserver()<br/>At MainFragment.java:[line 924]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/fragments/data/MainFragmentViewModel.getCurrentPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Drawer.java Drawer.java,
+					
+						line 798 798<br/>In class com.amaze.filemanager.ui.views.drawer.Drawer<br/>In method com.amaze.filemanager.ui.views.drawer.Drawer.onDrawerClosed()<br/>At Drawer.java:[line 798]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/views/drawer/Drawer.pendingPath<br/>At Drawer.java:[line 798]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Drawer.java Drawer.java,
+					
+						line 886 881<br/>In class com.amaze.filemanager.ui.views.drawer.Drawer<br/>In method com.amaze.filemanager.ui.views.drawer.Drawer.onNavigationItemActionClick(MenuItem)<br/>At Drawer.java:[line 886]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/ui/views/drawer/MenuMetadata.path<br/>At Drawer.java:[line 881]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Drawer.java Drawer.java,
+					
+						line 301 300<br/>In class com.amaze.filemanager.ui.views.drawer.Drawer<br/>In method com.amaze.filemanager.ui.views.drawer.Drawer.refreshDrawer()<br/>At Drawer.java:[line 301]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/adapters/data/StorageDirectoryParcelable.path<br/>At Drawer.java:[line 300]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivityHelper.java PrepareCopyTask.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java HybridFile.java MainActivityHelper.java MainActivityHelper.java,
+					
+						line 463 336 423 426 549 552 558 572 446 686<br/>In class com.amaze.filemanager.utils.MainActivityHelper<br/>In method com.amaze.filemanager.utils.MainActivityHelper.checkFolder(String, OpenMode, Context)<br/>At MainActivityHelper.java:[line 463]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/utils/MainActivityHelper.checkFolder(Ljava/lang/String;Lcom/amaze/filemanager/fileoperations/filesystem/OpenMode;Landroid/content/Context;)I parameter 2<br/>At PrepareCopyTask.java:[line 336]<br/>At HybridFile.java:[line 423]<br/>At HybridFile.java:[line 426]<br/>At HybridFile.java:[line 549]<br/>At HybridFile.java:[line 552]<br/>At HybridFile.java:[line 558]<br/>At HybridFile.java:[line 572]<br/>At MainActivityHelper.java:[line 446]<br/>At MainActivityHelper.java:[line 686]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivityHelper.java,
+					
+						line 141<br/>In class com.amaze.filemanager.utils.MainActivityHelper$1<br/>In method com.amaze.filemanager.utils.MainActivityHelper$1.onReceive(Context, Intent)<br/>At MainActivityHelper.java:[line 141]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file MainActivityHelper.java,
+					
+						line 142<br/>In class com.amaze.filemanager.utils.MainActivityHelper$1<br/>In method com.amaze.filemanager.utils.MainActivityHelper$1.onReceive(Context, Intent)<br/>At MainActivityHelper.java:[line 142]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Utils.java Utils.java,
+					
+						line 453 453<br/>In class com.amaze.filemanager.utils.Utils<br/>In method com.amaze.filemanager.utils.Utils.addShortcut(Context, ComponentName, LayoutElementParcelable)<br/>At Utils.java:[line 453]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/adapters/data/LayoutElementParcelable.desc<br/>At Utils.java:[line 453]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Utils.java Utils.java,
+					
+						line 412 412<br/>In class com.amaze.filemanager.utils.Utils<br/>In method com.amaze.filemanager.utils.Utils.buildEmailIntent(Context, String, String)<br/>At Utils.java:[line 412]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/content/Context.getPackageName()Ljava/lang/String;<br/>At Utils.java:[line 412]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Utils.java,
+					
+						line 249<br/>In class com.amaze.filemanager.utils.Utils<br/>In method com.amaze.filemanager.utils.Utils.getUriForBaseFile(Context, HybridFileParcelable)<br/>At Utils.java:[line 249]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file Utils.java,
+					
+						line 251<br/>In class com.amaze.filemanager.utils.Utils<br/>In method com.amaze.filemanager.utils.Utils.getUriForBaseFile(Context, HybridFileParcelable)<br/>At Utils.java:[line 251]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source com/amaze/filemanager/filesystem/HybridFileParcelable.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#SQL_INJECTION_ANDROID">Potential Android SQL Injection</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This use of android/database/sqlite/SQLiteDatabase.rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor; can be vulnerable to SQL injection (with Android SQL)<br/>
+                  <br/>
+                  <br/>In file DbViewerFragment.java DbViewerFragment.java,
+					
+						line 65 64<br/>In class com.amaze.filemanager.ui.fragments.DbViewerFragment<br/>In method com.amaze.filemanager.ui.fragments.DbViewerFragment.onCreateView(LayoutInflater, ViewGroup, Bundle)<br/>At DbViewerFragment.java:[line 65]<br/>Sink method android/database/sqlite/SQLiteDatabase.rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;<br/>Sink parameter 1<br/>Unknown source com/amaze/filemanager/ui/fragments/DbViewerFragment.tableName<br/>At DbViewerFragment.java:[line 64]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#SQL_INJECTION_ANDROID">Potential Android SQL Injection</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This use of android/database/sqlite/SQLiteDatabase.rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor; can be vulnerable to SQL injection (with Android SQL)<br/>
+                  <br/>
+                  <br/>In file DbViewerFragment.java DbViewerFragment.java,
+					
+						line 68 67<br/>In class com.amaze.filemanager.ui.fragments.DbViewerFragment<br/>In method com.amaze.filemanager.ui.fragments.DbViewerFragment.onCreateView(LayoutInflater, ViewGroup, Bundle)<br/>At DbViewerFragment.java:[line 68]<br/>Sink method android/database/sqlite/SQLiteDatabase.rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;<br/>Sink parameter 1<br/>Unknown source com/amaze/filemanager/ui/fragments/DbViewerFragment.tableName<br/>At DbViewerFragment.java:[line 67]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#STATIC_IV">Static IV</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>The initialization vector (IV) is not properly generated<br/>
+                  <br/>
+                  <br/>In file CryptUtil.java,
+					
+						line 344<br/>In class com.amaze.filemanager.filesystem.files.CryptUtil<br/>In method com.amaze.filemanager.filesystem.files.CryptUtil.doEncrypt(BufferedInputStream, BufferedOutputStream, int)<br/>At CryptUtil.java:[line 344]</p>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>
+         <a name="Details">Warning Types</a>
+      </h1>
+      <h2>
+         <a name="INFORMATION_EXPOSURE_THROUGH_AN_ERROR_MESSAGE">Information Exposure Through An Error Message</a>
+      </h2>
+            
+<p>
+The sensitive information may be valuable information on its own (such as a password), or it may be useful for launching other, more deadly attacks. If an attack fails, an attacker may use error information provided by the server to launch another more focused attack. For example, an attempt to exploit a path traversal weakness (CWE-22) might yield the full pathname of the installed application. In turn, this could be used to select the proper number of ".." sequences to navigate to the targeted file. An attack using SQL injection (CWE-89) might not initially succeed, but an error message could reveal the malformed query, which would expose query logic and possibly even passwords or other sensitive information used within the query.
+</p>
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>try {
+  out = httpResponse.getOutputStream()
+} catch (Exception e) {
+  e.printStackTrace(out);
+}</pre>
+</p>
+<p>
+<b>References</b><br/>
+<a href="https://cwe.mitre.org/data/definitions/209.html">CWE-209: Information Exposure Through an Error Message</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/211.html">CWE-211: Information Exposure Through Externally-Generated Error Message</a><br/>
+</p>
+            
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="BAD_HEXA_CONVERSION">Bad hexadecimal concatenation</a>
+      </h2>
+            
+<p>When converting a byte array containing a hash signature to a human readable string, a conversion mistake can be made if
+the array is read byte by byte. The following sample illustrates the use of the method <code>Integer.toHexString()</code> which will trim any leading zeroes
+from each byte of the computed hash value.
+<pre>
+MessageDigest md = MessageDigest.getInstance("SHA-256");
+byte[] resultBytes = md.digest(password.getBytes("UTF-8"));
+
+StringBuilder stringBuilder = new StringBuilder();
+for(byte b :resultBytes) {
+    stringBuilder.append( Integer.toHexString( b & 0xFF ) );
+}
+
+return stringBuilder.toString();</pre>
+</p>
+<p>
+This mistake weakens the hash value computed since it introduces more collisions.
+For example, the hash values "0x0679" and "0x6709" would both output as "679" for the above function.
+</p>
+
+<p>
+In this situation, the method <code>Integer.toHexString()</code> should be replaced with <code>String.format()</code> as follows:
+<pre>stringBuilder.append( String.format( "%02X", b ) );</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://cwe.mitre.org/data/definitions/704.html">CWE-704: Incorrect Type Conversion or Cast</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="ANDROID_BROADCAST">Broadcast (Android)</a>
+      </h2>
+            
+<p>
+    Broadcast intents can be listened by any application with the appropriate permission. It is suggested to avoid transmitting
+    sensitive information when possible.
+</p>
+<p>
+    <b>Code at risk:</b><br/>
+<pre>
+Intent i = new Intent();
+i.setAction("com.insecure.action.UserConnected");
+i.putExtra("username", user);
+i.putExtra("email", email);
+i.putExtra("session", newSessionId);
+
+this.sendBroadcast(v1);
+</pre>
+</p>
+<br/>
+<p>
+    <b>Solution (if possible):</b><br/>
+<pre>
+Intent i = new Intent();
+i.setAction("com.secure.action.UserConnected");
+
+sendBroadcast(v1);
+</pre>
+</p>
+<br/>
+<p>
+    <b>Configuration (receiver)<sup>[1] Source: StackOverflow</sup>:</b><br/>
+<pre>
+&lt;manifest ...&gt;
+
+    &lt;!-- Permission declaration --&gt;
+    &lt;permission android:name="my.app.PERMISSION" /&gt;
+
+    &lt;receiver
+        android:name="my.app.BroadcastReceiver"
+        android:permission="my.app.PERMISSION"&gt; &lt;!-- Permission enforcement --&gt;
+        &lt;intent-filter>
+            &lt;action android:name="com.secure.action.UserConnected" /&gt;
+        &lt;/intent-filter&gt;
+    &lt;/receiver&gt;
+
+    ...
+&lt;/manifest>
+</pre>
+</p>
+<p>
+    <b>Configuration (sender)<sup>[1] Source: StackOverflow</sup>:</b><br/>
+<pre>
+&lt;manifest&gt;
+    &lt;!-- We declare we own the permission to send broadcast to the above receiver --&gt;
+    &lt;uses-permission android:name="my.app.PERMISSION"/&gt;
+
+    &lt;!-- With the following configuration, both the sender and the receiver apps need to be signed by the same developer certificate. --&gt;
+    &lt;permission android:name="my.app.PERMISSION" android:protectionLevel="signature"/&gt;
+&lt;/manifest&gt;
+</pre>
+</p>
+<br/>
+<p>
+    <b>References</b><br/>
+    <a href="https://www.securecoding.cert.org/confluence/display/java/DRD03-J.+Do+not+broadcast+sensitive+information+using+an+implicit+intent">CERT: DRD03-J. Do not broadcast sensitive information using an implicit intent</a><br/>
+    <a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html#Security">Android Official Doc: BroadcastReceiver (Security)</a><br/>
+    <a href="https://developer.android.com/guide/topics/manifest/receiver-element.html">Android Official Doc: Receiver configuration (see <code>android:permission</code>)</a><br/>
+    <sup>[1]</sup> <a href="https://stackoverflow.com/a/21513368/89769">StackOverflow: How to set permissions in broadcast sender and receiver in android</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/925.html">CWE-925: Improper Verification of Intent by Broadcast Receiver</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/927.html">CWE-927: Use of Implicit Intent for Sensitive Communication</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="COMMAND_INJECTION">Potential Command Injection</a>
+      </h2>
+            
+<p>The highlighted API is used to execute a system command. If unfiltered input is passed to this API, it can lead to arbitrary command execution.</p>
+<br/>
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>import java.lang.Runtime;
+
+Runtime r = Runtime.getRuntime();
+r.exec("/bin/sh -c some_tool" + input);</pre>
+</p>
+<p>
+<b>References</b><br/>
+<a href="https://www.owasp.org/index.php/Command_Injection">OWASP: Command Injection</a><br/>
+<a href="https://www.owasp.org/index.php/Top_10_2013-A1-Injection">OWASP: Top 10 2013-A1-Injection</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/78.html">CWE-78: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+      </h2>
+            
+<p>
+    The application write data to external storage (potentially SD card). There are multiple security implication to this
+    action. First, file store on SD card will be accessible to the application having the
+    <a href="https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE"><code>READ_EXTERNAL_STORAGE</code></a> permission.
+    Also, if the data persisted contains confidential information about the user, encryption would be needed.
+</p>
+<p>
+    <b>Code at risk:</b><br/>
+<pre>
+file file = new File(getExternalFilesDir(TARGET_TYPE), filename);
+fos = new FileOutputStream(file);
+fos.write(confidentialData.getBytes());
+fos.flush();
+</pre>
+</p>
+<p>
+    <b>Better alternative:</b><br/>
+<pre>
+fos = openFileOutput(filename, Context.MODE_PRIVATE);
+fos.write(string.getBytes());
+</pre>
+</p>
+<br/>
+<p>
+    <b>References</b><br/>
+    <a href="http://developer.android.com/training/articles/security-tips.html#ExternalStorage">Android Official Doc: Security Tips</a><br/>
+    <a href="https://www.securecoding.cert.org/confluence/display/java/DRD00-J.+Do+not+store+sensitive+information+on+external+storage+%28SD+card%29+unless+encrypted+first">CERT: DRD00-J: Do not store sensitive information on external storage [...]</a><br/>
+    <a href="https://developer.android.com/guide/topics/data/data-storage.html#filesExternal">Android Official Doc: Using the External Storage</a><br/>
+    <a href="https://www.owasp.org/index.php/Mobile_Top_10_2014-M2">OWASP Mobile Top 10 2014-M2: Insecure Data Storage</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/312.html">CWE-312: Cleartext Storage of Sensitive Information</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="WEAK_MESSAGE_DIGEST_MD5">MD2, MD4 and MD5 are weak hash functions</a>
+      </h2>
+            
+<p>The algorithms MD2, MD4 and MD5 are not a recommended MessageDigest. <b>PBKDF2</b> should be used to hash password for example.</p>
+
+<blockquote>
+    "The security of the MD5 hash function is severely compromised. A collision attack exists that can find collisions
+    within seconds on a computer with a 2.6 GHz Pentium 4 processor (complexity of 2<sup>24.1</sup>).[1] Further, there is also a
+    chosen-prefix collision attack that can produce a collision for two inputs with specified prefixes within hours, using
+    off-the-shelf computing hardware (complexity 2<sup>39</sup>).[2]"<br/>
+    - <a href="https://en.wikipedia.org/wiki/MD5#Security">Wikipedia: MD5 - Security</a>
+</blockquote>
+
+<blockquote>
+    "<b>SHA-224, SHA-256, SHA-384, SHA-512, SHA-512/224, and SHA-512/256</b>:<br/>
+    The use of these hash functions is acceptable for all hash function applications."<br/>
+    - <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf">NIST: Transitioning the Use of Cryptographic Algorithms and Key Lengths p.15</a>
+</blockquote>
+<blockquote>
+    "The main idea of a PBKDF is to slow dictionary or brute force attacks on the passwords by increasing the time
+    needed to test each password. An attacker with a list of likely passwords can evaluate the PBKDF using the known
+    iteration counter and the salt. Since an attacker has to spend a significant amount of computing time for each try,
+    it becomes harder to apply the dictionary or brute force attacks."<br/>
+- <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-132.pdf">NIST: Recommendation for Password-Based Key Derivation  p.12</a>
+</blockquote>
+<br/>
+<p>
+    <b>Vulnerable Code:</b><br/>
+    <pre>MessageDigest md5Digest = MessageDigest.getInstance("MD5");
+    md5Digest.update(password.getBytes());
+    byte[] hashValue = md5Digest.digest();</pre>
+    <br/>
+    <pre>byte[] hashValue = DigestUtils.getMd5Digest().digest(password.getBytes());</pre>
+</p>
+<br/>
+<p>
+    <b>Solution (Using bouncy castle):</b><br/>
+    <pre>public static byte[] getEncryptedPassword(String password, byte[] salt) throws NoSuchAlgorithmException, InvalidKeySpecException {
+    PKCS5S2ParametersGenerator gen = new PKCS5S2ParametersGenerator(new SHA256Digest());
+    gen.init(password.getBytes("UTF-8"), salt.getBytes(), 4096);
+    return ((KeyParameter) gen.generateDerivedParameters(256)).getKey();
+}</pre>
+    <br/>
+    <b>Solution (Java 8 and later):</b><br/>
+    <pre>public static byte[] getEncryptedPassword(String password, byte[] salt) throws NoSuchAlgorithmException, InvalidKeySpecException {
+    KeySpec spec = new PBEKeySpec(password.toCharArray(), salt, 4096, 256 * 8);
+    SecretKeyFactory f = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
+    return f.generateSecret(spec).getEncoded();
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+[1] <a href="https://www.win.tue.nl/hashclash/On%20Collisions%20for%20MD5%20-%20M.M.J.%20Stevens.pdf">On Collisions for MD5</a>: Master Thesis by M.M.J. Stevens<br/>
+[2] <a href="https://homepages.cwi.nl/~stevens/papers/stJOC%20-%20Chosen-Prefix%20Collisions%20for%20MD5%20and%20Applications.pdf">Chosen-prefix collisions for MD5 and applications</a>: Paper written by Marc Stevens<br/>
+<a href="https://en.wikipedia.org/wiki/MD5">Wikipedia: MD5</a><br/>
+<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf">NIST: Transitioning the Use of Cryptographic Algorithms and Key Lengths</a><br/>
+<a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-132.pdf">NIST: Recommendation for Password-Based Key Derivation</a><br/>
+<a href="https://stackoverflow.com/q/22580853/89769">Stackoverflow: Reliable implementation of PBKDF2-HMAC-SHA256 for Java</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/327.html">CWE-327: Use of a Broken or Risky Cryptographic Algorithm</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="PREDICTABLE_RANDOM">Predictable pseudorandom number generator</a>
+      </h2>
+            
+<p>The use of a predictable random value can lead to vulnerabilities when used in certain security critical contexts. For example, when the value is used as:</p>
+<ul>
+<li>a CSRF token: a predictable token can lead to a CSRF attack as an attacker will know the value of the token</li>
+<li>a password reset token (sent by email): a predictable password token can lead to an account takeover, since an attacker will guess the URL of the "change password" form</li>
+<li>any other secret value</li>
+</ul>
+<p>
+A quick fix could be to replace the use of <code>java.util.Random</code> with something stronger, such as <code>java.security.SecureRandom</code>.
+</p>
+<p>
+<b>Vulnerable Code:</b><br/>
+<pre>String generateSecretToken() {
+    Random r = new Random();
+    return Long.toHexString(r.nextLong());
+}</pre>
+</p>
+<p>
+<b>Solution:</b>
+<pre>import org.apache.commons.codec.binary.Hex;
+
+String generateSecretToken() {
+    SecureRandom secRandom = new SecureRandom();
+
+    byte[] result = new byte[32];
+    secRandom.nextBytes(result);
+    return Hex.encodeHexString(result);
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://jazzy.id.au/2010/09/20/cracking_random_number_generators_part_1.html">Cracking Random Number Generators - Part 1 (https://jazzy.id.au)</a><br/>
+<a href="https://www.securecoding.cert.org/confluence/display/java/MSC02-J.+Generate+strong+random+numbers">CERT: MSC02-J. Generate strong random numbers</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/330.html">CWE-330: Use of Insufficiently Random Values</a><br/>
+<a href="https://blog.h3xstream.com/2014/12/predicting-struts-csrf-token-cve-2014.html">Predicting Struts CSRF Token (Example of real-life vulnerability and exploitation)</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+      </h2>
+            
+<p>A file is opened to read its content. The filename comes from an <b>input</b> parameter.
+If an unfiltered parameter is passed to this file API, files from an arbitrary filesystem location could be read.</p>
+<p>This rule identifies <b>potential</b> path traversal vulnerabilities. In many cases, the constructed file path cannot be controlled
+by the user. If that is the case, the reported instance is a false positive.</p>
+<br/>
+
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", image); //Weak point
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+
+<p>
+    <b>Solution:</b><br/>
+<pre>import org.apache.commons.io.FilenameUtils;
+
+@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", FilenameUtils.getName(image)); //Fix
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246952/Path%20Traversal">WASC: Path Traversal</a><br/>
+<a href="https://www.owasp.org/index.php/Path_Traversal">OWASP: Path Traversal</a><br/>
+<a href="https://capec.mitre.org/data/definitions/126.html">CAPEC-126: Path Traversal</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/22.html">CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="SQL_INJECTION_ANDROID">Potential Android SQL Injection</a>
+      </h2>
+            
+<p>
+The input values included in SQL queries need to be passed in safely.
+Bind variables in prepared statements can be used to easily mitigate the risk of SQL injection.
+</p>
+
+<p>
+    <b>Vulnerable Code:</b><br/>
+    <pre>String query = "SELECT * FROM  messages WHERE uid= '"+userInput+"'" ;
+Cursor cursor = this.getReadableDatabase().rawQuery(query,null);</pre>
+</p>
+<p>
+    <b>Solution:</b><br/>
+    <pre>String query = "SELECT * FROM  messages WHERE uid= ?" ;
+Cursor cursor = this.getReadableDatabase().rawQuery(query,new String[] {userInput});</pre>
+</p>
+<br/>
+
+<b>References (Android SQLite)</b><br/>
+<a href="http://www.informit.com/articles/article.aspx?p=2268753&seqNum=5">InformIT.com: Practical Advice for Building Secure Android Databases in SQLite</a><br/>
+<a href="https://www.packtpub.com/books/content/knowing-sql-injection-attacks-and-securing-our-android-applications-them">Packtpub.com: Knowing the SQL-injection attacks and securing our Android applications from them</a><br/>
+<a href="https://books.google.ca/books?id=SXlMAQAAQBAJ&lpg=PR1&pg=PA64#v=onepage&q&f=false">Android Database Support (Enterprise Android: Programming Android Database Applications for the Enterprise)</a><br/>
+<a href="https://stackoverflow.com/a/29797229/89769">Safe example of Insert, Select, Update and Delete queries provided by Suragch</a><br/>
+
+<b>References (SQL injection)</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246963/SQL%20Injection">WASC-19: SQL Injection</a><br/>
+<a href="https://capec.mitre.org/data/definitions/66.html">CAPEC-66: SQL Injection</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/89.html">CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')</a><br/>
+<a href="https://www.owasp.org/index.php/Top_10_2013-A1-Injection">OWASP: Top 10 2013-A1-Injection</a><br/>
+<a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">OWASP: SQL Injection Prevention Cheat Sheet</a><br/>
+<a href="https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet">OWASP: Query Parameterization Cheat Sheet</a><br/>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="STATIC_IV">Static IV</a>
+      </h2>
+            
+<p>
+    Initialization vector must be regenerated for each message to be encrypted.
+</p>
+<p><b>Vulnerable Code:</b></p>
+<p>
+<pre>
+private static byte[] IV = new byte[16] {(byte)0,(byte)1,(byte)2,[...]};
+
+public void encrypt(String message) throws Exception {
+
+    IvParameterSpec ivSpec = new IvParameterSpec(IV);
+[...]
+</pre>
+<p><b>Solution:</b></p>
+<p>
+<pre>
+public void encrypt(String message) throws Exception {
+
+    byte[] iv = new byte[16];
+    new SecureRandom().nextBytes(iv);
+
+    IvParameterSpec ivSpec = new IvParameterSpec(iv);
+[...]
+</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://en.wikipedia.org/wiki/Initialization_vector">Wikipedia: Initialization vector</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/329.html">CWE-329: Not Using a Random IV with CBC Mode</a><br/>
+<a href="https://defuse.ca/cbcmodeiv.htm">Encryption - CBC Mode IV: Secret or Not?</a>
+</p>
+            
+        <p>
+         <br/>
+         <br/>
+      </p>
+   </body>
+</html>

@@ -1,0 +1,16 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/appthemehelper/src/main/java/code/name/monkey/appthemehelper/util/TintHelper.java</file>
+  <line>70</line>
+  <module>RetroMusicPlayer-6.1.0.appthemehelper.main</module>
+  <package>code.name.monkey.appthemehelper.util</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/appthemehelper/src/main/java/code/name/monkey/appthemehelper/util/TintHelper.java" />
+  <problem_class id="AndroidLintUseCompatLoadingForDrawables" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Should not call Context.getDrawable or Resources.getDrawable directly</problem_class>
+  <hints />
+  <description>&lt;html&gt;Use &lt;code&gt;ResourcesCompat.getDrawable()&lt;/code&gt;&lt;/html&gt;</description>
+  <highlighted_element>view.getResources().getDrawable(resId)</highlighted_element>
+  <language>JAVA</language>
+  <offset>37</offset>
+  <length>38</length>
+</problem>
+</problems>

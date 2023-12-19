@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout/sliding_music_panel_layout.xml</file>
+  <line>36</line>
+  <module>RetroMusicPlayer-6.1.0.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/sliding_music_panel_layout.xml" />
+  <problem_class id="AndroidLintFragmentTagUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use FragmentContainerView instead of the &lt;fragment&gt; tag</problem_class>
+  <hints />
+  <description>&lt;html&gt;Replace the &amp;lt;fragment&gt; tag with FragmentContainerView.&lt;/html&gt;</description>
+  <highlighted_element>fragment</highlighted_element>
+  <language>XML</language>
+  <offset>9</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/res/layout-land/sliding_music_panel_layout.xml</file>
+  <line>50</line>
+  <module>RetroMusicPlayer-6.1.0.app.main</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout-land/sliding_music_panel_layout.xml" />
+  <problem_class id="AndroidLintFragmentTagUsage" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Use FragmentContainerView instead of the &lt;fragment&gt; tag</problem_class>
+  <hints />
+  <description>&lt;html&gt;Replace the &amp;lt;fragment&gt; tag with FragmentContainerView.&lt;/html&gt;</description>
+  <highlighted_element>fragment</highlighted_element>
+  <language>XML</language>
+  <offset>9</offset>
+  <length>8</length>
+</problem>
+</problems>

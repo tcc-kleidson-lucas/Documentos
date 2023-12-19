@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.4.2" sequence="0" timestamp="1696601078172" analysisTimestamp="1696601075200" release="">
+  <Project projectName="AmazeFileManager-3.8.4[AmazeFileManager-3.8.4.file_operations.main]">
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\BuildConfig.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\exceptions\CloudPluginException.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\exceptions\ShellNotRunningException.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\exceptions\StreamNotFoundException.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamer.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer$HTTPSession.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer$Response.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamSource.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\compressed\ArchivePasswordCache$1.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\compressed\ArchivePasswordCache$ArchivePasswordCacheHolder.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\compressed\ArchivePasswordCache.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\OpenMode.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\Streamer.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer$HTTPSession.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer$Response.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamSource.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\StorageNaming$DeviceDescription.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\StorageNaming.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\streams\RandomAccessStream.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\usb\SingletonUsbOtg.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\filesystem\usb\UsbOtgRepresentation.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\utils\OnLowMemory.class</Jar>
+    <Jar>C:\Users\lucas\AndroidStudioProjects\AmazeFileManager-3.8.4\file_operations\build\intermediates\javac\debug\classes\com\amaze\filemanager\fileoperations\utils\UpdatePosition.class</Jar>
+    <AuxClasspathEntry>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/file_operations/build/intermediates/javac/debug/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/commons_compress_7z/build/intermediates/javac/debug/classes</AuxClasspathEntry>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/file_operations/build/generated/ap_generated_sources/debug/out</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/file_operations/build/generated/source/buildConfig/debug</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/file_operations/build/generated/res/resValues/debug</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/file_operations/src/main/java</SrcDir>
+    <SrcDir>C:/Users/lucas/AndroidStudioProjects/AmazeFileManager-3.8.4/file_operations/src/main/c</SrcDir>
+    <Plugin id="com.h3xstream.findsecbugs" enabled="true"/>
+  </Project>
+  <BugInstance type="UNENCRYPTED_SERVER_SOCKET" priority="2" rank="7" abbrev="SECUSS" category="SECURITY" instanceHash="e534387061129a65a43861f5d3d17c34" instanceOccurrenceNum="0" instanceOccurrenceMax="1" cweid="319">
+    <ShortMessage>Unencrypted Server Socket</ShortMessage>
+    <LongMessage>Unencrypted server socket (instead of SSLServerSocket)</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+        <Message>In CloudStreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" name="tryBind" signature="(I)Ljava/net/ServerSocket;" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" start="251" end="256" startBytecode="0" endBytecode="157" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer.tryBind(int)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" primary="true" start="251" end="251" startBytecode="5" endBytecode="5" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 251]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="UNENCRYPTED_SERVER_SOCKET" priority="2" rank="7" abbrev="SECUSS" category="SECURITY" instanceHash="e534387061129a65a43861f5d3d17c34" instanceOccurrenceNum="1" instanceOccurrenceMax="1" cweid="319">
+    <ShortMessage>Unencrypted Server Socket</ShortMessage>
+    <LongMessage>Unencrypted server socket (instead of SSLServerSocket)</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+        <Message>In CloudStreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" name="tryBind" signature="(I)Ljava/net/ServerSocket;" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" start="251" end="256" startBytecode="0" endBytecode="157" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer.tryBind(int)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" primary="true" start="254" end="254" startBytecode="24" endBytecode="24" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 254]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CRLF_INJECTION_LOGS" priority="2" rank="7" abbrev="SECCRLFLOG" category="SECURITY" instanceHash="c58c6e98c7d7632a7f467d3275998984" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="117">
+    <ShortMessage>Potential CRLF Injection for logs</ShortMessage>
+    <LongMessage>This use of org/slf4j/Logger.debug(Ljava/lang/String;)V might be used to include CRLF characters into log messages</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+        <Message>In CloudStreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" name="handleResponse" signature="(Ljava/net/Socket;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="338" end="484" startBytecode="0" endBytecode="1870" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession.handleResponse(Socket)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" primary="true" start="359" end="359" startBytecode="131" endBytecode="131" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 359]</Message>
+    </SourceLine>
+    <String value="org/slf4j/Logger.debug(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method org/slf4j/Logger.debug(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="java/io/BufferedReader.readLine()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/io/BufferedReader.readLine()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/Properties.toString()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/util/Properties.toString()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/StringTokenizer.nextToken()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.nextToken()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/Properties.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" role="Tainted source">
+      <Message>Tainted source java/util/Properties.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;</Message>
+    </String>
+    <String value="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer$HTTPSession.decodeHeader(Ljava/io/BufferedReader;Ljava/util/Properties;Ljava/util/Properties;Ljava/util/Properties;)V parameter 2" role="Unknown source">
+      <Message>Unknown source com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer$HTTPSession.decodeHeader(Ljava/io/BufferedReader;Ljava/util/Properties;Ljava/util/Properties;Ljava/util/Properties;)V parameter 2</Message>
+    </String>
+    <String value="java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;)V" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="android/net/Uri.decode(Ljava/lang/String;)Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source android/net/Uri.decode(Ljava/lang/String;)Ljava/lang/String;</Message>
+    </String>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="359" end="359" startBytecode="128" endBytecode="128" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 359]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="492" end="492" startBytecode="1" endBytecode="1" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 492]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="494" end="494" startBytecode="18" endBytecode="18" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 494]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="499" end="499" startBytecode="46" endBytecode="46" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 499]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="500" end="500" startBytecode="56" endBytecode="56" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 500]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="529" end="529" startBytecode="230" endBytecode="230" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 529]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CRLF_INJECTION_LOGS" priority="2" rank="7" abbrev="SECCRLFLOG" category="SECURITY" instanceHash="5a93be2817a6e6baa35e79a1f2af0bb1" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="117">
+    <ShortMessage>Potential CRLF Injection for logs</ShortMessage>
+    <LongMessage>This use of org/slf4j/Logger.debug(Ljava/lang/String;)V might be used to include CRLF characters into log messages</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+        <Message>In CloudStreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" name="handleResponse" signature="(Ljava/net/Socket;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="338" end="484" startBytecode="0" endBytecode="1870" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession.handleResponse(Socket)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" primary="true" start="361" end="361" startBytecode="193" endBytecode="193" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 361]</Message>
+    </SourceLine>
+    <String value="org/slf4j/Logger.debug(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method org/slf4j/Logger.debug(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="java/io/BufferedReader.readLine()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/io/BufferedReader.readLine()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/Properties.toString()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/util/Properties.toString()Ljava/lang/String;</Message>
+    </String>
+    <String value="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer$HTTPSession.decodeHeader(Ljava/io/BufferedReader;Ljava/util/Properties;Ljava/util/Properties;Ljava/util/Properties;)V parameter 0" role="Unknown source">
+      <Message>Unknown source com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer$HTTPSession.decodeHeader(Ljava/io/BufferedReader;Ljava/util/Properties;Ljava/util/Properties;Ljava/util/Properties;)V parameter 0</Message>
+    </String>
+    <String value="java/util/Properties.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" role="Tainted source">
+      <Message>Tainted source java/util/Properties.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;</Message>
+    </String>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="361" end="361" startBytecode="190" endBytecode="190" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 361]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="520" end="520" startBytecode="149" endBytecode="149" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 520]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="524" end="524" startBytecode="191" endBytecode="191" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 524]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="525" end="525" startBytecode="217" endBytecode="217" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 525]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="7" abbrev="SECPTI" category="SECURITY" instanceHash="455e3bfbe61a1a3cdfd0c1deb7d25846" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+        <Message>In CloudStreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" name="saveTmpFile" signature="([BII)Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="642" end="655" startBytecode="0" endBytecode="312" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession.saveTmpFile(byte[], int, int)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" primary="true" start="646" end="646" startBytecode="30" endBytecode="30" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 646]</Message>
+    </SourceLine>
+    <String value="java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;" role="Sink method">
+      <Message>Sink method java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Unknown source">
+      <Message>Unknown source java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" start="646" end="646" startBytecode="27" endBytecode="27" sourcefile="CloudStreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\cloud\CloudStreamServer.java">
+      <Message>At CloudStreamServer.java:[line 646]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="UNENCRYPTED_SERVER_SOCKET" priority="2" rank="7" abbrev="SECUSS" category="SECURITY" instanceHash="5b33325796c992e817673b8c6eee3415" instanceOccurrenceNum="0" instanceOccurrenceMax="1" cweid="319">
+    <ShortMessage>Unencrypted Server Socket</ShortMessage>
+    <LongMessage>Unencrypted server socket (instead of SSLServerSocket)</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+        <Message>In StreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" name="tryBind" signature="(I)Ljava/net/ServerSocket;" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" start="208" end="213" startBytecode="0" endBytecode="157" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer.tryBind(int)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" primary="true" start="208" end="208" startBytecode="5" endBytecode="5" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 208]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="UNENCRYPTED_SERVER_SOCKET" priority="2" rank="7" abbrev="SECUSS" category="SECURITY" instanceHash="5b33325796c992e817673b8c6eee3415" instanceOccurrenceNum="1" instanceOccurrenceMax="1" cweid="319">
+    <ShortMessage>Unencrypted Server Socket</ShortMessage>
+    <LongMessage>Unencrypted server socket (instead of SSLServerSocket)</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+        <Message>In StreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" name="tryBind" signature="(I)Ljava/net/ServerSocket;" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" start="208" end="213" startBytecode="0" endBytecode="157" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer.tryBind(int)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" primary="true" start="211" end="211" startBytecode="24" endBytecode="24" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 211]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CRLF_INJECTION_LOGS" priority="2" rank="7" abbrev="SECCRLFLOG" category="SECURITY" instanceHash="31c5f30109a3ab4428b566f7dc8f9d13" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="117">
+    <ShortMessage>Potential CRLF Injection for logs</ShortMessage>
+    <LongMessage>This use of org/slf4j/Logger.debug(Ljava/lang/String;)V might be used to include CRLF characters into log messages</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+        <Message>In StreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" name="handleResponse" signature="(Ljava/net/Socket;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="247" end="393" startBytecode="0" endBytecode="1870" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession.handleResponse(Socket)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" primary="true" start="268" end="268" startBytecode="131" endBytecode="131" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 268]</Message>
+    </SourceLine>
+    <String value="org/slf4j/Logger.debug(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method org/slf4j/Logger.debug(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="java/io/BufferedReader.readLine()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/io/BufferedReader.readLine()Ljava/lang/String;</Message>
+    </String>
+    <String value="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer$HTTPSession.decodeHeader(Ljava/io/BufferedReader;Ljava/util/Properties;Ljava/util/Properties;Ljava/util/Properties;)V parameter 2" role="Unknown source">
+      <Message>Unknown source com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer$HTTPSession.decodeHeader(Ljava/io/BufferedReader;Ljava/util/Properties;Ljava/util/Properties;Ljava/util/Properties;)V parameter 2</Message>
+    </String>
+    <String value="java/util/Properties.toString()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/util/Properties.toString()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/StringTokenizer.nextToken()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.nextToken()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/Properties.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" role="Tainted source">
+      <Message>Tainted source java/util/Properties.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;</Message>
+    </String>
+    <String value="java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;)V" role="Tainted source">
+      <Message>Tainted source java/util/StringTokenizer.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="android/net/Uri.decode(Ljava/lang/String;)Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source android/net/Uri.decode(Ljava/lang/String;)Ljava/lang/String;</Message>
+    </String>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="268" end="268" startBytecode="128" endBytecode="128" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 268]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="401" end="401" startBytecode="1" endBytecode="1" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 401]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="403" end="403" startBytecode="18" endBytecode="18" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 403]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="408" end="408" startBytecode="46" endBytecode="46" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 408]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="409" end="409" startBytecode="56" endBytecode="56" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 409]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="438" end="438" startBytecode="230" endBytecode="230" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 438]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CRLF_INJECTION_LOGS" priority="2" rank="7" abbrev="SECCRLFLOG" category="SECURITY" instanceHash="63a4c3395f134250a77012ab07562a4a" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="117">
+    <ShortMessage>Potential CRLF Injection for logs</ShortMessage>
+    <LongMessage>This use of org/slf4j/Logger.debug(Ljava/lang/String;)V might be used to include CRLF characters into log messages</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+        <Message>In StreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" name="handleResponse" signature="(Ljava/net/Socket;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="247" end="393" startBytecode="0" endBytecode="1870" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession.handleResponse(Socket)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" primary="true" start="270" end="270" startBytecode="193" endBytecode="193" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 270]</Message>
+    </SourceLine>
+    <String value="org/slf4j/Logger.debug(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method org/slf4j/Logger.debug(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="java/io/BufferedReader.readLine()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/io/BufferedReader.readLine()Ljava/lang/String;</Message>
+    </String>
+    <String value="java/util/Properties.toString()Ljava/lang/String;" role="Tainted source">
+      <Message>Tainted source java/util/Properties.toString()Ljava/lang/String;</Message>
+    </String>
+    <String value="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer$HTTPSession.decodeHeader(Ljava/io/BufferedReader;Ljava/util/Properties;Ljava/util/Properties;Ljava/util/Properties;)V parameter 0" role="Unknown source">
+      <Message>Unknown source com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer$HTTPSession.decodeHeader(Ljava/io/BufferedReader;Ljava/util/Properties;Ljava/util/Properties;Ljava/util/Properties;)V parameter 0</Message>
+    </String>
+    <String value="java/util/Properties.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" role="Tainted source">
+      <Message>Tainted source java/util/Properties.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;</Message>
+    </String>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="270" end="270" startBytecode="184" endBytecode="184" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 270]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="429" end="429" startBytecode="149" endBytecode="149" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 429]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="433" end="433" startBytecode="191" endBytecode="191" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 433]</Message>
+    </SourceLine>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="434" end="434" startBytecode="217" endBytecode="217" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 434]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="7" abbrev="SECPTI" category="SECURITY" instanceHash="fb74a340c6cafd3ccea0dd677f39015f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+        <Message>In StreamServer.java</Message>
+      </SourceLine>
+      <Message>In class com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession</Message>
+    </Class>
+    <Method classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" name="saveTmpFile" signature="([BII)Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="551" end="564" startBytecode="0" endBytecode="312" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java"/>
+      <Message>In method com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession.saveTmpFile(byte[], int, int)</Message>
+    </Method>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" primary="true" start="555" end="555" startBytecode="30" endBytecode="30" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 555]</Message>
+    </SourceLine>
+    <String value="java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;" role="Sink method">
+      <Message>Sink method java/io/File.createTempFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="java/io/File.&lt;init&gt;(Ljava/lang/String;)V" role="Unknown source">
+      <Message>Unknown source java/io/File.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <SourceLine classname="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" start="555" end="555" startBytecode="27" endBytecode="27" sourcefile="StreamServer.java" sourcepath="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" relSourcepath="src\main\java\com\amaze\filemanager\fileoperations\filesystem\smbstreamer\StreamServer.java">
+      <Message>At StreamServer.java:[line 555]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugPattern type="CRLF_INJECTION_LOGS" abbrev="SECCRLFLOG" category="SECURITY" cweid="117">
+    <ShortDescription>Potential CRLF Injection for logs</ShortDescription>
+    <Details><![CDATA[
+            
+<p>
+    When data from an untrusted source is put into a logger and not neutralized correctly,
+    an attacker could forge log entries or include malicious content.
+    Inserted false entries could be used to skew statistics, distract the administrator
+    or even to implicate another party in the commission of a malicious act.
+    If the log file is processed automatically, the attacker can render the file unusable
+    by corrupting the format of the file or injecting unexpected characters.
+    An attacker may also inject code or other commands into the log file and take advantage
+    of a vulnerability in the log processing utility (e.g. command injection or XSS).
+</p>
+<br/>
+<p>
+<b>Code at risk:</b><br/>
+<pre>String val = request.getParameter("user");
+String metadata = request.getParameter("metadata");
+[...]
+if(authenticated) {
+    log.info("User " + val + " (" + metadata + ") was authenticated successfully");
+}
+else {
+    log.info("User " + val + " (" + metadata + ") was not authenticated");
+}
+</pre>
+
+A malicious user could send the metadata parameter with the value: <code>"Firefox) was authenticated successfully\r\n[INFO] User bbb (Internet Explorer"</code>.
+</p>
+
+<b>Solution:</b><br/>
+<p>
+You can manually sanitize each parameter.
+<pre>
+log.info("User " + val.replaceAll("[\r\n]","") + " (" + userAgent.replaceAll("[\r\n]","") + ") was not authenticated");
+</pre>
+</p>
+
+<p>
+You can also configure your logger service to replace new line for all message events. Here is sample configuration for LogBack <a href="https://logback.qos.ch/manual/layouts.html#replace">using the <code>replace</code> function</a>.
+<pre>
+&lt;pattern&gt;%-5level - %replace(%msg){'[\r\n]', ''}%n&lt;/pattern&gt;
+</pre>
+</p>
+
+<p>
+Finally, you can use a logger implementation that replace new line by spaces.
+The project <a href="https://github.com/javabeanz/owasp-security-logging">OWASP Security Logging</a> has an implementation for Logback and Log4j.
+</p>
+
+<br/>
+<p>
+    <b>References</b><br/>
+    <a href="https://cwe.mitre.org/data/definitions/117.html">CWE-117: Improper Output Neutralization for Logs</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/93.html">CWE-93: Improper Neutralization of CRLF Sequences ('CRLF Injection')</a><br/>
+    <a href="https://logback.qos.ch/manual/layouts.html#replace">CWE-93: Improper Neutralization of CRLF Sequences ('CRLF Injection')</a><br/>
+    <a href="https://github.com/javabeanz/owasp-security-logging">OWASP Security Logging</a><br/>
+</p>
+
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="PATH_TRAVERSAL_IN" abbrev="SECPTI" category="SECURITY" cweid="22">
+    <ShortDescription>Potential Path Traversal (file read)</ShortDescription>
+    <Details><![CDATA[
+            
+<p>A file is opened to read its content. The filename comes from an <b>input</b> parameter.
+If an unfiltered parameter is passed to this file API, files from an arbitrary filesystem location could be read.</p>
+<p>This rule identifies <b>potential</b> path traversal vulnerabilities. In many cases, the constructed file path cannot be controlled
+by the user. If that is the case, the reported instance is a false positive.</p>
+<br/>
+
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", image); //Weak point
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+
+<p>
+    <b>Solution:</b><br/>
+<pre>import org.apache.commons.io.FilenameUtils;
+
+@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", FilenameUtils.getName(image)); //Fix
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246952/Path%20Traversal">WASC: Path Traversal</a><br/>
+<a href="https://www.owasp.org/index.php/Path_Traversal">OWASP: Path Traversal</a><br/>
+<a href="https://capec.mitre.org/data/definitions/126.html">CAPEC-126: Path Traversal</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/22.html">CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="UNENCRYPTED_SERVER_SOCKET" abbrev="SECUSS" category="SECURITY" cweid="319">
+    <ShortDescription>Unencrypted Server Socket</ShortDescription>
+    <Details><![CDATA[
+            
+<p>
+The communication channel used is not encrypted. The traffic could be read by an attacker intercepting the network traffic.
+</p>
+<p>
+<b>Vulnerable Code:</b><br/>
+Plain server socket (Cleartext communication):
+<pre>ServerSocket soc = new ServerSocket(1234);</pre>
+</p>
+<p>
+<b>Solution:</b><br/>
+SSL Server Socket (Secure communication):
+<pre>ServerSocket soc = SSLServerSocketFactory.getDefault().createServerSocket(1234);</pre>
+</p>
+<p>Beyond using an SSL server socket, you need to make sure your use of SSLServerSocketFactory does all the appropriate certificate validation checks to
+make sure you are not subject to man-in-the-middle attacks. Please read the OWASP Transport Layer Protection Cheat Sheet for details on how
+to do this correctly.
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://www.owasp.org/index.php/Top_10_2010-A9">OWASP: Top 10 2010-A9-Insufficient Transport Layer Protection</a><br/>
+<a href="https://www.owasp.org/index.php/Top_10_2013-A6-Sensitive_Data_Exposure">OWASP: Top 10 2013-A6-Sensitive Data Exposure</a><br/>
+<a href="https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet">OWASP: Transport Layer Protection Cheat Sheet</a><br/>
+<a href="http://projects.webappsec.org/w/page/13246945/Insufficient%20Transport%20Layer%20Protection">WASC-04: Insufficient Transport Layer Protection</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/319.html">CWE-319: Cleartext Transmission of Sensitive Information</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SECCRLFLOG">
+    <Description>CRLF Injection for logs</Description>
+  </BugCode>
+  <BugCode abbrev="SECUSS">
+    <Description>Unencrypted Server Socket</Description>
+  </BugCode>
+  <BugCode abbrev="SECPTI">
+    <Description>Potential Path Traversal (file read)</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 6 Oct 2023 11:02:13 -0300" total_classes="25" referenced_classes="130" total_bugs="10" total_size="1208" num_packages="9" java_version="17.0.6" vm_version="17.0.6+0-b2043.56-10027231" cpu_seconds="265.41" clock_seconds="448.39" peak_mbytes="3305.41" alloc_mbytes="3072.00" gc_seconds="1.84" priority_2="10">
+    <FileStats path="com/amaze/filemanager/fileoperations/BuildConfig.java" bugCount="0" size="8"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/exceptions/CloudPluginException.java" bugCount="0" size="3"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/exceptions/ShellNotRunningException.java" bugCount="0" size="4"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/exceptions/StreamNotFoundException.java" bugCount="0" size="14"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/OpenMode.java" bugCount="0" size="40"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/StorageNaming.java" bugCount="0" size="15"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java" bugCount="5" size="391" bugHash="cf873bd9031ebaa0bf2fc99b4f6b16c5"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamSource.java" bugCount="0" size="35"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamer.java" bugCount="0" size="73"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/compressed/ArchivePasswordCache.java" bugCount="0" size="53"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamServer.java" bugCount="5" size="363" bugHash="7d4b3ed61cb200e9ad0d3b6e223345e1"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/StreamSource.java" bugCount="0" size="51"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/smbstreamer/Streamer.java" bugCount="0" size="78"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/streams/RandomAccessStream.java" bugCount="0" size="27"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/usb/SingletonUsbOtg.java" bugCount="0" size="29"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/filesystem/usb/UsbOtgRepresentation.java" bugCount="0" size="20"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/utils/OnLowMemory.java" bugCount="0" size="2"/>
+    <FileStats path="com/amaze/filemanager/fileoperations/utils/UpdatePosition.java" bugCount="0" size="2"/>
+    <PackageStats package="com.amaze.filemanager.fileoperations" total_bugs="0" total_types="1" total_size="8">
+      <ClassStats class="com.amaze.filemanager.fileoperations.BuildConfig" sourceFile="BuildConfig.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.amaze.filemanager.fileoperations.exceptions" total_bugs="0" total_types="3" total_size="21">
+      <ClassStats class="com.amaze.filemanager.fileoperations.exceptions.CloudPluginException" sourceFile="CloudPluginException.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.exceptions.ShellNotRunningException" sourceFile="ShellNotRunningException.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.exceptions.StreamNotFoundException" sourceFile="StreamNotFoundException.java" interface="false" size="14" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.amaze.filemanager.fileoperations.filesystem" total_bugs="0" total_types="3" total_size="55">
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.OpenMode" sourceFile="OpenMode.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.StorageNaming" sourceFile="StorageNaming.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.StorageNaming$DeviceDescription" sourceFile="StorageNaming.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.amaze.filemanager.fileoperations.filesystem.cloud" total_bugs="5" total_types="5" total_size="499" priority_2="5">
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer" sourceFile="CloudStreamServer.java" interface="false" size="82" bugs="2" priority_2="2"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$HTTPSession" sourceFile="CloudStreamServer.java" interface="false" size="289" bugs="3" priority_2="3"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamServer$Response" sourceFile="CloudStreamServer.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamSource" sourceFile="CloudStreamSource.java" interface="false" size="35" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.cloud.CloudStreamer" sourceFile="CloudStreamer.java" interface="false" size="73" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.amaze.filemanager.fileoperations.filesystem.compressed" total_bugs="0" total_types="3" total_size="53">
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.compressed.ArchivePasswordCache" sourceFile="ArchivePasswordCache.java" interface="false" size="45" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.compressed.ArchivePasswordCache$1" sourceFile="ArchivePasswordCache.java" interface="false" size="1" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.compressed.ArchivePasswordCache$ArchivePasswordCacheHolder" sourceFile="ArchivePasswordCache.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.amaze.filemanager.fileoperations.filesystem.smbstreamer" total_bugs="5" total_types="5" total_size="492" priority_2="5">
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer" sourceFile="StreamServer.java" interface="false" size="58" bugs="2" priority_2="2"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$HTTPSession" sourceFile="StreamServer.java" interface="false" size="289" bugs="3" priority_2="3"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamServer$Response" sourceFile="StreamServer.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.StreamSource" sourceFile="StreamSource.java" interface="false" size="51" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.smbstreamer.Streamer" sourceFile="Streamer.java" interface="false" size="78" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.amaze.filemanager.fileoperations.filesystem.streams" total_bugs="0" total_types="1" total_size="27">
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.streams.RandomAccessStream" sourceFile="RandomAccessStream.java" interface="false" size="27" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.amaze.filemanager.fileoperations.filesystem.usb" total_bugs="0" total_types="2" total_size="49">
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.usb.SingletonUsbOtg" sourceFile="SingletonUsbOtg.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.filesystem.usb.UsbOtgRepresentation" sourceFile="UsbOtgRepresentation.java" interface="false" size="20" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.amaze.filemanager.fileoperations.utils" total_bugs="0" total_types="2" total_size="4">
+      <ClassStats class="com.amaze.filemanager.fileoperations.utils.OnLowMemory" sourceFile="OnLowMemory.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="com.amaze.filemanager.fileoperations.utils.UpdatePosition" sourceFile="UpdatePosition.java" interface="true" size="2" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="461" invocations="2" avgMicrosecondsPerInvocation="230509" maxMicrosecondsPerInvocation="280112" standardDeviationMicrosecondsPerInvocation="49601"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="348" invocations="903" avgMicrosecondsPerInvocation="386" maxMicrosecondsPerInvocation="20840" standardDeviationMicrosecondsPerInvocation="1013"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="156" invocations="909" avgMicrosecondsPerInvocation="172" maxMicrosecondsPerInvocation="1961" standardDeviationMicrosecondsPerInvocation="115"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="122" invocations="130" avgMicrosecondsPerInvocation="941" maxMicrosecondsPerInvocation="13008" standardDeviationMicrosecondsPerInvocation="1820"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="93" invocations="139" avgMicrosecondsPerInvocation="670" maxMicrosecondsPerInvocation="17370" standardDeviationMicrosecondsPerInvocation="2176"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="85" invocations="526" avgMicrosecondsPerInvocation="163" maxMicrosecondsPerInvocation="2625" standardDeviationMicrosecondsPerInvocation="239"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="81" invocations="130" avgMicrosecondsPerInvocation="625" maxMicrosecondsPerInvocation="5054" standardDeviationMicrosecondsPerInvocation="1023"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="76" invocations="154" avgMicrosecondsPerInvocation="497" maxMicrosecondsPerInvocation="11920" standardDeviationMicrosecondsPerInvocation="1317"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="75" invocations="154" avgMicrosecondsPerInvocation="491" maxMicrosecondsPerInvocation="13095" standardDeviationMicrosecondsPerInvocation="1471"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="59" invocations="139" avgMicrosecondsPerInvocation="429" maxMicrosecondsPerInvocation="6830" standardDeviationMicrosecondsPerInvocation="1004"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="56" invocations="136" avgMicrosecondsPerInvocation="414" maxMicrosecondsPerInvocation="8181" standardDeviationMicrosecondsPerInvocation="978"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="56" invocations="56" avgMicrosecondsPerInvocation="1003" maxMicrosecondsPerInvocation="4211" standardDeviationMicrosecondsPerInvocation="996"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="54" invocations="139" avgMicrosecondsPerInvocation="394" maxMicrosecondsPerInvocation="7442" standardDeviationMicrosecondsPerInvocation="1024"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="50" invocations="130" avgMicrosecondsPerInvocation="385" maxMicrosecondsPerInvocation="17032" standardDeviationMicrosecondsPerInvocation="1621"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="45" invocations="146" avgMicrosecondsPerInvocation="309" maxMicrosecondsPerInvocation="10452" standardDeviationMicrosecondsPerInvocation="978"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="43" invocations="130" avgMicrosecondsPerInvocation="333" maxMicrosecondsPerInvocation="6391" standardDeviationMicrosecondsPerInvocation="726"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="43" invocations="205" avgMicrosecondsPerInvocation="211" maxMicrosecondsPerInvocation="10033" standardDeviationMicrosecondsPerInvocation="753"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="34" invocations="146" avgMicrosecondsPerInvocation="234" maxMicrosecondsPerInvocation="17010" standardDeviationMicrosecondsPerInvocation="1425"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="28" invocations="25" avgMicrosecondsPerInvocation="1132" maxMicrosecondsPerInvocation="7694" standardDeviationMicrosecondsPerInvocation="2158"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="28" invocations="116" avgMicrosecondsPerInvocation="242" maxMicrosecondsPerInvocation="3546" standardDeviationMicrosecondsPerInvocation="513"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="28" invocations="130" avgMicrosecondsPerInvocation="215" maxMicrosecondsPerInvocation="1906" standardDeviationMicrosecondsPerInvocation="365"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="25" invocations="852" avgMicrosecondsPerInvocation="29" maxMicrosecondsPerInvocation="590" standardDeviationMicrosecondsPerInvocation="53"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="24" invocations="130" avgMicrosecondsPerInvocation="186" maxMicrosecondsPerInvocation="6749" standardDeviationMicrosecondsPerInvocation="663"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FormatStringChecker" totalMilliseconds="22" invocations="25" avgMicrosecondsPerInvocation="915" maxMicrosecondsPerInvocation="19028" standardDeviationMicrosecondsPerInvocation="3707"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="22" invocations="130" avgMicrosecondsPerInvocation="175" maxMicrosecondsPerInvocation="3092" standardDeviationMicrosecondsPerInvocation="381"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="21" invocations="130" avgMicrosecondsPerInvocation="166" maxMicrosecondsPerInvocation="10507" standardDeviationMicrosecondsPerInvocation="928"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="20" invocations="130" avgMicrosecondsPerInvocation="160" maxMicrosecondsPerInvocation="2399" standardDeviationMicrosecondsPerInvocation="342"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="18" invocations="130" avgMicrosecondsPerInvocation="144" maxMicrosecondsPerInvocation="1146" standardDeviationMicrosecondsPerInvocation="219"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="18" invocations="130" avgMicrosecondsPerInvocation="144" maxMicrosecondsPerInvocation="3157" standardDeviationMicrosecondsPerInvocation="525"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="18" invocations="57" avgMicrosecondsPerInvocation="324" maxMicrosecondsPerInvocation="2512" standardDeviationMicrosecondsPerInvocation="524"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

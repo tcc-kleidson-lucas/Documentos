@@ -1,0 +1,901 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+		</style>
+   </head>
+   <body>
+      <h1>SpotBugs Report</h1>
+      <p>Produced using <a href="https://spotbugs.github.io">SpotBugs</a>4.4.2.</p>
+      <p>Project: 
+			Omni-Notes-6.2.8[Omni-Notes-6.2.8.omniNotes.main]</p>
+      <h2>Metrics</h2>
+      <p>12768 lines of code analyzed,
+	in 266 classes, 
+	in 29 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">NaN</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">33</td>
+            <td align="right">2.58</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>33</b>
+            </td>
+            <td align="right">
+               <b>2.58</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Summary</h2>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_SECURITY">Security Warnings</a>
+            </td>
+            <td align="right">33</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>33</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>Warnings</h1>
+      <p>Click on each warning link to see a full description of the issue, and
+	    details of how to resolve it.</p>
+      <h2>
+         <a name="Warnings_SECURITY">Security Warnings</a>
+      </h2>
+      <table class="warningtable"
+             width="100%"
+             cellspacing="2"
+             cellpadding="5">
+         <tr class="tableheader">
+            <th align="left">Warning</th>
+            <th align="left">Priority</th>
+            <th align="left">Details</th>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file ShortcutHelper.java,
+					
+						line 114<br/>In class it.feio.android.omninotes.utils.ShortcutHelper<br/>In method it.feio.android.omninotes.utils.ShortcutHelper.createShortcutPreOreo(Context, Note, String)<br/>At ShortcutHelper.java:[line 114]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_BROADCAST">Broadcast (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Broadcast intents could be received by a malicious application<br/>
+                  <br/>
+                  <br/>In file ShortcutHelper.java,
+					
+						line 152<br/>In class it.feio.android.omninotes.utils.ShortcutHelper<br/>In method it.feio.android.omninotes.utils.ShortcutHelper.removeShortcutPreOreo(Context, Note)<br/>At ShortcutHelper.java:[line 152]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file FileHelper.java,
+					
+						line 60<br/>In class it.feio.android.omninotes.utils.FileHelper<br/>In method it.feio.android.omninotes.utils.FileHelper.getPath(Context, Uri)<br/>At FileHelper.java:[line 60]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 244<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.createNewAttachmentFile(Context, String)<br/>At StorageHelper.java:[line 244]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 206<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.deleteExternalStoragePrivateFile(Context, String)<br/>At StorageHelper.java:[line 206]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 92<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.getAttachmentDir()<br/>At StorageHelper.java:[line 92]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 284<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.getCacheDir(Context)<br/>At StorageHelper.java:[line 284]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 100<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.getDbSyncDir(Context)<br/>At StorageHelper.java:[line 100]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 300<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.getExternalStoragePublicDir()<br/>At StorageHelper.java:[line 300]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Files could be saved to external storage<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 87<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.getStorageDir()<br/>At StorageHelper.java:[line 87]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PREDICTABLE_RANDOM">Predictable pseudorandom number generator</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This random generator (java.lang.Math.random()) is predictable<br/>
+                  <br/>
+                  <br/>In file UpgradeProcessor.java,
+					
+						line 170<br/>In class it.feio.android.omninotes.async.upgrade.UpgradeProcessor<br/>In method it.feio.android.omninotes.async.upgrade.UpgradeProcessor.onUpgradeTo501()<br/>At UpgradeProcessor.java:[line 170]<br/>Value java.lang.Math.random()</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file DetailFragment.java DetailFragment.java,
+					
+						line 2317 2317<br/>In class it.feio.android.omninotes.DetailFragment$AttachmentOnClickListener<br/>In method it.feio.android.omninotes.DetailFragment$AttachmentOnClickListener.onClick(View)<br/>At DetailFragment.java:[line 2317]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source it/feio/android/omninotes/DetailFragment.recordName<br/>At DetailFragment.java:[line 2317]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file SketchFragment.java,
+					
+						line 196<br/>In class it.feio.android.omninotes.SketchFragment<br/>In method it.feio.android.omninotes.SketchFragment.save()<br/>At SketchFragment.java:[line 196]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file UpgradeProcessor.java UpgradeProcessor.java UpgradeProcessor.java,
+					
+						line 191 190 191<br/>In class it.feio.android.omninotes.async.upgrade.UpgradeProcessor<br/>In method it.feio.android.omninotes.async.upgrade.UpgradeProcessor.lambda$onUpgradeTo625$3(File, DbHelper, Attachment)<br/>At UpgradeProcessor.java:[line 191]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPathSegments()Ljava/util/List;<br/>Unknown source it/feio/android/omninotes/async/upgrade/UpgradeProcessor.lambda$onUpgradeTo625$3(Ljava/io/File;Lit/feio/android/omninotes/db/DbHelper;Lit/feio/android/omninotes/models/Attachment;)V parameter 2<br/>Method usage not detected<br/>At UpgradeProcessor.java:[line 190]<br/>At UpgradeProcessor.java:[line 191]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file UpgradeProcessor.java,
+					
+						line 134<br/>In class it.feio.android.omninotes.async.upgrade.UpgradeProcessor<br/>In method it.feio.android.omninotes.async.upgrade.UpgradeProcessor.onUpgradeTo480()<br/>At UpgradeProcessor.java:[line 134]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source it/feio/android/omninotes/models/Attachment.getUriPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file UpgradeProcessor.java UpgradeProcessor.java,
+					
+						line 136 136<br/>In class it.feio.android.omninotes.async.upgrade.UpgradeProcessor<br/>In method it.feio.android.omninotes.async.upgrade.UpgradeProcessor.onUpgradeTo480()<br/>At UpgradeProcessor.java:[line 136]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source java/io/File.getName()Ljava/lang/String;<br/>At UpgradeProcessor.java:[line 136]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file AttachmentsHelper.java,
+					
+						line 38<br/>In class it.feio.android.omninotes.helpers.AttachmentsHelper<br/>In method it.feio.android.omninotes.helpers.AttachmentsHelper.getSize(Attachment)<br/>At AttachmentsHelper.java:[line 38]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file BackupHelper.java,
+					
+						line 146<br/>In class it.feio.android.omninotes.helpers.BackupHelper<br/>In method it.feio.android.omninotes.helpers.BackupHelper.exportAttachment(DocumentFileCompat, Attachment)<br/>At BackupHelper.java:[line 146]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file BackupHelper.java,
+					
+						line 227<br/>In class it.feio.android.omninotes.helpers.BackupHelper<br/>In method it.feio.android.omninotes.helpers.BackupHelper.importAttachment(List, File, Attachment)<br/>At BackupHelper.java:[line 227]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getLastPathSegment()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file FileProviderHelper.java,
+					
+						line 51<br/>In class it.feio.android.omninotes.utils.FileProviderHelper<br/>In method it.feio.android.omninotes.utils.FileProviderHelper.getShareableUri(Attachment)<br/>At FileProviderHelper.java:[line 51]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 273<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.copyToBackupDir(File, String, InputStream)<br/>At StorageHelper.java:[line 273]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source it/feio/android/omninotes/utils/StorageHelper.copyToBackupDir(Ljava/io/File;Ljava/lang/String;Ljava/io/InputStream;)Ljava/io/File; parameter 1<br/>Method usage not detected</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 450<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.createAttachmentFromUri(Context, Uri, boolean)<br/>At StorageHelper.java:[line 450]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java FileHelper.java FileHelper.java FileHelper.java FileHelper.java FileHelper.java StorageHelper.java,
+					
+						line 131 56 60 70 83 88 131<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.createExternalStoragePrivateFile(Context, Uri, String)<br/>At StorageHelper.java:[line 131]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;<br/>Unknown source it/feio/android/omninotes/utils/FileHelper.getDataColumn(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source it/feio/android/omninotes/utils/FileHelper.getPath(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;<br/>Unknown source android/database/Cursor.getString(I)Ljava/lang/String;<br/>Unknown source android/os/Environment.getExternalStorageDirectory()Ljava/io/File;<br/>Unknown source android/provider/DocumentsContract.getDocumentId(Landroid/net/Uri;)Ljava/lang/String;<br/>At FileHelper.java:[line 56]<br/>At FileHelper.java:[line 60]<br/>At FileHelper.java:[line 70]<br/>At FileHelper.java:[line 83]<br/>At FileHelper.java:[line 88]<br/>At StorageHelper.java:[line 131]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java,
+					
+						line 135<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.createExternalStoragePrivateFile(Context, Uri, String)<br/>At StorageHelper.java:[line 135]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/net/Uri.getPath()Ljava/lang/String;</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java DetailFragment.java DetailFragment.java DetailFragment.java DetailFragment.java SpringImportHelper.java SpringImportHelper.java SpringImportHelper.java FileHelper.java FileHelper.java StorageHelper.java StorageHelper.java StorageHelper.java StorageHelper.java StorageHelper.java StorageHelper.java StorageHelper.java StorageHelper.java StorageHelper.java StorageHelper.java,
+					
+						line 244 1323 1341 1357 1807 245 247 277 206 212 121 244 254 260 444 445 448 455 473 476<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.createNewAttachmentFile(Context, String)<br/>At StorageHelper.java:[line 244]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source it/feio/android/omninotes/utils/StorageHelper.createNewAttachmentName(Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source it/feio/android/omninotes/utils/StorageHelper.createNewAttachmentFile(Landroid/content/Context;Ljava/lang/String;)Ljava/io/File; parameter 0<br/>Unknown source it/feio/android/omninotes/utils/StorageHelper.createNewAttachmentName(Ljava/lang/String;)Ljava/lang/String; parameter 0<br/>Unknown source java/text/SimpleDateFormat.format(Ljava/util/Date;)Ljava/lang/String;<br/>At DetailFragment.java:[line 1323]<br/>At DetailFragment.java:[line 1341]<br/>At DetailFragment.java:[line 1357]<br/>At DetailFragment.java:[line 1807]<br/>At SpringImportHelper.java:[line 245]<br/>At SpringImportHelper.java:[line 247]<br/>At SpringImportHelper.java:[line 277]<br/>At FileHelper.java:[line 206]<br/>At FileHelper.java:[line 212]<br/>At StorageHelper.java:[line 121]<br/>At StorageHelper.java:[line 244]<br/>At StorageHelper.java:[line 254]<br/>At StorageHelper.java:[line 260]<br/>At StorageHelper.java:[line 444]<br/>At StorageHelper.java:[line 445]<br/>At StorageHelper.java:[line 448]<br/>At StorageHelper.java:[line 455]<br/>At StorageHelper.java:[line 473]<br/>At StorageHelper.java:[line 476]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java DetailFragment.java SettingsFragment.java SettingsFragment.java SettingsFragment.java AttachmentTask.java DataBackupIntentService.java SaveNoteTask.java,
+					
+						line 218 1474 525 527 529 75 137 83<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.delete(Context, String)<br/>At StorageHelper.java:[line 218]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source it/feio/android/omninotes/utils/StorageHelper.delete(Landroid/content/Context;Ljava/lang/String;)Z parameter 0<br/>At DetailFragment.java:[line 1474]<br/>At SettingsFragment.java:[line 525]<br/>At SettingsFragment.java:[line 527]<br/>At SettingsFragment.java:[line 529]<br/>At AttachmentTask.java:[line 75]<br/>At DataBackupIntentService.java:[line 137]<br/>At SaveNoteTask.java:[line 83]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java NoteProcessorDelete.java,
+					
+						line 206 53<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.deleteExternalStoragePrivateFile(Context, String)<br/>At StorageHelper.java:[line 206]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source it/feio/android/omninotes/utils/StorageHelper.deleteExternalStoragePrivateFile(Landroid/content/Context;Ljava/lang/String;)Z parameter 0<br/>At NoteProcessorDelete.java:[line 53]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java StorageHelper.java,
+					
+						line 300 300<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.getExternalStoragePublicDir()<br/>At StorageHelper.java:[line 300]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/os/Environment.getExternalStoragePublicDirectory(Ljava/lang/String;)Ljava/io/File;<br/>At StorageHelper.java:[line 300]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java DataBackupIntentService.java,
+					
+						line 305 135<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.getOrCreateBackupDir(String)<br/>At StorageHelper.java:[line 305]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/io/File;Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source it/feio/android/omninotes/utils/StorageHelper.getOrCreateBackupDir(Ljava/lang/String;)Ljava/io/File; parameter 0<br/>At DataBackupIntentService.java:[line 135]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This API (java/io/File.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input<br/>
+                  <br/>
+                  <br/>In file StorageHelper.java StorageHelper.java StorageHelper.java StorageHelper.java,
+					
+						line 331 328 329 331<br/>In class it.feio.android.omninotes.utils.StorageHelper<br/>In method it.feio.android.omninotes.utils.StorageHelper.getSharedPreferencesFile(Context)<br/>At StorageHelper.java:[line 331]<br/>Sink method java/io/File.&lt;init&gt;(Ljava/lang/String;)V<br/>Sink parameter 0<br/>Unknown source android/content/Context.getPackageName()Ljava/lang/String;<br/>Unknown source java/io/File.getParentFile()Ljava/io/File;<br/>At StorageHelper.java:[line 328]<br/>At StorageHelper.java:[line 329]<br/>At StorageHelper.java:[line 331]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#SQL_INJECTION_ANDROID">Potential Android SQL Injection</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This use of android/database/sqlite/SQLiteDatabase.rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor; can be vulnerable to SQL injection (with Android SQL)<br/>
+                  <br/>
+                  <br/>In file DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java DbHelper.java ListRemoteViewsFactory.java ListRemoteViewsFactory.java,
+					
+						line 446 319 349 352 361 367 373 381 388 420 442 562 573 582 587 588 603 617 626 639 654 660 675 678 679 707 732 734 747 749 750 751 754 755 757 759 781 76 85<br/>In class it.feio.android.omninotes.db.DbHelper<br/>In method it.feio.android.omninotes.db.DbHelper.getNotes(String, boolean)<br/>At DbHelper.java:[line 446]<br/>Sink method android/database/sqlite/SQLiteDatabase.rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;<br/>Sink parameter 1<br/>Unknown source com/pixplicity/easyprefs/library/Prefs.getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source it/feio/android/omninotes/db/DbHelper.getNotes(Ljava/lang/String;Z)Ljava/util/List; parameter 1<br/>At DbHelper.java:[line 319]<br/>At DbHelper.java:[line 349]<br/>At DbHelper.java:[line 352]<br/>At DbHelper.java:[line 361]<br/>At DbHelper.java:[line 367]<br/>At DbHelper.java:[line 373]<br/>At DbHelper.java:[line 381]<br/>At DbHelper.java:[line 388]<br/>At DbHelper.java:[line 420]<br/>At DbHelper.java:[line 442]<br/>At DbHelper.java:[line 562]<br/>At DbHelper.java:[line 573]<br/>At DbHelper.java:[line 582]<br/>At DbHelper.java:[line 587]<br/>At DbHelper.java:[line 588]<br/>At DbHelper.java:[line 603]<br/>At DbHelper.java:[line 617]<br/>At DbHelper.java:[line 626]<br/>At DbHelper.java:[line 639]<br/>At DbHelper.java:[line 654]<br/>At DbHelper.java:[line 660]<br/>At DbHelper.java:[line 675]<br/>At DbHelper.java:[line 678]<br/>At DbHelper.java:[line 679]<br/>At DbHelper.java:[line 707]<br/>At DbHelper.java:[line 732]<br/>At DbHelper.java:[line 734]<br/>At DbHelper.java:[line 747]<br/>At DbHelper.java:[line 749]<br/>At DbHelper.java:[line 750]<br/>At DbHelper.java:[line 751]<br/>At DbHelper.java:[line 754]<br/>At DbHelper.java:[line 755]<br/>At DbHelper.java:[line 757]<br/>At DbHelper.java:[line 759]<br/>At DbHelper.java:[line 781]<br/>At ListRemoteViewsFactory.java:[line 76]<br/>At ListRemoteViewsFactory.java:[line 85]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0">
+            <td width="20%" valign="top">
+               <a href="#URLCONNECTION_SSRF_FD">URLConnection Server-Side Request Forgery (SSRF) and File Disclosure</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>This web server request could be used by an attacker to expose internal services and filesystem.<br/>
+                  <br/>
+                  <br/>In file GeocodeHelper.java PlacesAutoCompleteAdapter.java GeocodeHelper.java,
+					
+						line 194 60 193<br/>In class it.feio.android.omninotes.utils.GeocodeHelper<br/>In method it.feio.android.omninotes.utils.GeocodeHelper.autocomplete(String)<br/>At GeocodeHelper.java:[line 194]<br/>Sink method java/net/URL.openConnection()Ljava/net/URLConnection;<br/>Sink parameter 0<br/>Unknown source it/feio/android/omninotes/utils/GeocodeHelper.autocomplete(Ljava/lang/String;)Ljava/util/List; parameter 0<br/>Unknown source java/net/URLEncoder.encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source java/net/URL.&lt;init&gt;(Ljava/lang/String;)V<br/>Method usage not detected<br/>At PlacesAutoCompleteAdapter.java:[line 60]<br/>At GeocodeHelper.java:[line 193]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1">
+            <td width="20%" valign="top">
+               <a href="#UNSAFE_HASH_EQUALS">Unsafe hash equals</a>
+            </td>
+            <td width="10%" valign="top">Medium</td>
+            <td width="70%">
+               <p>Unsafe comparison of hash that are susceptible to timing attack<br/>
+                  <br/>
+                  <br/>In file TagsHelper.java TagsHelper.java TagsHelper.java TagsHelper.java,
+					
+						line 129 52 54 127<br/>In class it.feio.android.omninotes.utils.TagsHelper<br/>In method it.feio.android.omninotes.utils.TagsHelper.getPreselectedTagsArray(Note, List)<br/>At TagsHelper.java:[line 129]<br/>Sink method java/lang/String.equals(Ljava/lang/Object;)Z<br/>Sink parameter 0<br/>Unknown source java/util/Iterator.next()Ljava/lang/Object;<br/>Unknown source java/util/Map.keySet()Ljava/util/Set;<br/>Unknown source it/feio/android/omninotes/utils/TagsHelper.retrieveTags(Lit/feio/android/omninotes/models/Note;)Ljava/util/Map;<br/>Unknown source it/feio/android/pixlui/links/UrlCompleter.parseHashtag(Ljava/lang/String;)Ljava/lang/String;<br/>At TagsHelper.java:[line 52]<br/>At TagsHelper.java:[line 54]<br/>At TagsHelper.java:[line 127]</p>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h1>
+         <a name="Details">Warning Types</a>
+      </h1>
+      <h2>
+         <a name="ANDROID_BROADCAST">Broadcast (Android)</a>
+      </h2>
+            
+<p>
+    Broadcast intents can be listened by any application with the appropriate permission. It is suggested to avoid transmitting
+    sensitive information when possible.
+</p>
+<p>
+    <b>Code at risk:</b><br/>
+<pre>
+Intent i = new Intent();
+i.setAction("com.insecure.action.UserConnected");
+i.putExtra("username", user);
+i.putExtra("email", email);
+i.putExtra("session", newSessionId);
+
+this.sendBroadcast(v1);
+</pre>
+</p>
+<br/>
+<p>
+    <b>Solution (if possible):</b><br/>
+<pre>
+Intent i = new Intent();
+i.setAction("com.secure.action.UserConnected");
+
+sendBroadcast(v1);
+</pre>
+</p>
+<br/>
+<p>
+    <b>Configuration (receiver)<sup>[1] Source: StackOverflow</sup>:</b><br/>
+<pre>
+&lt;manifest ...&gt;
+
+    &lt;!-- Permission declaration --&gt;
+    &lt;permission android:name="my.app.PERMISSION" /&gt;
+
+    &lt;receiver
+        android:name="my.app.BroadcastReceiver"
+        android:permission="my.app.PERMISSION"&gt; &lt;!-- Permission enforcement --&gt;
+        &lt;intent-filter>
+            &lt;action android:name="com.secure.action.UserConnected" /&gt;
+        &lt;/intent-filter&gt;
+    &lt;/receiver&gt;
+
+    ...
+&lt;/manifest>
+</pre>
+</p>
+<p>
+    <b>Configuration (sender)<sup>[1] Source: StackOverflow</sup>:</b><br/>
+<pre>
+&lt;manifest&gt;
+    &lt;!-- We declare we own the permission to send broadcast to the above receiver --&gt;
+    &lt;uses-permission android:name="my.app.PERMISSION"/&gt;
+
+    &lt;!-- With the following configuration, both the sender and the receiver apps need to be signed by the same developer certificate. --&gt;
+    &lt;permission android:name="my.app.PERMISSION" android:protectionLevel="signature"/&gt;
+&lt;/manifest&gt;
+</pre>
+</p>
+<br/>
+<p>
+    <b>References</b><br/>
+    <a href="https://www.securecoding.cert.org/confluence/display/java/DRD03-J.+Do+not+broadcast+sensitive+information+using+an+implicit+intent">CERT: DRD03-J. Do not broadcast sensitive information using an implicit intent</a><br/>
+    <a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html#Security">Android Official Doc: BroadcastReceiver (Security)</a><br/>
+    <a href="https://developer.android.com/guide/topics/manifest/receiver-element.html">Android Official Doc: Receiver configuration (see <code>android:permission</code>)</a><br/>
+    <sup>[1]</sup> <a href="https://stackoverflow.com/a/21513368/89769">StackOverflow: How to set permissions in broadcast sender and receiver in android</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/925.html">CWE-925: Improper Verification of Intent by Broadcast Receiver</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/927.html">CWE-927: Use of Implicit Intent for Sensitive Communication</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="ANDROID_EXTERNAL_FILE_ACCESS">External file access (Android)</a>
+      </h2>
+            
+<p>
+    The application write data to external storage (potentially SD card). There are multiple security implication to this
+    action. First, file store on SD card will be accessible to the application having the
+    <a href="https://developer.android.com/reference/android/Manifest.permission.html#READ_EXTERNAL_STORAGE"><code>READ_EXTERNAL_STORAGE</code></a> permission.
+    Also, if the data persisted contains confidential information about the user, encryption would be needed.
+</p>
+<p>
+    <b>Code at risk:</b><br/>
+<pre>
+file file = new File(getExternalFilesDir(TARGET_TYPE), filename);
+fos = new FileOutputStream(file);
+fos.write(confidentialData.getBytes());
+fos.flush();
+</pre>
+</p>
+<p>
+    <b>Better alternative:</b><br/>
+<pre>
+fos = openFileOutput(filename, Context.MODE_PRIVATE);
+fos.write(string.getBytes());
+</pre>
+</p>
+<br/>
+<p>
+    <b>References</b><br/>
+    <a href="http://developer.android.com/training/articles/security-tips.html#ExternalStorage">Android Official Doc: Security Tips</a><br/>
+    <a href="https://www.securecoding.cert.org/confluence/display/java/DRD00-J.+Do+not+store+sensitive+information+on+external+storage+%28SD+card%29+unless+encrypted+first">CERT: DRD00-J: Do not store sensitive information on external storage [...]</a><br/>
+    <a href="https://developer.android.com/guide/topics/data/data-storage.html#filesExternal">Android Official Doc: Using the External Storage</a><br/>
+    <a href="https://www.owasp.org/index.php/Mobile_Top_10_2014-M2">OWASP Mobile Top 10 2014-M2: Insecure Data Storage</a><br/>
+    <a href="https://cwe.mitre.org/data/definitions/312.html">CWE-312: Cleartext Storage of Sensitive Information</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="PREDICTABLE_RANDOM">Predictable pseudorandom number generator</a>
+      </h2>
+            
+<p>The use of a predictable random value can lead to vulnerabilities when used in certain security critical contexts. For example, when the value is used as:</p>
+<ul>
+<li>a CSRF token: a predictable token can lead to a CSRF attack as an attacker will know the value of the token</li>
+<li>a password reset token (sent by email): a predictable password token can lead to an account takeover, since an attacker will guess the URL of the "change password" form</li>
+<li>any other secret value</li>
+</ul>
+<p>
+A quick fix could be to replace the use of <code>java.util.Random</code> with something stronger, such as <code>java.security.SecureRandom</code>.
+</p>
+<p>
+<b>Vulnerable Code:</b><br/>
+<pre>String generateSecretToken() {
+    Random r = new Random();
+    return Long.toHexString(r.nextLong());
+}</pre>
+</p>
+<p>
+<b>Solution:</b>
+<pre>import org.apache.commons.codec.binary.Hex;
+
+String generateSecretToken() {
+    SecureRandom secRandom = new SecureRandom();
+
+    byte[] result = new byte[32];
+    secRandom.nextBytes(result);
+    return Hex.encodeHexString(result);
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://jazzy.id.au/2010/09/20/cracking_random_number_generators_part_1.html">Cracking Random Number Generators - Part 1 (https://jazzy.id.au)</a><br/>
+<a href="https://www.securecoding.cert.org/confluence/display/java/MSC02-J.+Generate+strong+random+numbers">CERT: MSC02-J. Generate strong random numbers</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/330.html">CWE-330: Use of Insufficiently Random Values</a><br/>
+<a href="https://blog.h3xstream.com/2014/12/predicting-struts-csrf-token-cve-2014.html">Predicting Struts CSRF Token (Example of real-life vulnerability and exploitation)</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="PATH_TRAVERSAL_IN">Potential Path Traversal (file read)</a>
+      </h2>
+            
+<p>A file is opened to read its content. The filename comes from an <b>input</b> parameter.
+If an unfiltered parameter is passed to this file API, files from an arbitrary filesystem location could be read.</p>
+<p>This rule identifies <b>potential</b> path traversal vulnerabilities. In many cases, the constructed file path cannot be controlled
+by the user. If that is the case, the reported instance is a false positive.</p>
+<br/>
+
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", image); //Weak point
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+
+<p>
+    <b>Solution:</b><br/>
+<pre>import org.apache.commons.io.FilenameUtils;
+
+@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", FilenameUtils.getName(image)); //Fix
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246952/Path%20Traversal">WASC: Path Traversal</a><br/>
+<a href="https://www.owasp.org/index.php/Path_Traversal">OWASP: Path Traversal</a><br/>
+<a href="https://capec.mitre.org/data/definitions/126.html">CAPEC-126: Path Traversal</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/22.html">CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')</a>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="SQL_INJECTION_ANDROID">Potential Android SQL Injection</a>
+      </h2>
+            
+<p>
+The input values included in SQL queries need to be passed in safely.
+Bind variables in prepared statements can be used to easily mitigate the risk of SQL injection.
+</p>
+
+<p>
+    <b>Vulnerable Code:</b><br/>
+    <pre>String query = "SELECT * FROM  messages WHERE uid= '"+userInput+"'" ;
+Cursor cursor = this.getReadableDatabase().rawQuery(query,null);</pre>
+</p>
+<p>
+    <b>Solution:</b><br/>
+    <pre>String query = "SELECT * FROM  messages WHERE uid= ?" ;
+Cursor cursor = this.getReadableDatabase().rawQuery(query,new String[] {userInput});</pre>
+</p>
+<br/>
+
+<b>References (Android SQLite)</b><br/>
+<a href="http://www.informit.com/articles/article.aspx?p=2268753&seqNum=5">InformIT.com: Practical Advice for Building Secure Android Databases in SQLite</a><br/>
+<a href="https://www.packtpub.com/books/content/knowing-sql-injection-attacks-and-securing-our-android-applications-them">Packtpub.com: Knowing the SQL-injection attacks and securing our Android applications from them</a><br/>
+<a href="https://books.google.ca/books?id=SXlMAQAAQBAJ&lpg=PR1&pg=PA64#v=onepage&q&f=false">Android Database Support (Enterprise Android: Programming Android Database Applications for the Enterprise)</a><br/>
+<a href="https://stackoverflow.com/a/29797229/89769">Safe example of Insert, Select, Update and Delete queries provided by Suragch</a><br/>
+
+<b>References (SQL injection)</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246963/SQL%20Injection">WASC-19: SQL Injection</a><br/>
+<a href="https://capec.mitre.org/data/definitions/66.html">CAPEC-66: SQL Injection</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/89.html">CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')</a><br/>
+<a href="https://www.owasp.org/index.php/Top_10_2013-A1-Injection">OWASP: Top 10 2013-A1-Injection</a><br/>
+<a href="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">OWASP: SQL Injection Prevention Cheat Sheet</a><br/>
+<a href="https://www.owasp.org/index.php/Query_Parameterization_Cheat_Sheet">OWASP: Query Parameterization Cheat Sheet</a><br/>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="URLCONNECTION_SSRF_FD">URLConnection Server-Side Request Forgery (SSRF) and File Disclosure</a>
+      </h2>
+            
+<p>
+    Server-Side Request Forgery occur when a web server executes a request to a user supplied destination
+    parameter that is not validated. Such vulnerabilities could allow an attacker to access internal services
+    or to launch attacks from your web server.
+</p>
+<p>
+    URLConnection can be used with file:// protocol or other protocols to access local filesystem and potentially other services.
+<p>
+    <b>Vulnerable Code:</b>
+<pre>
+new URL(String url).openConnection()
+</pre>
+
+<pre>
+new URL(String url).openStream()
+</pre>
+
+<pre>
+new URL(String url).getContent()
+</pre>
+</p>
+<p>
+    <b>Solution/Countermeasures:</b><br/>
+    <ul>
+        <li>Don't accept URL destinations from users</li>
+        <li>Accept a destination key, and use it to look up the target destination associate with the key</li>
+        <li>White list URLs (if possible)</li>
+        <li>Validate that the beginning of the URL is part of a white list</li>
+    </ul>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://cwe.mitre.org/data/definitions/918.html">CWE-918: Server-Side Request Forgery (SSRF)</a><br/>
+<a href="https://www.bishopfox.com/blog/2015/04/vulnerable-by-design-understanding-server-side-request-forgery/">Understanding Server-Side Request Forgery</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/73.html">CWE-73: External Control of File Name or Path</a><br/>
+<a href="https://www.pwntester.com/blog/2013/11/28/abusing-jar-downloads/">Abusing jar:// downloads</a><br />
+</p>
+            <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>
+         <a name="UNSAFE_HASH_EQUALS">Unsafe hash equals</a>
+      </h2>
+            
+<p>
+An attacker might be able to detect the value of the secret hash due to the exposure of comparison timing. When the
+functions <code>Arrays.equals()</code> or <code>String.equals()</code> are called, they will exit earlier if fewer
+bytes are matched.
+</p>
+<p>
+<p><b>Vulnerable Code:</b><br/>
+
+<pre>
+String actualHash = ...
+
+if(userInput.equals(actualHash)) {
+    ...
+}</pre>
+</p>
+<p><b>Solution:</b><br/>
+
+<pre>
+String actualHash = ...
+
+if(MessageDigest.isEqual(userInput.getBytes(),actualHash.getBytes())) {
+    ...
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://cwe.mitre.org/data/definitions/203.html">CWE-203: Information Exposure Through DiscrepancyKey</a><br/>
+</p>
+
+        <p>
+         <br/>
+         <br/>
+      </p>
+   </body>
+</html>

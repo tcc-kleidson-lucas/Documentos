@@ -1,0 +1,58 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/utils/Security.kt</file>
+  <line>63</line>
+  <module>Omni-Notes-6.2.8.omniNotes.main</module>
+  <package>it.feio.android.omninotes.utils</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/utils/Security.kt" />
+  <problem_class id="AndroidLintGetInstance" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cipher.getInstance with ECB</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;Cipher.getInstance&lt;/code&gt; should not be called without setting the encryption mode and padding&lt;/html&gt;</description>
+  <highlighted_element>DES</highlighted_element>
+  <language>kotlin</language>
+  <offset>49</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/utils/Security.kt</file>
+  <line>63</line>
+  <module>Omni-Notes-6.2.8.omniNotes.main</module>
+  <package>it.feio.android.omninotes.utils</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/utils/Security.kt" />
+  <problem_class id="AndroidLintGetInstance" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cipher.getInstance with ECB</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;Cipher.getInstance&lt;/code&gt; should not be called without setting the encryption mode and padding&lt;/html&gt;</description>
+  <highlighted_element>DES</highlighted_element>
+  <language>kotlin</language>
+  <offset>49</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/utils/Security.kt</file>
+  <line>80</line>
+  <module>Omni-Notes-6.2.8.omniNotes.main</module>
+  <package>it.feio.android.omninotes.utils</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/utils/Security.kt" />
+  <problem_class id="AndroidLintGetInstance" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cipher.getInstance with ECB</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;Cipher.getInstance&lt;/code&gt; should not be called without setting the encryption mode and padding&lt;/html&gt;</description>
+  <highlighted_element>DES</highlighted_element>
+  <language>kotlin</language>
+  <offset>49</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/utils/Security.kt</file>
+  <line>80</line>
+  <module>Omni-Notes-6.2.8.omniNotes.main</module>
+  <package>it.feio.android.omninotes.utils</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/omniNotes/src/main/java/it/feio/android/omninotes/utils/Security.kt" />
+  <problem_class id="AndroidLintGetInstance" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Cipher.getInstance with ECB</problem_class>
+  <hints />
+  <description>&lt;html&gt;&lt;code&gt;Cipher.getInstance&lt;/code&gt; should not be called without setting the encryption mode and padding&lt;/html&gt;</description>
+  <highlighted_element>DES</highlighted_element>
+  <language>kotlin</language>
+  <offset>49</offset>
+  <length>3</length>
+</problem>
+</problems>
